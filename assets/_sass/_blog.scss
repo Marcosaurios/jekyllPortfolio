@@ -1,0 +1,174 @@
+div.content {
+    h1 {
+        margin-top: 0;
+    }
+}
+
+
+div.post-list {
+    display: flex;
+    flex-direction: column;
+
+    margin: 1.5em auto; 
+    color: $bgColor;
+    text-align: center;
+
+    justify-content: center;
+
+    article {
+        display: inline-block;
+        overflow: hidden;
+        position: relative;
+
+        margin-bottom: 1em;
+        border-radius: 15px;
+        
+        height: 180px;
+
+        // transition: "scale" 0.5s;
+        transition-duration: 1s;
+
+
+        div.gradient:after {
+            //box-shadow: 0px -300px 10px rgba(0,0,0,0.5) inset;
+            box-shadow: inset rgba(0,0,0,0.4) 0px -100px 100px 0px;
+            content: '';
+            display: block;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            -webkit-transition: all 1s;
+            -moz-transition: all 1s;
+            transition: all 1s;
+        }
+
+        div.gradient > img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            min-width: 390px;
+
+            // Scale to avoid white color mix when bluring
+            // transform: translateY(-3em) scale(1.2);
+            // filter: blur(1px);
+
+            -webkit-transition: all 1s;
+            -moz-transition: all 1s;
+            transition: all 1s;
+
+            $colorInit: rgba(255, 246, 252, 0);
+            $colorEnd: rgba(1, 1, 1, 0.4);
+
+
+        }
+        
+        .overlay {
+            position: absolute;
+            -webkit-transition: all 1s;
+            -moz-transition: all 1s;
+            transition: all 1s;
+            &.title {
+                // Center
+                top: 25%;
+                left: 1em;
+                text-align: left;
+                padding-right: 1em;
+                font-weight: $semibold;
+                // text-shadow: 0em 0em 0.25em black;
+                text-shadow: black 0 0 50px;
+            }
+            &.date {
+                top: 150px;
+                right: 1em;
+                font-size: 1em;
+                font-weight: $light;
+                color: rgba(232,232,232,0.61);
+            }
+        }
+        // article
+        
+        div.color {
+            // todo
+            background-color: $secondColor;
+        }
+
+        /// author img
+        img#author-img {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            bottom: 15px;
+            right: 15px;
+
+            border-radius: 50%;
+        }
+    }
+
+    & > article > a:hover > div.gradient:after {
+        box-shadow: none;
+        @include transform( scale(1.1) );
+    }
+
+    & > article:hover {
+        @include transform( scale(1.03) );
+        
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.44);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.44);
+        box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.44);
+
+        h2, span {
+            opacity: 0;
+        }
+
+    }
+
+    a, a:hover, a:visited, a:active{
+        display: flex;
+
+        text-decoration: none;
+        color: $whiteColor;
+        // text-shadow: 0px 0px 4px $bgColor;
+
+        // transition: all 0.2s;
+    }
+    
+}
+
+@include desktop {
+    div.post-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        article {
+            width: 46.7%;
+            height: 218px;
+            margin: .5em;
+            .overlay.title {
+                top: 5%;
+            }
+            .overlay.date {
+                top: inherit;
+                bottom: 5%;
+            }
+        }
+        & article:nth-child(even){
+            top: 2em;
+            
+        }
+    }
+}
+
+@include largeScreen {
+    div.post-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        article {
+            width: 30%;
+        }
+
+        & article:nth-child(even){
+            top: 0;
+        }
+    }
+}

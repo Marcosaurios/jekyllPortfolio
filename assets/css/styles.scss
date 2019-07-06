@@ -1,0 +1,20 @@
+---
+---
+// Global variables
+@import "partials";
+
+// Common stuff
+@import "mediaqueries";
+@import "animations";
+
+// Isolate sections
+@import "main";
+@import "menu";
+@import "footer";
+
+@import "blog";
+@import "_post.scss";
+//@import "blog2";
+
+// Monokai theme for embedded code
+@import "monokai.scss"

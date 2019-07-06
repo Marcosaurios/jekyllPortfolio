@@ -1,0 +1,267 @@
+$navPosition: -40em;
+
+// Menu
+nav {
+    position: fixed;
+    overflow: hidden;
+
+    // background-color: $secondColor;
+
+    width: 100%;
+    left: 0;
+    bottom: $navPosition;
+    padding: 1em 0 6em 0;
+    z-index: 1;
+
+    transition: all $menuTime ease-in-out;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+    }
+
+    li { 
+        margin-bottom: 0.5em;
+    }
+
+    a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        line-height: 10vh;
+        margin: 0 1em;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, 0);
+
+        // font settings
+        color: $fontColor;
+        font-weight: 800;
+
+        -webkit-transition: border 0.5s ease-out 0.05s;
+        -moz-transition: border 0.5s ease-out 0.05s;
+        transition: border 0.5s ease-out 0.05s;
+
+        &:hover {
+            border: 1px solid rgba(253, 255, 252, 1); 
+            -webkit-transition: border 0.3s ease-out;
+            -moz-transition: border 0.3s ease-out;
+            transition: border 0.3s ease-in;
+        }
+    }
+
+}
+
+// Active element
+.active {
+    
+    border-radius: 10px;
+    border: 1px solid $whiteColor;
+    font-weight: 900;
+
+    background:  $whiteColor;
+    color: $bgColor;
+
+    &:hover {
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        animation: none !important;
+    }
+}
+
+// Mobile burger button
+#menu-wrapper {
+    width: 100%;
+}
+
+#menu {
+    height: 50px;
+    width: 50px;
+    border: none;
+    border-radius: 50%;
+
+    position: fixed;
+    bottom: 2em;
+
+    // Centered
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    
+    z-index: 1;
+    
+    background: $menuButtonColor;
+
+    transition: all 0.2s;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.44);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.44);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.44);
+
+    &:active, &:focus {
+        @include transform( translateY(7px) );
+        -webkit-box-shadow: 0px 0px 37px 0px rgba(255,255,255,0.44);
+        -moz-box-shadow: 0px 0px 37px 0px rgba(255,255,255,0.44);
+        box-shadow: 0px 0px 37px 0px rgba(255,255,255,0.44);
+    }
+
+}
+
+.line {
+    position: absolute;
+
+    width: 30px;
+    height: 4px;
+    left: 10px;
+    top: 10px;
+
+    border-radius: 2px;
+    background: $bgColor;
+
+    transition-duration: $menuTime;
+    &.top {
+        top: 0.8em;
+    }
+
+    &.mid {
+        top: 1.3em;
+        transition-duration: 0.2s;
+    }
+
+    &.bot {
+        top: 1.8em;
+    }
+}
+
+// Burger animation
+#menu-checkbox:checked + nav + div > label > span.line.top {
+    @include transform( translateY(8px) rotate(45deg) );
+    bottom: 0px;
+    background: red;
+} 
+#menu-checkbox:checked + nav + div > label > span.line.mid {
+    @include transform( scale(0) );
+    opacity: 0;
+}
+#menu-checkbox:checked + nav + div > label > span.line.bot {
+    @include transform( translateY(-8px) rotate(-45deg) );
+    background: red;
+    bottom: 0px;
+}
+
+#menu-checkbox {
+    visibility: hidden;
+    display: none;
+}
+
+#menu-checkbox:checked {
+    + nav 
+    {
+        @include transform( translateY($navPosition) );  
+    }
+    & ~ div.content, & ~ footer{
+        -webkit-transition: all $menuTime;
+        -moz-transition: all $menuTime;
+        transition: all $menuTime;
+        @include transform( scale(0.7) );
+
+        -webkit-filter: blur($blurry) brightness(70%); 
+        -moz-filter: blur($blurry) brightness(70%);
+        -o-filter: blur($blurry) brightness(70%); 
+        -ms-filter: blur($blurry) brightness(70%); 
+        filter: blur($blurry) brightness(70%);
+    }
+}
+
+
+// Back button 
+a#back {
+    position: fixed;
+    
+    bottom: 0;
+    left: 2em;
+    margin: 2em 12%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+
+    z-index: 2;
+
+    transition: all 0.2s;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.44);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.44);
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.44);
+    
+    span.line.back:nth-child(1){
+        top: 15px;
+        left: 8px;
+        transform: rotate(-30deg);
+    }
+    span.line.back:nth-child(2){
+        top: 29px;
+        left: 8px;
+        transform: rotate(30deg);
+    }
+}
+
+
+// Buttons animations
+#menu:hover, a#back:hover {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(255,255,255,0.44);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(255,255,255,0.44);
+    box-shadow: 0px 0px 19px 0px rgba(255,255,255,0.44);
+    @include transform(translateY(-2px));
+}
+
+#menu:active, #menu:focus, a#back:active, a#back:focus {
+    @include transform( translateY(7px) );
+    -webkit-box-shadow: 0px 0px 37px 0px rgba(255,255,255,0.44);
+    -moz-box-shadow: 0px 0px 37px 0px rgba(255,255,255,0.44);
+    box-shadow: 0px 0px 37px 0px rgba(255,255,255,0.44);
+}
+
+
+div.content, footer {
+    -webkit-transition: all $menuTime;
+    -moz-transition: all $menuTime;
+    transition: all $menuTime;
+}
+
+
+// Media queries
+@include desktop {
+    nav {
+        top: 0;
+        height: min-content;
+        /* padding: 1em; */
+        padding: 1em 0 0 0;
+        box-shadow: 0 1px 10px 10px #172433;
+        background-color: #172433;
+        background-image: linear-gradient( #172433, rgba(0,0,0,0));
+
+        li {
+            margin: 0;
+            display: inline-block;
+        }
+
+        a {
+            line-height: 3em;
+            margin: 0;
+            padding: 0 1em;
+        }
+    }
+
+    #menu-wrapper, a#back {
+        visibility: hidden;
+    }
+}
+
+@include largeScreen {
+
+}
+
+

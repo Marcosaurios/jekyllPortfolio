@@ -1,0 +1,13 @@
+
+// small devices and higher <<<<< ...
+@mixin desktop {
+    @media (min-width: #{$screen-sm-min}) {
+        @content;
+    }
+}
+
+@mixin largeScreen {
+    @media (min-width: #{$screen-l-min}) {
+        @content;
+    }
+}

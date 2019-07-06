@@ -1,0 +1,128 @@
+html {
+    background: $bgColor;
+    color: $fontColor;
+    font-family: $fontStack;
+    font-weight: 400;
+    box-sizing: border-box;
+
+    // transition: all 1s;
+    // animation-duration: 4s;
+    // @include animation('opacity .8s ease-in-out')
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+div.content {
+    padding: 1em; 
+
+    
+    @include desktop {
+        margin-top: 4em;
+    }
+}
+
+#language-selector {
+    position: absolute;
+    // right: 16px;
+    // top: 1.75em;
+
+    // Apply same margin-top as A buttons
+    margin-top: 10px;
+
+    // Same padding as div.content
+    padding: 1em;
+    right: 0;
+
+    z-index: 1;
+
+    a{
+        width: 100%;
+        height: 20px;
+
+        border: 0;
+        color: $whiteColor;
+        font-weight: lighter;
+
+        text-decoration: none;
+
+    }
+
+    a:nth-child(1) {
+        padding: 10px 4px 10px 15px;
+        border-radius: 5px 0 0 5px;
+
+        background: linear-gradient(90deg, $bgColor 33%, $secondColor 33%, $secondColor 66%, $bgColor 66%, $bgColor 100%);
+        background-size: 350% 100%;
+        background-position: left;
+        transition: all 1s ease;
+    }
+    a:nth-child(2) {
+        padding: 10px 15px 10px 4px;
+        border-radius: 0 5px 5px 0;  
+
+        background: linear-gradient(90deg, $bgColor 33%, $secondColor 33%, $secondColor 66%, $bgColor 66%, $bgColor 100%);
+        background-size: 350% 100%;
+        background-position: right;
+        transition: all 1s ease;
+    }
+
+    a.selected {
+        background-position: center;
+        font-weight: bold;
+    }
+
+    
+    // :hover other language -> set selected color
+    a:nth-child(1):hover:not(.selected) {
+        background-position: center;
+    }
+    a:nth-child(2):hover:not(.selected) {
+        background-position: center;
+    }
+
+    // .selected :hover -> no apply selected color
+    &:hover a:nth-child(1).selected {
+        background-position: left;
+    }
+    &:hover a:nth-child(2).selected {
+        background-position: right;
+    }
+
+    a:nth-child(1).selected:hover {
+        background-position: center;
+    }
+    a:nth-child(2).selected:hover {
+        background-position: center;
+    }
+
+    // &:hover{
+    //     a.selected {
+    //         background-position: center !important; 
+    //     }
+    // }
+
+    @include desktop {
+        z-index: -1;
+    }
+
+    @include largeScreen {
+        top: 0;
+    }
+}
+
+div.language-selector:hover {
+    a:nth-child(1) {
+        background-position: left;
+    }
+    a:nth-child(2) {
+        background-position: right;
+    }
+}
+

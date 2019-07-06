@@ -1,0 +1,66 @@
+
+// Colors
+$bgColor: #172433;
+
+$whiteColor: rgba(253, 255, 252, 1);
+$secondWhiteColor: #D1D1D1;
+
+$accentColor: #41EAD4;
+$secondColor: #243951;
+
+$footerFontColor:$secondWhiteColor;
+
+
+$menuColor: $accentColor;
+$menuButtonColor: $whiteColor;
+
+$active: #6D91BA;
+$hover: #B6CFEA;
+
+// Blur menu
+$blurry: 10px;
+
+
+
+// Font
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+$fontColor: $whiteColor;
+$fontStack: 'Roboto', sans-serif;
+
+
+// Font weights
+$light: 100;
+$semilight: 300;
+$regular: 400;
+$semibold: 500;
+$bold: 600;
+
+
+// Animations
+$menuTime: 0.4s;
+
+
+// Media queries
+$screen-sm-min: 520px;
+$screen-l-min: 900px;
+
+// Icons
+.icon {
+    fill: $secondWhiteColor;
+}
+
+// General rules
+h1, h1>a{
+
+    color: $whiteColor;
+
+    -webkit-text-decoration: underline;   
+    text-decoration: underline;
+
+    -webkit-text-decoration-color: $accentColor;
+    text-decoration-color: $accentColor;
+}
+
+a {
+    -webkit-tap-highlight-color:  rgba(255, 255, 255, 0); 
+}

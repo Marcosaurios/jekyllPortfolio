@@ -1,0 +1,50 @@
+
+<input type="checkbox" id="menu-checkbox">
+<nav>
+    <ul>
+        {% for item in site.data.menu[page.lang] %}
+            <li>
+                <a href="{{ item.url }}" {% if page.url == item.url %} class="active" {% elsif page.layout == "post" and item.title == "Blog" %} class="active" {% endif %}>
+                    {{ item.title | upcase }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>
+
+<div id="menu-wrapper">
+    <label id="menu" for="menu-checkbox">
+        <span class="line top"></span>
+        <span class="line mid"></span>
+        <span class="line bot"></span>
+    </label>
+</div>
+
+<div id="language-selector">
+    {% assign actual_lang = page.lang %}
+    {% assign pages = site.pages | where:"ref", page.ref | sort: "lang" %}
+    {% for page in pages %}
+        <a href="{{ page.url | relative_url }}" {% if page.lang == actual_lang %} class="selected" {% endif %}>
+            {% if page.lang == "es" %} 
+            Español
+            {% elsif page.lang == "en" %}
+            English
+            {% endif %}
+        </a>
+    {% endfor %}
+    {% assign posts = site.posts | where:"ref", page.ref | sort: "lang" %}
+    {% for post in posts %}
+        <a href="{{ post.url | relative_url }}" {% if post.lang == actual_lang %} class="selected" {% endif %}>
+            {% if post.lang == "es" %} 
+            Español
+            {% elsif post.lang == "en" %}
+            English
+            {% endif %}
+        </a>
+    {% endfor %}
+</div>
+
+
+
+
+

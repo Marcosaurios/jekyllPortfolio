@@ -1,0 +1,30 @@
+## Initial settings
+title: Marcos Urios Portfolio
+notificationColor: 172433
+sass:
+  sass_dir: assets/_sass
+  style: compressed
+
+## Site settings
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://marcosurios.com" # the base hostname & protocol for your site
+twitter_username: Marcosaurios
+linkedin_username: marcosurios
+github_username:  Marcosaurios
+artstation_usermane: marcosaurios
+sketchfab_username: marcosaurios
+
+jekyll-minifier:
+  compress_css: false                # Default: true
+  compress_javascript: true         # Default: true
+
+kramdown:  
+  html_to_native: true
+
+plugins:
+  - jekyll-liquify
+  - jekyll-seo-tag
+  - jekyll-minifier
+
+highlighter: rouge
+

@@ -1,0 +1,8 @@
+Marcos:
+  img: "/assets/imgs/profile.jpg"
+  es:
+    name: 'Marcos Urios'
+    bio: 'Amante del surf'
+  en: 
+    name: 'Marcos Urios'
+    bio: 'Surf friendly.'

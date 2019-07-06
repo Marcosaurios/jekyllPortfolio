@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    {% include head.html %}
+
+<body ontouchstart>
+    
+    {% include header.html %}
+
+    {% if page.layout == "post" %}
+        <a id="back" href={{ site.data.menu[page.lang][2].url | relative_url }}>
+            <span class="line back"></span>
+            <span class="line back"></span>
+        </a>
+    {% endif %}
+
+    <div class="content">
+        {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+    {% include endingscripts.html %}
+
+</body>
+</html>

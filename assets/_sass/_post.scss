@@ -1,0 +1,66 @@
+
+img.post-image {
+    width: 100%;
+
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+h2.post-title {
+    margin-bottom: 0;
+}
+
+p.post-meta {
+    margin-top: .25em;
+    font-size: .8em;
+    color: rgba(190, 190, 190, 0.9);;
+
+    a[itemprop="name"] {
+        color: rgba(220, 220, 220, 1);
+        text-decoration: none;
+    }
+
+}
+
+// Colored flavour-ed blocks of code inside posts
+div[class^="language-"] {
+    margin: 1em 0.5%;
+    width: 100%;
+}
+
+.highlight {
+    padding: .5em;
+    
+    border-radius: 8px;
+    
+    overflow: scroll;
+    
+}
+
+
+@include desktop {
+    .page-title {
+        display: none;
+        visibility: hidden;
+    }
+    div[class^="language-"] {
+        display: block;    
+    }
+
+    .highlight {
+        display: inline-block;
+    }
+}
+@include largeScreen {
+    // img.post-image {
+    //     float: left;
+    //     width: 40%;
+    // }
+
+    // .post-header, .post-content {
+    //     float: left;
+    // }
+}
+
+

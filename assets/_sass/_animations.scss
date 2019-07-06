@@ -1,0 +1,63 @@
+// -- Animations --
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    }  
+    @-ms-keyframes #{$animation-name} {
+        @content;
+    }
+    @-o-keyframes #{$animation-name} {
+        @content;
+    }  
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}
+
+@mixin transform($value) {
+    -webkit-transform: $value;
+    -o-transform: $value;
+    transform: $value;
+}
+
+@mixin animation($str) {
+    -webkit-animation: #{$str};
+    -moz-animation: #{$str};
+    -ms-animation: #{$str};
+    -o-animation: #{$str};
+    animation: #{$str};      
+}
+
+@include keyframes('background-color') {
+    0% { background-color: initial }
+    100% {background-color: $active}
+}
+
+@include keyframes('scale') {
+    0% { @include transform( scale(1.0)) }
+    100% { @include transform( scale(1.1)) }
+}
+
+@include keyframes('opacity') {
+    0% { opacity: 0; }
+    1000% { opacity: 1; }
+}
+
+@include keyframes('blur') {
+    0% { filter: blur(10px); }
+    1000% { filter: blur(0); }
+}
+
+@include keyframes('hoverMenu') {
+    0% {
+        border: 1px solid rgba(253, 255, 252, 0);
+    }
+
+    90% {
+        border: 1px solid rgba(253, 255, 252, 1);
+    }
+}
+
