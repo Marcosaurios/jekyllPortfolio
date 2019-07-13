@@ -4,18 +4,17 @@ layout: default
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-    <img class="post-image" itemprop="image" src={{ page.thumbnail }} alt="">
-
-    <header class="post-header">
+  <header class="post-header">
+      <img class="post-image" itemprop="image" src={{ page.thumbnail }} alt="">
       <h2 class="post-title" itemprop="name headline" title={{page.title}} >{{ page.title }}</h2>
       <p class="post-meta">
         {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><a href={{ site.data.menu[page.lang][1].url | relative_url }} itemprop="name">{{ page.author }}</a></span>{% endif %}
         {{site.data.translations.post.publishedOn[page.lang]}}<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{% include date.html date=page.date %}</time>
       </p>
-    </header>
-  
-    <div class="post-content" itemprop="articleBody">
-      {{ content }}
-    </div>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
   
 </article>

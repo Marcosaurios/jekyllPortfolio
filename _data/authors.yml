@@ -1,8 +1,12 @@
+img: &path "/assets/imgs/profile.jpg"
 Marcos:
-  img: "/assets/imgs/profile.jpg"
   es:
-    name: 'Marcos Urios'
-    bio: 'Amante del surf'
+      img: *path
+      img_alt: 'Foto de perfil de Marcos Urios'
+      name: 'Marcos Urios Gomez'
+      bio: 'Firme partidario de cualquier diseño web llamativo, cualquier cosa relacionada con 3d y cualquier cosa bien hecha. En mi tiempo libre me gusta practicar surf y kitesurf. También me gusta aprender cosas nuevas por mi cuenta.'
   en: 
-    name: 'Marcos Urios'
-    bio: 'Surf friendly.'
+      img: *path
+      img_alt: "Marcos Urios profile's pic"
+      name: 'Marcos Urios Gomez'
+      bio: 'Strong supporter of any striking web design, any 3d related thing and any well done stuff. In my free time I like practice surfing or kitesurfing, and learn new things on my own way.'

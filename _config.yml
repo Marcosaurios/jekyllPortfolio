@@ -18,8 +18,19 @@ jekyll-minifier:
   compress_css: false                # Default: true
   compress_javascript: true         # Default: true
 
-kramdown:  
-  html_to_native: true
+# kramdown:  
+#   html_to_native: true
+
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - no_intra_emphasis
+    - fenced_code_blocks
+    - autolink
+    - tables
+    - strikethrough
+    - superscript
+    - with_to_data
 
 plugins:
   - jekyll-liquify

@@ -1,41 +1,98 @@
 
-img.post-image {
-    width: 100%;
+article.post header.post-header{
+    h2.post-title {
+        background-color: $bgColor;
+        padding: .75em;
 
-    top: 0;
-    left: 0;
-    z-index: -2;
-}
-
-h2.post-title {
-    margin-bottom: 0;
-}
-
-p.post-meta {
-    margin-top: .25em;
-    font-size: .8em;
-    color: rgba(190, 190, 190, 0.9);;
-
-    a[itemprop="name"] {
-        color: rgba(220, 220, 220, 1);
-        text-decoration: none;
+        margin-bottom: 0;
+        margin-top: -35px;
     }
+    p.post-meta {
+        margin-top: .5em;
+        padding-left: 24px;
+        font-size: .8em;
+        color: rgba(190, 190, 190, 0.9);
+    
+        a[itemprop="name"] {
+            color: rgba(220, 220, 220, 1);
+            text-decoration: none;
+        }
+    
+    }
+}
+
+
+article.post img.post-image {
+    position: relative;
+    display: block;
+    width: 100vw;
+
+    // Override body padding
+    top: -1em;
+    left: -1em;
+    z-index: -2;
 
 }
+
 
 // Colored flavour-ed blocks of code inside posts
 div[class^="language-"] {
     margin: 1em 0.5%;
     width: 100%;
 }
-
 .highlight {
     padding: .5em;
     
     border-radius: 8px;
     
     overflow: scroll;
+}
+
+// Blockquotes
+blockquote {
+    color: $secondWhiteColorAlpha;
+    padding-left: 1.5em;
+    border-left: 5px solid $secondWhiteColor;
+    margin: .5em;
+}
+
+// Table
+th {
+    border-right: 1px solid #dcdcdc;
+    padding: 8px 12px;
+}
+td {
+    border-right: 1px solid #dcdcdc;
+    border-top: 1px solid #dcdcdc;
+    padding: 8px 12px;
+}
+td:last-child, th:last-child {
+    border-right: 0;
+}
+table {
+    display: block;
+    border-collapse: collapse;
+    border-spacing: 0;
+    max-width: 100%;
+    overflow: scroll;
+}
+
+// Mermaid svgs
+div.mermaid > svg {
+    background-color: #243951;
+    border-radius: 10px;
+    padding: 10px;
     
+    .messageText {
+        fill: white;
+    }
+
+    line[class^="messageLine"]{
+        stroke: white;
+    }
+    defs path {
+        fill: white;
+    }
 }
 
 
@@ -48,8 +105,13 @@ div[class^="language-"] {
         display: block;    
     }
 
+    // Code
     .highlight {
         display: inline-block;
+    }
+
+    blockquote {
+        margin: 1em;
     }
 }
 @include largeScreen {

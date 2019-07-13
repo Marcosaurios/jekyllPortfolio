@@ -1,4 +1,33 @@
 ---
 layout: default
 ---
-<h1>{{page.title}}</h1>
+<h1>/{{page.title | downcase }}</h1>
+
+{% assign author = site.data.authors.Marcos[page.lang] %}
+<div class="presentation">
+    <img src={{ author.img | relative_url }} alt="{{ author.img_alt }}">
+    <h2>{{ author.name }}</h2>
+    <p>{{ author.bio }}</p>
+</div>
+<div>
+    <br>
+    <div id="skills">
+        <div>
+            <input type="checkbox" id="skills-checkbox" checked>
+            <span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </span>
+            <label for="skills-checkbox">
+                {{ site.data.skills[page.lang] }}
+            </label>
+        </div>
+
+        {%- for skill in site.data.skills.array -%}
+        <br>
+            {{ skill.name }}
+            {{ skill.progress }}
+        <br>
+        {%- endfor -%}
+    </div>
+</div>

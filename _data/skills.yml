@@ -1,0 +1,7 @@
+es: "Habilidades"
+en: "Skills"
+array:
+  - name: "Jekyll"
+    progress: "100"
+  - name: "CSS"
+    progress: "80"
