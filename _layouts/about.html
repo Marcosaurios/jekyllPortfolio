@@ -10,24 +10,35 @@ layout: default
     <p>{{ author.bio }}</p>
 </div>
 <div>
-    <br>
-    <div id="skills">
-        <div>
-            <input type="checkbox" id="skills-checkbox" checked>
-            <span>
-                <span class="line"></span>
-                <span class="line"></span>
-            </span>
-            <label for="skills-checkbox">
-                {{ site.data.skills[page.lang] }}
+    <div class="extend">
+            <input type="checkbox" id="skills">
+            <label for="skills">
+                <span class="arrow">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </span>
+                <h2>
+                    {{ site.data.skills[page.lang] }}
+                </h2>
             </label>
-        </div>
+            <div class="values">
+                {%- for skill in site.data.skills.array -%}
+                    {%- if forloop.index <= 3 -%}
+                        <div class="top">
+                            <p> {{ skill.name }} </p>
+                            <app-dot data-lon="{{ skill.progress }}"></app-dot>
+                        </div>
+                    {%- else -%}
+                        <div class="mini">
+                            <p> {{ skill.name }} </p>
+                            <app-dot data-lon="{{ skill.progress }}"></app-dot>
+                        </div>
+                    {%- endif -%}
+                {%- endfor -%}
+            </div>
 
-        {%- for skill in site.data.skills.array -%}
-        <br>
-            {{ skill.name }}
-            {{ skill.progress }}
-        <br>
-        {%- endfor -%}
     </div>
+
+
+
 </div>

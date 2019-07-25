@@ -1,0 +1,97 @@
+<script>
+class Dot extends HTMLElement{
+    constructor(){
+        super();
+        let shadow = this.attachShadow({mode: 'open'});
+        shadow.innerHTML = `
+            <style>
+                svg{
+                    display: inline-block;
+                } 
+                </style>`;
+                
+            let lon = this.getAttribute('data-lon');
+            // for(let i = 0; i < 5; i++) {
+            //     if(i<lon){
+            //         let dot_filled = document.createElement('span');
+            //         dot_filled.setAttribute('class', 'filled')
+            //         shadow.appendChild(dot_filled)
+            //     }
+            //     else{
+            //         let dot_void = document.createElement('span');
+            //         dot_void.setAttribute('class', 'notfilled')
+            //         shadow.appendChild(dot_void);
+            //     }
+            // }
+            let baseColor = "#E6E6E6";
+            let borderColor = "#E6E6E6";
+            let borderSize = "0.5";
+            let size = 15;
+
+            let svg = document.createElementNS('http://www.w3.org/2000/svg','svg');
+            svg.setAttribute('width', '90')
+            svg.setAttribute('height', '20')
+            svg.setAttribute('viewbox', '0 0 50 50')
+            svg.setAttribute('preserveAspectRatio', 'xMidYMin')
+
+            for(let i = 0; i < 5; i++) {
+                if(i<lon){
+                    let dot_filled = new Circle(baseColor, size*i)
+                    svg.appendChild(dot_filled);
+                }
+                else{
+                    let dot_void = new Circle(baseColor, size*i, borderColor, borderSize)
+                    svg.appendChild(dot_void);
+                }
+            }
+
+            shadow.appendChild(svg);
+    }
+
+    
+}
+
+// class Circle{
+//     constructor(fillColor, borderColor, borderSize){
+//         let svg = document.createElementNS('http://www.w3.org/2000/svg','svg');
+//         // svg.setAttribute('viewbox', '0 0 100 100')
+//         // svg.setAttribute('preserveAspectRatio', 'xMidYMid meet')
+//         // svg.setAttribute('width', '60px')
+//         // svg.setAttribute('height', '50%')
+//         let circle = document.createElementNS('http://www.w3.org/2000/svg','circle');
+//         circle.setAttribute("cx","50%");
+//         circle.setAttribute("cy","50%");
+//         circle.setAttribute("r","6");
+//         if(borderColor && borderSize){
+//             circle.setAttribute("stroke", borderColor);
+//             circle.setAttribute("stroke-width", borderSize);
+//             circle.setAttribute("fill-opacity", "0.0");
+//         }
+//         else{
+//             circle.setAttribute("fill", fillColor);
+//         }
+//         svg.appendChild(circle);
+//         return svg;
+//     }
+// }
+class Circle{
+    constructor(fillColor, position, borderColor, borderSize){
+
+        let circle = document.createElementNS('http://www.w3.org/2000/svg','circle');
+        circle.setAttribute("cx", 15+position);
+        circle.setAttribute("cy","50%");
+        circle.setAttribute("r","6");
+        if(borderColor && borderSize){
+            circle.setAttribute("stroke", borderColor);
+            circle.setAttribute("stroke-width", borderSize);
+            circle.setAttribute("fill-opacity", "0.0");
+        }
+        else{
+            circle.setAttribute("fill", fillColor);
+        }
+        return circle;
+    }
+}
+window.customElements.define('app-dot', Dot)
+</script>
+

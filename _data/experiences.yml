@@ -1,0 +1,17 @@
+es: "Experiencias"
+en: "Experiencies"
+array:
+  es:
+    - name: "Backend developer"
+      site: "Loteria el Negrito"
+      date: "2019"
+      long: "3 months"
+      desc: "Descripcion en español" 
+      size: 1
+  en:
+    - name: "Backend developer"
+      site: "Loteria el Negrito"
+      date: "2019"
+      long: "3 months"
+      desc: "English desc." 
+      size: 1

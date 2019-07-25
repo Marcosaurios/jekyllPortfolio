@@ -6,7 +6,7 @@ layout: default
 
   <header class="post-header">
       <img class="post-image" itemprop="image" src={{ page.thumbnail }} alt="">
-      <h2 class="post-title" itemprop="name headline" title={{page.title}} >{{ page.title }}</h2>
+      <h1 class="post-title" itemprop="name headline" title={{page.title}} >{{ page.title }}</h1>
       <p class="post-meta">
         {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><a href={{ site.data.menu[page.lang][1].url | relative_url }} itemprop="name">{{ page.author }}</a></span>{% endif %}
         {{site.data.translations.post.publishedOn[page.lang]}}<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{% include date.html date=page.date %}</time>

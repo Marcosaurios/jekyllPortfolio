@@ -1,39 +1,44 @@
 
-article.post header.post-header{
-    h2.post-title {
-        background-color: $bgColor;
-        padding: .75em;
-
-        margin-bottom: 0;
-        margin-top: -35px;
-    }
-    p.post-meta {
-        margin-top: .5em;
-        padding-left: 24px;
-        font-size: .8em;
-        color: rgba(190, 190, 190, 0.9);
-    
-        a[itemprop="name"] {
-            color: rgba(220, 220, 220, 1);
-            text-decoration: none;
+article.post{
+    header.post-header{
+        img.post-image {
+            position: relative;
+            display: block;
+            width: 100vw;
+            max-width: $bodyMaxWidth;
+        
+            // Override body padding
+            top: -1em;
+            left: -1em;
+            z-index: -2;
         }
-    
+        h1.post-title {
+            background-color: $secondColor;
+            padding: .75em;
+
+            margin-bottom: 0;
+            margin-top: -35px;
+        }
+        p.post-meta {
+            margin: 0;
+            padding-left: 24px;
+            padding-bottom: .75em;
+            font-size: .8em;
+            color: rgba(190, 190, 190, 0.9);
+            background-color: $secondColor;
+        
+            a[itemprop="name"] {
+                color: rgba(220, 220, 220, 1);
+                text-decoration: none;
+            }
+        }
     }
-}
-
-
-article.post img.post-image {
-    position: relative;
-    display: block;
-    width: 100vw;
-
-    // Override body padding
-    top: -1em;
-    left: -1em;
-    z-index: -2;
+    div.post-content{
+        // max-width: $postMaxWidth;
+        margin: 0 auto;
+    }
 
 }
-
 
 // Colored flavour-ed blocks of code inside posts
 div[class^="language-"] {
@@ -101,6 +106,10 @@ div.mermaid > svg {
         display: none;
         visibility: hidden;
     }
+    .post-content {
+        max-width: 600px;
+    }
+
     div[class^="language-"] {
         display: block;    
     }
@@ -115,14 +124,9 @@ div.mermaid > svg {
     }
 }
 @include largeScreen {
-    // img.post-image {
-    //     float: left;
-    //     width: 40%;
-    // }
-
-    // .post-header, .post-content {
-    //     float: left;
-    // }
+    .post-content {
+        max-width: 900px;
+    }
 }
 
 

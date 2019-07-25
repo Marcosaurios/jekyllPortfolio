@@ -15,8 +15,8 @@ html {
 }
 
 body {
-    margin: 0;
-    max-width: 1200px;
+    margin: 0 auto;
+    max-width: $bodyMaxWidth;
 }
 
 div.content {
@@ -116,6 +116,7 @@ div.language-selector:hover {
         }    
     }
     #language-selector {
+        position: fixed;
         margin-top: 30px;
     }
 }
