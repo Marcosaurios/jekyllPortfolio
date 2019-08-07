@@ -1,26 +1,21 @@
 ---
 layout: post
-title:  "Muy buen tiempo oye"
-ref: buentiempo
+title:  "Good weather bro"
+ref: firstproject
 date: 2016-03-30 09:48:44 +0100
 categories: 
-lang: es
+lang: en
 author: Marcos
 thumbnail: "/assets/imgs/testimage.png"
 ---
-9Hola que tal este post es de prueba
-
-¿Sale en español?
-
-Sí hola hola hola
-
-ruby:
+English version of project1
 
 ``` ruby
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
+{% cloudinary /assets/imgs/yo.png alt="beautiful!" %}
 
 python
 
@@ -29,4 +24,3 @@ function sayHi() {
 clg("Hello")
 }
 ```
-

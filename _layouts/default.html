@@ -8,7 +8,7 @@
     {% include header.html %}
 
     {% if page.layout == "post" %}
-        <a id="back" href={{ site.data.menu[page.lang][2].url | relative_url }}>
+        <a id="back" href={{ site.data.menu.items[page.lang][2].url | relative_url }}>
             <span class="line back"></span>
             <span class="line back"></span>
         </a>

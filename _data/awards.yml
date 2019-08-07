@@ -1,0 +1,18 @@
+items:
+  es: "Distinciones"
+  en: "Awards"
+  array:
+    es:
+      - name: "Hackaton Telefonica"
+        site: "Universidad de Alicante"
+        date: "2019,03"
+        long: "3 meses"
+        desc: "Descripcion en español" 
+        type: "award"
+    en:
+      - name: "Hackaton Telefonica"
+        site: "Universidad de Alicante"
+        date: "2019,03"
+        long: "3 months"
+        desc: "English desc." 
+        type: "award"

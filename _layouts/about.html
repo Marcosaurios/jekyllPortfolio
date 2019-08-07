@@ -13,30 +13,70 @@ layout: default
     <div class="extend">
             <input type="checkbox" id="skills">
             <label for="skills">
-                <span class="arrow">
+                <!-- <span class="arrow">
                     <span class="line"></span>
                     <span class="line"></span>
-                </span>
+                </span> -->
                 <h2>
-                    {{ site.data.skills[page.lang] }}
+                    ./{{ site.data.skills.items[page.lang] }}
                 </h2>
             </label>
             <div class="values">
-                {%- for skill in site.data.skills.array -%}
+                {%- for skill in site.data.skills.items.array -%}
                     {%- if forloop.index <= 3 -%}
-                        <div class="top">
-                            <p> {{ skill.name }} </p>
-                            <app-dot data-lon="{{ skill.progress }}"></app-dot>
-                        </div>
+                    <div class="top">
+                        <p> {{ skill.name }} </p>
+                        <app-dot data-lon="{{ skill.progress }}" data-color="#fdfffc" data-size="6"></app-dot>
+                    </div>
                     {%- else -%}
-                        <div class="mini">
-                            <p> {{ skill.name }} </p>
-                            <app-dot data-lon="{{ skill.progress }}"></app-dot>
-                        </div>
+                    <div class="mini">
+                        <p> {{ skill.name }} </p>
+                        <app-dot data-lon="{{ skill.progress }}" data-color="#D1D1D1" data-size="3.5"></app-dot>
+                    </div>
                     {%- endif -%}
                 {%- endfor -%}
             </div>
-
+    </div>
+    <div id="timeline">
+        <!-- <h2>./{{ site.data.experiences[page.lang]}}</h2> -->
+        <h2>./Timeline</h2>
+        <input type="checkbox" name="educations" id="educations" checked>
+        <input type="checkbox" name="experiences" id="experiences" checked>
+        <input type="checkbox" name="awards" id="awards" checked>
+        <label for="experiences" class="clickable">
+            {{ site.data.experiences.items[page.lang] }}
+        </label>
+        <label for="educations" class="clickable">
+            {{ site.data.educations.items[page.lang] }}
+        </label>
+        <label for="awards" class="clickable">
+            {{ site.data.awards.items[page.lang] }}
+        </label>
+        
+        {% assign items = "" | split: "" %}
+        {%- for experience in site.data.experiences.items.array[page.lang] -%}
+            {% assign items = items | push: experience %}
+        {%- endfor -%}
+        {%- for education in site.data.educations.items.array[page.lang] -%}
+            {% assign items = items | push: education %}
+        {%- endfor -%}
+        {%- for award in site.data.awards.items.array[page.lang] -%}
+            {% assign items = items | push: award %}
+        {%- endfor -%}
+        {% assign sorted = items | sort: 'date' | reverse %}
+        {%- for item in sorted -%}
+        <div class="timeitem {{ item.type }}">
+            <span>{{ item.date | split: ',' | reverse | join: '/' }}</span>
+            <p> {{ item.name }} </p>
+            <div>
+                <p> {{ item.long }} </p>
+                <p> {{ item.site }} </p>
+            </div>
+            <div>
+                <p> {{ item.desc }} </p>
+            </div>
+        </div>
+        {%- endfor -%}
     </div>
 
 

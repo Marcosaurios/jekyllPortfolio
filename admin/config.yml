@@ -1,0 +1,35 @@
+# config.yml
+
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: 'assets/imgs'
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: '_posts/'
+    create: true
+    editor:
+      preview: true
+    fields:
+    - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+    - { label: 'Title', name: 'title', widget: 'string' }
+    - { label: 'Ref', name: 'ref', widget: 'string' }
+    - { label: 'Language', name: 'lang', widget: 'string', default: 'es'}
+    - { label: 'Author', name: 'author', widget: 'string' , default: 'Marcos'}
+    - { label: 'Thumbnail', name: 'thumbnail', widget: 'string' , default: 'Marcos'}
+    - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA
+  - name: 'projects'
+    label: 'Projects'
+    folder: '_projects/'
+    create: true
+    editor:
+      preview: true
+    fields:
+    - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+    - { label: 'Title', name: 'title', widget: 'string' }
+    - { label: 'Ref', name: 'ref', widget: 'string' }
+    - { label: 'Language', name: 'lang', widget: 'string', default: 'es'}
+    - { label: 'Author', name: 'author', widget: 'string' , default: 'Marcos'}
+    - { label: 'Thumbnail', name: 'thumbnail', widget: 'string' , default: 'Marcos'}
+    - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA

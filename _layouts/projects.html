@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<h1>/{{page.title | downcase }}</h1>
+
+  <div class="post-list">
+    {% assign projects=site.projects | where:"lang", page.lang %}
+    {% for project in projects %}
+      <article>
+          <a class="post-link" href="{{ project.url | relative_url }}">
+            {% if project.thumbnail %}
+            <div class="gradient">
+                <img src={{ project.thumbnail }} alt="">
+            </div>
+            {% else %}
+            <div class="color">
+            </div>
+            {% endif %}
+      
+            <h2 class="overlay title">
+              {{ project.title }}
+            </h2>
+            <span class="overlay date">{{ project.date | date: "%-d %b %Y" }}</span>
+            
+            <!-- <img id="author-img" src="{{ site.data.authors[post.author].img }}" width="100px" height="100px" alt=""> -->
+          </a>
+      </article>
+    {% endfor %}
+    </div>

@@ -15,6 +15,7 @@ article.post{
         h1.post-title {
             background-color: $secondColor;
             padding: .75em;
+            padding-bottom: 9.6px;
 
             margin-bottom: 0;
             margin-top: -35px;
@@ -29,7 +30,7 @@ article.post{
         
             a[itemprop="name"] {
                 color: rgba(220, 220, 220, 1);
-                text-decoration: none;
+                // text-decoration: none;
             }
         }
     }
@@ -46,11 +47,18 @@ div[class^="language-"] {
     width: 100%;
 }
 .highlight {
+    margin-bottom: 15px;
+
     padding: .5em;
     
     border-radius: 8px;
+    border: 1px $secondColor solid;
     
     overflow: scroll;
+    pre {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
 }
 
 // Blockquotes
@@ -116,7 +124,7 @@ div.mermaid > svg {
 
     // Code
     .highlight {
-        display: inline-block;
+        display: block;
     }
 
     blockquote {

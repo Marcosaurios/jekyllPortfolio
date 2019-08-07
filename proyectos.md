@@ -1,6 +1,6 @@
 ---
 title: Projects
-layout: default
+layout: projects
 author: Marcos
 permalink: /proyectos
 lang: es

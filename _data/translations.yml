@@ -1,11 +1,12 @@
-post:
-  publishedOn:
-    es: " el "
-    en: " on "
-footer:
-  es:  "Tema propio desarrollado en Jekyll."
-  en:  "Jekyll custom theme from scratch."
-secondFooter: "Marcos Urios Gómez"
-landing:
-  es:
-  en:
+items:
+  post:
+    publishedOn:
+      es: " el "
+      en: " on "
+  footer:
+    es:  "Tema propio desarrollado en Jekyll."
+    en:  "Jekyll custom theme from scratch."
+  secondFooter: "Marcos Urios Gómez"
+  landing:
+    es:
+    en:

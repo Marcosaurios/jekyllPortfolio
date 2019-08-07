@@ -36,16 +36,17 @@ div.content {
     right: 0;
 
     z-index: 1;
-
+    
     a{
         width: 100%;
         height: 20px;
-
+        
         border: 0;
         color: $whiteColor;
         font-weight: lighter;
-
+        
         text-decoration: none;
+        border: 1px solid $secondColor;
 
     }
 
@@ -117,13 +118,13 @@ div.language-selector:hover {
     }
     #language-selector {
         position: fixed;
-        margin-top: 30px;
     }
 }
 
 @include largeScreen {
     #language-selector {
         top: 0;
-        margin-top: 10px;
+        margin-top: 15px;
+        right: 7vw;
     }
 }

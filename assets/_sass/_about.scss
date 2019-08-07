@@ -1,3 +1,8 @@
+div.content div.presentation + div {
+    margin: 0 auto;
+    max-width: 600px;
+}
+
 .presentation {
     display: flex;
 
@@ -23,8 +28,8 @@
         // background-color: black;
         display: block;
 
-        margin: 0;
-        margin-bottom: 15px;
+        // margin: 0;
+        // margin-bottom: 15px;
         margin-left: .5em;
 
         font-size: 2em; 
@@ -44,22 +49,15 @@ div.extend{
     display: flex;
     
     width: 100%;
-    margin: 0 auto;
 
     flex-direction: column;
 
     & > label {
         display: flex;
         align-items: center;
-        padding: .5em;
-        & > h2 {
-            display: inline-block;
-            margin: 0;
-            margin-left: .5em;
-        }
     }
     input + label + div {
-        height: 0;
+        // height: 0;
         // padding: 5px;
         overflow: hidden;
 
@@ -75,12 +73,14 @@ div.extend{
         }
         div.mini{
             display: flex;
-            flex: 0 0 10%;
+            flex: 0 0 50%;
+            // justify-content: flex-end;            
+            justify-content: center;            
+            color: $secondWhiteColor;
             align-items: center;
+            p { margin: 0 10px 0 0  }
 
-            app-dot{
-                transform: scale(.6)
-            }            
+            // padding: 0 3em 0 0;         
         }
         div.top{
             display: flex;
@@ -99,7 +99,7 @@ div.extend{
 
     // Extend >> header
     input[type="checkbox"]:not(:checked) + label + div {
-        height: 60px;
+        // height: 60px;
     }
 
 }
@@ -132,20 +132,146 @@ span.arrow span.line:nth-child(2) {
     transform: translateX(10px) rotate(-45deg);
 }
 
+// Timeline
+div#timeline{
+    // item
+    .timeitem:nth-of-type(1) {
+        margin-top: 1em;
+    }
+    .timeitem {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+
+        border-left: 4px solid $secondColor;
+        // padding: 1em .25em .25em 1em;
+        padding: 0 .25em 0 1em;
+
+        max-height: 0;
+        opacity: 0;
+        // transition: opacity .3s ease-in-out, max-height .3s ease-in-out;
+        transition: all .5s ease-in-out;
+
+        // date
+        span {
+            font-size: 14px;
+            transform: translateX(-30px);
+            background: $bgColor;
+            padding: 15px;
+            
+            // transform: translateY(-24px) translateX(-42px);
+            // position: absolute;
+        }
+        // title
+        span + p{
+            text-decoration: underline;
+            text-decoration-color: $accentColor;
+            font-size: larger;
+            transform: translateX(-30px);  
+            flex: 100;          
+            // transform: translateX(-15px);
+        } 
+        p{
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        // site and time
+        div:nth-of-type(1) {
+            flex: 0 0 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin: .25em;
+            p:nth-of-type(2){
+                display: inline;
+                font-size: smaller;
+                padding: .25em .25em .25em .25em;
+                // background-color: $secondColor;
+                // border-radius: 5px;
+                border: 1px solid white;
+                border-radius: 5px;
+            }
+            p:nth-of-type(1) {
+                display: inline;
+                font-size: smaller;
+                margin-right: 5px;
+            }
+        }
+        div:nth-of-type(2){
+            flex-wrap: wrap;
+            flex: 0 0 100%;
+        }
+    }
+    // .timeitem:nth-of-type(1) {
+    //     margin-top: 1em;
+    // }
+}
+
+// Show and hide on timeline
+input[type="checkbox"]:checked#experiences ~ div.timeitem.experience,
+input[type="checkbox"]:checked#educations ~ div.timeitem.education,
+input[type="checkbox"]:checked#awards ~ div.timeitem.award  {
+    opacity: 1;
+    max-height: 160px;
+    padding: 1em .25em .25em 1em;
+}
+
+input[type="checkbox"]:not(:checked)#experiences ~ label[for="experiences"],
+input[type="checkbox"]:not(:checked)#educations ~ label[for="educations"],
+input[type="checkbox"]:not(:checked)#awards ~ label[for="awards"]
+{
+    border-color: rgba($color: #000000, $alpha: 0.0);
+}
+
+
+
+
+.clickable {
+    border: 1px $accentColor solid;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out
+}
+
 
 
 
 @include desktop {
     .presentation{
         flex-direction: row;
-        img{
-            // margin-right: 7.5vw;
-
-            // font-size:
-        }
         p{
             padding: 1em 15vw;
-
         }
+    }
+    div.extend{
+        input + label + div {
+            div.mini {
+                // right padding;
+                padding: 0 6em 0 0em;
+
+            }
+            div.mini:nth-child(even) {
+                // left
+                padding: 0 0 0 3em;
+
+            }
+        }   
+    }
+    // div#timeline .timeitem span{
+    //     transform: translateY(-17px) translateX(-42px);
+    // }
+    div#timeline .timeitem p:nth-of-type(1) {
+        flex: initial;
+    }
+
+    div#timeline .timeitem div:nth-of-type(1){
+        flex: 1 0 0;
+        display: flex;
+        justify-content: flex-end;
+    }
+    div#timeline .timeitem div:nth-of-type(2){
+        padding: 1em 0 0 1em;
     }
 }

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Muy buen tiempo oye"
-ref: buentiempo
+ref: firstproject
 date: 2016-03-30 09:48:44 +0100
 categories: 
 lang: es
@@ -29,4 +29,3 @@ function sayHi() {
 clg("Hello")
 }
 ```
-

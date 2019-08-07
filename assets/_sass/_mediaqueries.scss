@@ -11,3 +11,10 @@
         @content;
     }
 }
+
+@mixin largeScreen {
+    @media (min-width: #{$screen-l-min}) {
+        @content;
+    }
+}
+

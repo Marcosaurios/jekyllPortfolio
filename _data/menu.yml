@@ -1,22 +1,23 @@
-en:
-- title: Home
-  url: /index 
-- title: About
-  url: /about 
-- title: Blog
-  url: /blogEN 
-- title: Projects
-  url: /projects 
-- title: Contact
-  url: /contact
-es:
-- title: Inicio
-  url: /indice
-- title: Sobre mí
-  url: /sobre
-- title: Blog
-  url: /blogES
-- title: Proyectos
-  url: /proyectos
-- title: Contacto
-  url: /contacto
+items:
+  en:
+  - title: Home
+    url: /index 
+  - title: About
+    url: /about 
+  - title: Blog
+    url: /blogEN 
+  - title: Projects
+    url: /projects 
+  - title: Contact
+    url: /contact
+  es:
+  - title: Inicio
+    url: /indice
+  - title: Sobre mí
+    url: /sobre
+  - title: Blog
+    url: /blogES
+  - title: Proyectos
+    url: /proyectos
+  - title: Contacto
+    url: /contacto
