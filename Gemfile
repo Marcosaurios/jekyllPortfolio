@@ -4,7 +4,6 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem 'bundler'
 gem 'jekyll'
 gem 'jekyll-liquify'
 gem 'jekyll-seo-tag'
