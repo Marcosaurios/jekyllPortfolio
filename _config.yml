@@ -36,12 +36,11 @@ sass:
 ## -- origin_url: https://www.marcosurios.com -> PRODUCTION (relative to my website url)
 # if not: Cloudinary won't be able to compress files
 ## -- only_prod: true -> Local
-## -- only_prod: false -> PRODUCTION
 cloudinary:
   cloud_name: Marcosaurios
-  origin_url: /
+  # origin_url: /
+  # only_prod: true
   verbose: true
-  only_prod: true
   presets:
     default:
       min_width: 320
