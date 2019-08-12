@@ -6,6 +6,7 @@ notificationColor: 172433
 # *global_url = https://dazzling-wright-08e708.netlify.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: https://dazzling-wright-08e708.netlify.com # the base hostname & protocol for your site
+# url: /
 twitter_username: Marcosaurios
 linkedin_username: marcosurios
 github_username:  Marcosaurios
@@ -39,6 +40,7 @@ sass:
 ## -- only_prod: true -> Local
 cloudinary:
   cloud_name: Marcosaurios
+  # only_prod: true
   verbose: true
   presets:
     default:

@@ -165,8 +165,6 @@ div#timeline{
         }
         // title
         span + p{
-            text-decoration: underline;
-            text-decoration-color: $accentColor;
             font-size: larger;
             transform: translateX(-30px);  
             flex: 100;          
