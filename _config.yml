@@ -3,8 +3,9 @@ title: Marcos Urios Portfolio
 notificationColor: 172433
 
 ## Site settings
+# *global_url = https://dazzling-wright-08e708.netlify.com
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://marcosurios.com" # the base hostname & protocol for your site
+url: https://dazzling-wright-08e708.netlify.com # the base hostname & protocol for your site
 twitter_username: Marcosaurios
 linkedin_username: marcosurios
 github_username:  Marcosaurios
@@ -37,7 +38,7 @@ sass:
 # if not: Cloudinary won't be able to compress files
 ## -- only_prod: true -> Local
 cloudinary:
-  cloud_name: https://dazzling-wright-08e708.netlify.com
+  cloud_name: Marcosaurios
   verbose: true
   presets:
     default:
