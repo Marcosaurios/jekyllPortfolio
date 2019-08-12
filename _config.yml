@@ -37,9 +37,7 @@ sass:
 # if not: Cloudinary won't be able to compress files
 ## -- only_prod: true -> Local
 cloudinary:
-  cloud_name: Marcosaurios
-  # origin_url: /
-  # only_prod: true
+  cloud_name: https://dazzling-wright-08e708.netlify.com
   verbose: true
   presets:
     default:
