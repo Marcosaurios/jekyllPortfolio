@@ -37,6 +37,14 @@ article.post{
     div.post-content{
         // max-width: $postMaxWidth;
         margin: 0 auto;
+
+        img {
+            width: 100vw;
+            height: 100%;
+            display: block;
+            position: relative;
+            left: -1em;
+        }
     }
 
 }
@@ -120,6 +128,16 @@ div.mermaid > svg {
 
     div[class^="language-"] {
         display: block;    
+    }
+
+    div.post-content{
+        img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            position: inherit;
+            left: inherit;
+        }
     }
 
     // Code
