@@ -130,13 +130,15 @@ div.mermaid > svg {
         display: block;    
     }
 
-    div.post-content{
-        img {
-            width: 100%;
-            height: 100%;
-            display: block;
-            position: inherit;
-            left: inherit;
+    div.post {
+        div.post-content{
+            img {
+                width: 100%;
+                height: 100%;
+                display: block;
+                position: inherit;
+                left: inherit;
+            }
         }
     }
 
