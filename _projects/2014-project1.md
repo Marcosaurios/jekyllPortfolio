@@ -7,6 +7,7 @@ categories:
 lang: en
 author: Marcos
 thumbnail: "/assets/imgs/testimage.png"
+skills: "CSS HTML AJAX NODE"
 ---
 English version of project1
 

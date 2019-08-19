@@ -10,18 +10,14 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">
             {% if post.thumbnail %}
             <div class="gradient">
-                <img src={{ post.thumbnail }} alt="">
+                {% cloudinary {{post.thumbnail}} alt="{{post.title}} image" %}
             </div>
             {% else %}
             <div class="color">
             </div>
             {% endif %}
-      
-            <h2 class="overlay title">
-              {{ post.title }}
-            </h2>
+            <h2 class="overlay title"> {{ post.title }} </h2>
             <span class="overlay date">{{ post.date | date: "%-d %b %Y" }}</span>
-            
             <!-- <img id="author-img" src="{{ site.data.authors[post.author].img }}" width="100px" height="100px" alt=""> -->
           </a>
       </article>

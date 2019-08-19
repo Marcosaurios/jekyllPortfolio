@@ -18,7 +18,14 @@
         <span class="line mid"></span>
         <span class="line bot"></span>
     </label>
+    {% if page.layout == "post" %}
+    <a id="back" href={{ site.data.menu.items[page.lang][2].url | relative_url }}>
+        <span class="line back"></span>
+        <span class="line back"></span>
+    </a>
+    {% endif %}
 </div>
+
 
 <div id="language-selector">
     {% assign actual_lang = page.lang %}

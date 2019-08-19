@@ -7,6 +7,7 @@ categories:
 lang: es
 author: Marcos
 thumbnail: "/assets/imgs/testimage.png"
+skills: "CSS HTML AJAX NODE"
 ---
 9Hola que tal este post es de prueba
 

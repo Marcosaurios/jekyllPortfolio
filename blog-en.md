@@ -2,7 +2,7 @@
 title: Blog
 layout: blog
 author: Marcos
-permalink: /blogEN
+permalink: /blog-en
 lang: en
 ref: blog
 ---

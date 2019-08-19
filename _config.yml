@@ -3,9 +3,13 @@ title: Marcos Urios Portfolio
 notificationColor: 172433
 
 ## Site settings
-# *global_url = https://dazzling-wright-08e708.netlify.com
+*global_url: https://dazzling-wright-08e708.netlify.com
+
+## Deploy: origin_url: sitename
+## Local: origin_url: /
+
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: https://dazzling-wright-08e708.netlify.com # the base hostname & protocol for your site
+url: *global_url # the base hostname & protocol for your site
 # url: /
 twitter_username: Marcosaurios
 linkedin_username: marcosurios
@@ -41,6 +45,8 @@ sass:
 cloudinary:
   cloud_name: Marcosaurios
   # only_prod: true
+  # origin_url: /
+  origin_url: https://dazzling-wright-08e708.netlify.com
   verbose: true
   presets:
     default:
