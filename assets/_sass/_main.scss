@@ -17,11 +17,13 @@ html {
 body {
     margin: 0 auto;
     max-width: $bodyMaxWidth;
-
 }
 
 div.content {
     padding: 1em; 
+    min-height: 65vh;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 #language-selector {

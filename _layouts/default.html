@@ -3,7 +3,9 @@
 
     {% include head.html %}
 
-<body ontouchstart>
+    <!-- {% if page.ref == 'index' %} {% include landingscripts.html %} {% endif %} -->
+    
+<body ontouchstart {% if page.ref == 'index' %} anim {% endif %}>
     
     {% include header.html %}
 

@@ -1,0 +1,106 @@
+
+body[anim] p:nth-of-type(1) {
+    opacity: 0;
+
+    animation-delay: 0s;
+    animation-name: fading1;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards; 
+    font-size: 4em;
+
+    margin: .3em;
+}
+body[anim] p:nth-of-type(2) {
+    opacity: 0;
+
+    animation-delay: 1.1s;
+    animation-name: fading1;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards; 
+    margin: .3em;
+    font-size: 1.3em;
+}
+
+// Name
+body[anim] p:nth-of-type(3) {
+    opacity: 0;
+
+    animation-delay: 2.2s;
+    animation-name: fading2;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards; 
+    font-size: 2.5em;
+
+    color: $accentColor;
+    margin: 0;
+    // width: fit-content;
+    // text-align: center;
+}
+body[anim] p:nth-of-type(4) {
+    opacity: 0;
+
+    animation-delay: 3s;
+    animation-name: fading2;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards; 
+    font-size: 2.5em;
+
+    color: $accentColor;
+    margin: 0;
+    // width: fit-content;
+    // text-align: center;
+}
+body[anim] p:nth-of-type(5) {
+    opacity: 0;
+
+    animation-delay: 3.8s;
+    animation-name: fading2;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards; 
+    font-size: 2.5em;
+
+    color: $accentColor;
+    margin: 0;
+    // width: fit-content;
+    // text-align: center;
+}
+
+// End
+body[anim] p:nth-of-type(6) {
+    opacity: 0;
+
+    animation-delay: 4.6s;
+    animation-name: fading3;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards; 
+
+    font-size: 1em;
+    text-align: center;
+}
+
+body[anim] footer {
+    opacity: 0;
+
+    animation-delay: 5.4s;
+    animation-name: fading3;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards; 
+
+    font-size: 1em;
+}
+
+
+@keyframes fading1 {
+    0% {opacity: 0;}
+    100% {opacity: 1; transform:translateX( calc(50% - 1em) );}
+}
+
+@keyframes fading2 {
+    0% {opacity: 0;}
+    100% {opacity: 1; transform:translateX( calc(50% - 2em) );}
+}
+
+@keyframes fading3 {
+    0% {opacity: 0;}
+    100% {opacity: 1; transform:translateX( 0 );}
+}

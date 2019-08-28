@@ -26,27 +26,14 @@ collections:
   projects:
     output: true
 
-jekyll-minifier:
-  compress_css: false                # Default: true
-  compress_javascript: true         # Default: true
-
-sass:
-  sass_dir: assets/_sass
-  style: compressed
-
-# kramdown:  
-#   html_to_native: true
-
 # Responsive pics
 ## -- origin_url: /                           -> Local (relative to host url)
 ## -- origin_url: https://www.marcosurios.com -> PRODUCTION (relative to my website url)
-# if not: Cloudinary won't be able to compress files
-## -- only_prod: true -> Local
 cloudinary:
   cloud_name: Marcosaurios
-  # only_prod: true
-  # origin_url: /
-  origin_url: https://dazzling-wright-08e708.netlify.com
+  only_prod: true           # local = true
+  origin_url: /
+  # origin_url: https://dazzling-wright-08e708.netlify.com
   verbose: true
   presets:
     default:
@@ -55,6 +42,8 @@ cloudinary:
       fallback_max_width: 800
       steps: 5
       sizes: "(min-width: 50rem) 50rem, 100vw"
+
+highlighter: rouge
 
 markdown: redcarpet
 redcarpet:
@@ -67,11 +56,18 @@ redcarpet:
     - superscript
     - with_to_data
 
+jekyll-minifier:
+  compress_javascript: true         
+  # compress_css: false   # already compressed in SASS           
+
+sass:
+  sass_dir: assets/_sass
+  style: compressed
+
 plugins:
   - jekyll-liquify
   - jekyll-seo-tag
   - jekyll-minifier
   - jekyll-cloudinary
 
-highlighter: rouge
 

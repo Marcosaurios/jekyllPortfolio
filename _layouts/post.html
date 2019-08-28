@@ -5,15 +5,13 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    {% cloudinary {{page.thumbnail}} class="post-image" itemprop="image" alt="{{page.title}} image"%}
-    <!-- <img src="{{page.thumbnail | relative}}" class="post-image" alt=""> -->
-      <h1 class="post-title" itemprop="name headline" title={{page.title}} >{{ page.title }}</h1>
-      <p class="post-meta">
-        {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><a href={{ site.data.menu.items[page.lang][1].url | relative_url }} itemprop="name">{{ page.author }}</a></span>{% endif %}
-        {{site.data.translations.post.publishedOn[page.lang]}}<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{% include date.html date=page.date %}</time>
-        // 
-        {{page.skills}}
-      </p>
+    {% cloudinary {{page.thumbnail}} class="post-image" itemprop="image" alt="{{page.title}} image" loading="lazy"%}
+    <h1 class="post-title" itemprop="name headline" title={{page.title}} >{{ page.title }}</h1>
+    <p class="post-meta">
+      {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><a href={{ site.data.menu.items[page.lang][1].url | relative_url }} itemprop="name">{{ page.author }}</a></span>{% endif %}
+      {{site.data.translations.post.publishedOn[page.lang]}}<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{% include date.html date=page.date %}</time>
+      {% if page.skills %} // {{page.skills}} {% endif %}
+    </p>
   </header>
 
   <div class="post-content" itemprop="articleBody">

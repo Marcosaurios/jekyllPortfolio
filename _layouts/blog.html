@@ -10,7 +10,7 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">
             {% if post.thumbnail %}
             <div class="gradient">
-                {% cloudinary {{post.thumbnail}} alt="{{post.title}} image" %}
+                {% cloudinary {{post.thumbnail}} alt="{{post.title}} image" loading="lazy"%}
             </div>
             {% else %}
             <div class="color">
@@ -18,7 +18,6 @@ layout: default
             {% endif %}
             <h2 class="overlay title"> {{ post.title }} </h2>
             <span class="overlay date">{{ post.date | date: "%-d %b %Y" }}</span>
-            <!-- <img id="author-img" src="{{ site.data.authors[post.author].img }}" width="100px" height="100px" alt=""> -->
           </a>
       </article>
     {% endfor %}

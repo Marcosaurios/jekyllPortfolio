@@ -1,9 +1,9 @@
 ---
-title: Marcos Urios Portfolio
-layout: default
+title: Index
+layout: index
 author: Marcos
 permalink: /index
 lang: en
 ref: index
 ---
-<h1>Index</h1>
+## hola

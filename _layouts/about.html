@@ -5,10 +5,7 @@ layout: default
 
 {% assign author = site.data.authors.Marcos[page.lang] %}
 <div class="presentation">
-    <!-- TODO publish on GitHub: issue resolved: -->
-    {% cloudinary {{author.img}} alt="{{author.name}} bio pic"%}
-<!-- 
-    <img src={{ author.img | relative_url }} alt="{{ author.img_alt }}"> -->
+    {% cloudinary {{author.img}} alt="{{author.name}} bio pic" loading="lazy"%}
     <h2>{{ author.name }}</h2>
     <p>{{ author.bio }}</p>
 </div>
@@ -16,10 +13,6 @@ layout: default
     <div class="extend">
             <input type="checkbox" id="skills">
             <label for="skills">
-                <!-- <span class="arrow">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                </span> -->
                 <h2>
                     ./{{ site.data.skills.items[page.lang] }}
                 </h2>
@@ -75,7 +68,4 @@ layout: default
         </div>
         {%- endfor -%}
     </div>
-
-
-
 </div>

@@ -28,10 +28,11 @@ article.post{
             color: rgba(190, 190, 190, 0.9);
             background-color: $secondColor;
         
-            a[itemprop="name"] {
-                color: rgba(220, 220, 220, 1);
-                // text-decoration: none;
-            }
+            // a[itemprop="name"] {
+            // }
+            // a[itemprop="name"]:hover {
+            //     color: $accentColor;
+            // }
         }
     }
     div.post-content{
