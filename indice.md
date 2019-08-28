@@ -7,7 +7,7 @@ lang: es
 ref: index
 ---
 
-Hi!
+Hola!
 
 I'm
 
@@ -17,4 +17,4 @@ Urios
 
 Gomez
 
-a interdisciplinary multimedia engineer
+un ingeniero multimedia interdisciplinar 
