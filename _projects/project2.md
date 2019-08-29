@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Good weather bro"
-ref: firstproject
+title:  "project2"
+ref: project2
 date: 2016-03-30 09:48:44 +0100
 categories: 
 lang: en

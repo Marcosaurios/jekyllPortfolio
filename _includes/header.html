@@ -18,30 +18,29 @@
         <span class="line mid"></span>
         <span class="line bot"></span>
     </label>
+    {% if page.layout == "post" %}
+    <a id="back" href={% if page.skills %} {{ site.data.menu.items[page.lang][3].url | relative_url }} {% else %} {{ site.data.menu.items[page.lang][2].url | relative_url }} {% endif %}>
+        <span class="line back"></span>
+        <span class="line back"></span>
+    </a>
+    {% endif %}
 </div>
+
 
 <div id="language-selector">
     {% assign actual_lang = page.lang %}
     {% assign pages = site.pages | where:"ref", page.ref | sort: "lang" %}
     {% for page in pages %}
-        <a href="{{ page.url | relative_url }}" {% if page.lang == actual_lang %} class="selected" {% endif %}>
-            {% if page.lang == "es" %} 
-            Español
-            {% elsif page.lang == "en" %}
-            English
-            {% endif %}
-        </a>
+        <a href="{{ page.url | relative_url }}" {% if page.lang == actual_lang %} class="selected" {% endif %}>{% if page.lang == "es" %} Español {% elsif page.lang == "en" %} English {% endif %}</a>
     {% endfor %}
     {% assign posts = site.posts | where:"ref", page.ref | sort: "lang" %}
     {% for post in posts %}
-        <a href="{{ post.url | relative_url }}" {% if post.lang == actual_lang %} class="selected" {% endif %}>
-            {% if post.lang == "es" %} 
-            Español
-            {% elsif post.lang == "en" %}
-            English
-            {% endif %}
-        </a>
+        <a href="{{ post.url | relative_url }}" {% if post.lang == actual_lang %} class="selected" {% endif %}>{% if post.lang == "es" %} Español {% elsif post.lang == "en" %} English {% endif %}</a>
     {% endfor %}
+    {% assign projects = site.projects | where:"ref", page.ref | sort: "lang" %}
+    {% for project in projects %}
+    <a href="{{ project.url | relative_url }}" {% if project.lang == actual_lang %} class="selected" {% endif %}>{% if project.lang == "es" %} Español {% elsif project.lang == "en" %} English {% endif %}</a>
+{% endfor %}
 </div>
 
 

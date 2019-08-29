@@ -1,5 +1,7 @@
 footer {
     width: 100%;
+    // max-height: 172px;
+    height: 20vh;
     overflow: visible;
 
     padding: 2em;
@@ -12,7 +14,7 @@ footer {
     // text-align: center;
 
 
-    background-color: $secondColor;
+    // background-color: $secondColor;
 
     p {
         text-align: center;

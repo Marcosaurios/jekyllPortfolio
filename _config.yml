@@ -3,8 +3,14 @@ title: Marcos Urios Portfolio
 notificationColor: 172433
 
 ## Site settings
+*global_url: https://www.marcosurios.com
+
+## Deploy: origin_url: sitename
+## Local: origin_url: /
+
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://marcosurios.com" # the base hostname & protocol for your site
+url: *global_url # the base hostname & protocol for your site
+# url: /
 twitter_username: Marcosaurios
 linkedin_username: marcosurios
 github_username:  Marcosaurios
@@ -20,36 +26,24 @@ collections:
   projects:
     output: true
 
-jekyll-minifier:
-  compress_css: false                # Default: true
-  compress_javascript: true         # Default: true
-
-sass:
-  sass_dir: assets/_sass
-  style: compressed
-
-# kramdown:  
-#   html_to_native: true
-
 # Responsive pics
 ## -- origin_url: /                           -> Local (relative to host url)
 ## -- origin_url: https://www.marcosurios.com -> PRODUCTION (relative to my website url)
-# if not: Cloudinary won't be able to compress files
-## -- only_prod: true -> Local
-## -- only_prod: false -> PRODUCTION
 cloudinary:
   cloud_name: Marcosaurios
-  origin_url: /
+  only_prod: false          # local = true
+  origin_url: https://www.marcosurios.com
+  # origin_url: https://dazzling-wright-08e708.netlify.com
   verbose: true
-  only_prod: true
   presets:
     default:
       min_width: 320
       max_width: 1600
       fallback_max_width: 800
       steps: 5
-      sizes: "100vw"
-      # sizes: "(min-width: 50rem) 50rem, 90vw"
+      sizes: "(min-width: 50rem) 50rem, 100vw"
+
+highlighter: rouge
 
 markdown: redcarpet
 redcarpet:
@@ -62,11 +56,18 @@ redcarpet:
     - superscript
     - with_to_data
 
+jekyll-minifier:
+  compress_javascript: true         
+  # compress_css: false   # already compressed in SASS           
+
+sass:
+  sass_dir: assets/_sass
+  style: compressed
+
 plugins:
   - jekyll-liquify
   - jekyll-seo-tag
   - jekyll-minifier
   - jekyll-cloudinary
 
-highlighter: rouge
 

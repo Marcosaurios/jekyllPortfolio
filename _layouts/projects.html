@@ -10,7 +10,7 @@ layout: default
           <a class="post-link" href="{{ project.url | relative_url }}">
             {% if project.thumbnail %}
             <div class="gradient">
-                <img src={{ project.thumbnail }} alt="">
+                {% cloudinary {{project.thumbnail}} alt="Project '{{project.title}}' image" loading="lazy"%}
             </div>
             {% else %}
             <div class="color">
@@ -20,7 +20,7 @@ layout: default
             <h2 class="overlay title">
               {{ project.title }}
             </h2>
-            <span class="overlay date">{{ project.date | date: "%-d %b %Y" }}</span>
+            <span class="overlay date">{{ project.skills | date: "%-d %b %Y" }}</span>
             
             <!-- <img id="author-img" src="{{ site.data.authors[post.author].img }}" width="100px" height="100px" alt=""> -->
           </a>

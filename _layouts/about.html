@@ -5,7 +5,7 @@ layout: default
 
 {% assign author = site.data.authors.Marcos[page.lang] %}
 <div class="presentation">
-    <img src={{ author.img | relative_url }} alt="{{ author.img_alt }}">
+    {% cloudinary {{author.img}} alt="{{author.name}} bio pic" loading="lazy"%}
     <h2>{{ author.name }}</h2>
     <p>{{ author.bio }}</p>
 </div>
@@ -13,10 +13,6 @@ layout: default
     <div class="extend">
             <input type="checkbox" id="skills">
             <label for="skills">
-                <!-- <span class="arrow">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                </span> -->
                 <h2>
                     ./{{ site.data.skills.items[page.lang] }}
                 </h2>
@@ -38,20 +34,13 @@ layout: default
             </div>
     </div>
     <div id="timeline">
-        <!-- <h2>./{{ site.data.experiences[page.lang]}}</h2> -->
         <h2>./Timeline</h2>
         <input type="checkbox" name="educations" id="educations" checked>
         <input type="checkbox" name="experiences" id="experiences" checked>
         <input type="checkbox" name="awards" id="awards" checked>
-        <label for="experiences" class="clickable">
-            {{ site.data.experiences.items[page.lang] }}
-        </label>
-        <label for="educations" class="clickable">
-            {{ site.data.educations.items[page.lang] }}
-        </label>
-        <label for="awards" class="clickable">
-            {{ site.data.awards.items[page.lang] }}
-        </label>
+        <label for="experiences" class="clickable"> {{ site.data.experiences.items[page.lang] }} </label>
+        <label for="educations" class="clickable"> {{ site.data.educations.items[page.lang] }} </label>
+        <label for="awards" class="clickable"> {{ site.data.awards.items[page.lang] }} </label>
         
         {% assign items = "" | split: "" %}
         {%- for experience in site.data.experiences.items.array[page.lang] -%}
@@ -65,6 +54,7 @@ layout: default
         {%- endfor -%}
         {% assign sorted = items | sort: 'date' | reverse %}
         {%- for item in sorted -%}
+        
         <div class="timeitem {{ item.type }}">
             <span>{{ item.date | split: ',' | reverse | join: '/' }}</span>
             <p> {{ item.name }} </p>
@@ -78,7 +68,4 @@ layout: default
         </div>
         {%- endfor -%}
     </div>
-
-
-
 </div>

@@ -3,16 +3,11 @@
 
     {% include head.html %}
 
-<body ontouchstart>
+    <!-- {% if page.ref == 'index' %} {% include landingscripts.html %} {% endif %} -->
+    
+<body ontouchstart {% if page.ref == 'index' %} anim {% endif %}>
     
     {% include header.html %}
-
-    {% if page.layout == "post" %}
-        <a id="back" href={{ site.data.menu.items[page.lang][2].url | relative_url }}>
-            <span class="line back"></span>
-            <span class="line back"></span>
-        </a>
-    {% endif %}
 
     <div class="content">
         {{ content }}

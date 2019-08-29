@@ -5,7 +5,7 @@ items:
   - title: About
     url: /about 
   - title: Blog
-    url: /blogEN 
+    url: /blog-en 
   - title: Projects
     url: /projects 
   - title: Contact
@@ -16,7 +16,7 @@ items:
   - title: Sobre mí
     url: /sobre
   - title: Blog
-    url: /blogES
+    url: /blog-es
   - title: Proyectos
     url: /proyectos
   - title: Contacto
