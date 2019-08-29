@@ -1,9 +1,9 @@
 ---
-title: Projects
+title: Proyectos
 layout: projects
 author: Marcos
-permalink: /proyectos
-lang: es
 ref: projects
+lang: es
+permalink: /proyectos
 ---
 <h1>Proyectos</h1>
