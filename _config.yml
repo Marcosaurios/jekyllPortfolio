@@ -31,9 +31,9 @@ collections:
 ## -- origin_url: https://www.marcosurios.com -> PRODUCTION (relative to my website url)
 cloudinary:
   cloud_name: Marcosaurios
-  only_prod: false          # local = true
+  only_prod: true          # local = true
   origin_url: https://www.marcosurios.com
-  # origin_url: /
+  origin_url: /
   # origin_url: https://dazzling-wright-08e708.netlify.com
   verbose: true
   presets:
