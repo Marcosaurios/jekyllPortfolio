@@ -47,103 +47,103 @@ collections:
       - { label: 'Language', name: 'lang', widget: 'string', default: 'es'}
       - { label: 'Permalink', name: 'permalink', widget: 'string'}
       - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA
-  # - name: 'about'
-  #   label: 'About'
-  #   fields:
-  #     - label: 'Skills'
-  #       name: 'Skills'
-  #       file: '_data/skills.yml'
-  #       fields:
-  #         - label: Items
-  #           name: items
-  #           widget: list
-  #           fields: 
-  #             - {label: Name, name: name, widget: string}
-  #             - {label: Progress, name: progress, widget: number, valueType: 'int', min: 0, max: 5, step: 1}
-  #     - label: 'Awards'
-  #       name: 'Awards'
-  #       file: '_data/awards.yml'
-  #       fields:
-  #         - label: Items
-  #           name: items
-  #           widget: object
-  #           fields: 
-  #             - label: Reconocimientos
-  #               name: es
-  #               widget: list
-  #               fields:
-  #                 - {label: Nombre, name: name, widget: string}
-  #                 - {label: Sitio, name: site, widget: string}
-  #                 - {label: Fecha, name: date, widget: string, default: '2019,03'}
-  #                 - {label: Duracion, name: long, widget: string}
-  #                 - {label: Descripcion, name: desc, widget: string}
-  #                 - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
-  #             - label: Awards
-  #               name: en
-  #               widget: list
-  #               fields: 
-  #                 - {label: Name, name: name, widget: string}
-  #                 - {label: Site, name: site, widget: string}
-  #                 - {label: Date, name: date, widget: string, default: '2019,03'}
-  #                 - {label: Long, name: long, widget: string}
-  #                 - {label: Description, name: desc, widget: string}
-  #                 - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
-  #     - label: 'Experiences'
-  #       name: 'Experiences'
-  #       file: '_data/experiences.yml'
-  #       fields:
-  #         - label: Items
-  #           name: items
-  #           widget: object
-  #           fields:
-  #             - label: Experiencias
-  #               name: es
-  #               widget: list
-  #               fields: 
-  #                 - {label: Nombre, name: name, widget: string}
-  #                 - {label: Sitio, name: site, widget: string}
-  #                 - {label: Fecha, name: date, widget: string, default: '2019,03'}
-  #                 - {label: Duracion, name: long, widget: string}
-  #                 - {label: Descripcion, name: desc, widget: string}
-  #                 - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
-  #             - label: Experiences
-  #               name: en
-  #               widget: list
-  #               fields: 
-  #                 - {label: Name, name: name, widget: string}
-  #                 - {label: Site, name: site, widget: string}
-  #                 - {label: Date, name: date, widget: string, default: '2019,03'}
-  #                 - {label: Long, name: long, widget: string}
-  #                 - {label: Description, name: desc, widget: string}
-  #                 - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
-  #     - label: 'Educations'
-  #       name: 'Educations'
-  #       file: '_data/educations.yml'
-  #       fields:
-  #         - label: Items
-  #           name: items
-  #           widget: object
-  #           fields:
-  #             - label: Educaciones
-  #               name: es
-  #               widget: list
-  #               fields: 
-  #                 - {label: Nombre, name: name, widget: string}
-  #                 - {label: Sitio, name: site, widget: string}
-  #                 - {label: Fecha, name: date, widget: string, default: '2019,03'}
-  #                 - {label: Duracion, name: long, widget: string}
-  #                 - {label: Descripcion, name: desc, widget: string}
-  #                 - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
-  #             - label: Educations
-  #               name: en
-  #               widget: list
-  #               fields: 
-  #                 - {label: Name, name: name, widget: string}
-  #                 - {label: Site, name: site, widget: string}
-  #                 - {label: Date, name: date, widget: string, default: '2019,03'}
-  #                 - {label: Long, name: long, widget: string}
-  #                 - {label: Description, name: desc, widget: string}
-  #                 - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}    
+  - name: 'about'
+    label: 'About'
+    fields:
+      - label: 'Skills'
+        name: 'Skills'
+        file: '_data/skills.yml'
+        fields:
+          - label: Items
+            name: items
+            widget: list
+            fields: 
+              - {label: Name, name: name, widget: string}
+              - {label: Progress, name: progress, widget: number, valueType: 'int', min: 0, max: 5, step: 1}
+      - label: 'Awards'
+        name: 'Awards'
+        file: '_data/awards.yml'
+        fields:
+          - label: Items
+            name: items
+            widget: object
+            fields: 
+              - label: Reconocimientos
+                name: es
+                widget: list
+                fields:
+                  - {label: Nombre, name: name, widget: string}
+                  - {label: Sitio, name: site, widget: string}
+                  - {label: Fecha, name: date, widget: string, default: '2019,03'}
+                  - {label: Duracion, name: long, widget: string}
+                  - {label: Descripcion, name: desc, widget: string}
+                  - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
+              - label: Awards
+                name: en
+                widget: list
+                fields: 
+                  - {label: Name, name: name, widget: string}
+                  - {label: Site, name: site, widget: string}
+                  - {label: Date, name: date, widget: string, default: '2019,03'}
+                  - {label: Long, name: long, widget: string}
+                  - {label: Description, name: desc, widget: string}
+                  - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
+      - label: 'Experiences'
+        name: 'Experiences'
+        file: '_data/experiences.yml'
+        fields:
+          - label: Items
+            name: items
+            widget: object
+            fields:
+              - label: Experiencias
+                name: es
+                widget: list
+                fields: 
+                  - {label: Nombre, name: name, widget: string}
+                  - {label: Sitio, name: site, widget: string}
+                  - {label: Fecha, name: date, widget: string, default: '2019,03'}
+                  - {label: Duracion, name: long, widget: string}
+                  - {label: Descripcion, name: desc, widget: string}
+                  - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
+              - label: Experiences
+                name: en
+                widget: list
+                fields: 
+                  - {label: Name, name: name, widget: string}
+                  - {label: Site, name: site, widget: string}
+                  - {label: Date, name: date, widget: string, default: '2019,03'}
+                  - {label: Long, name: long, widget: string}
+                  - {label: Description, name: desc, widget: string}
+                  - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
+      - label: 'Educations'
+        name: 'Educations'
+        file: '_data/educations.yml'
+        fields:
+          - label: Items
+            name: items
+            widget: object
+            fields:
+              - label: Educaciones
+                name: es
+                widget: list
+                fields: 
+                  - {label: Nombre, name: name, widget: string}
+                  - {label: Sitio, name: site, widget: string}
+                  - {label: Fecha, name: date, widget: string, default: '2019,03'}
+                  - {label: Duracion, name: long, widget: string}
+                  - {label: Descripcion, name: desc, widget: string}
+                  - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
+              - label: Educations
+                name: en
+                widget: list
+                fields: 
+                  - {label: Name, name: name, widget: string}
+                  - {label: Site, name: site, widget: string}
+                  - {label: Date, name: date, widget: string, default: '2019,03'}
+                  - {label: Long, name: long, widget: string}
+                  - {label: Description, name: desc, widget: string}
+                  - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}    
   # # - name: 'translations'
   #   label: 'Translations'
   #   file: '_data/translations.yml'
