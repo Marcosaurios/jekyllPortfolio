@@ -11,12 +11,15 @@ items:
     es:
     en:
   about:
+    skills:
+      es: 'Habilidades'
+      en: 'Skills'
     awards:
       es: 'Distinciones'
       en: 'Awards'
-  experiences:
-    es: 'Experiencias'
-    en: 'Experiences'  
-  educations:
-    es: 'Educaciones'
-    en: 'Educations'    
+    experiences:
+      es: 'Experiencias'
+      en: 'Experiences'  
+    educations:
+      es: 'Educaciones'
+      en: 'Educations'    

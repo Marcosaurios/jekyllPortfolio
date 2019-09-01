@@ -1,18 +1,15 @@
 items:
-  es: "Educaciones"
-  en: "Educations"
-  array:
-    es:
-      - name: "Ingenieria Multimedia"
-        site: "Universidad de Alicante"
-        date: "2019,01"
-        long: "5 años"
-        desc: "Descripcion en español" 
-        type: "education"
-    en:
-      - name: "Multimedia Engineering"
-        site: "University of Alicante"
-        date: "2019,01"
-        long: "5 years"
-        desc: "English desc." 
-        type: "education" 
+  es:
+    - name: "Ingenieria Multimedia"
+      site: "Universidad de Alicante"
+      date: "2019,01"
+      long: "5 años"
+      desc: "Descripcion en español" 
+      type: "education"
+  en:
+    - name: "Multimedia Engineering"
+      site: "University of Alicante"
+      date: "2019,01"
+      long: "5 years"
+      desc: "English desc." 
+      type: "education" 

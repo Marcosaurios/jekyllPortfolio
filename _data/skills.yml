@@ -1,19 +1,15 @@
 items:
-  es: "Habilidades"
-  en: "Skills"
-  top:
-  array:
-    - name: "Backend"
-      progress: 4
-    - name: "UX & UI"
-      progress: 4
-    - name: "Frontend"
-      progress: 3
-    - name: "Jekyll"
-      progress: 3
-    - name: "CSS"
-      progress: 4
-    - name: "WebGL"
-      progress: 4
-    - name: "NodeJS"
-      progress: 5
+  - name: "Backend"
+    progress: 4
+  - name: "UX & UI"
+    progress: 4
+  - name: "Frontend"
+    progress: 3
+  - name: "Jekyll"
+    progress: 3
+  - name: "CSS"
+    progress: 4
+  - name: "WebGL"
+    progress: 4
+  - name: "NodeJS"
+    progress: 5

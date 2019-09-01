@@ -1,18 +1,15 @@
 items:
-  es: "Experiencias"
-  en: "Experiences"
-  array:
-    es:
-      - name: "Backend developer"
-        site: "Loteria el Negrito"
-        date: "2019,03"
-        long: "3 meses"
-        desc: "Descripcion en español" 
-        type: "experience"
-    en:
-      - name: "Backend developer"
-        site: "Loteria el Negrito"
-        date: "2019,03"
-        long: "3 months"
-        desc: "English desc." 
-        type: "experience"
+  es:
+    - name: "Backend developer"
+      site: "Loteria el Negrito"
+      date: "2019,03"
+      long: "3 meses"
+      desc: "Descripcion en español" 
+      type: "experience"
+  en:
+    - name: "Backend developer"
+      site: "Loteria el Negrito"
+      date: "2019,03"
+      long: "3 months"
+      desc: "English desc." 
+      type: "experience"
