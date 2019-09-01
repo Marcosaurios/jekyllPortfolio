@@ -49,7 +49,7 @@ collections:
     - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA
   - name: 'about'
     label: 'About'
-    files:
+    fields:
       - label: 'Skills'
         name: 'Skills'
         file: '_data/skills.yml'
