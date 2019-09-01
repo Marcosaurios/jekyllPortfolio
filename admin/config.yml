@@ -54,8 +54,8 @@ collections:
         name: "Awards"
         file: "_data/awards.yml"
         fields:
-          - {label: ES Translation, name: es, widget: string}
-          - {label: EN Translation, name: en, widget: string}
+          - {label: ES Translation, name: es, widget: string, default: 'Distinciones'}
+          - {label: EN Translation, name: en, widget: string, default: 'Awards'}
           - label: Awards
             name: array
             widget: object
