@@ -54,23 +54,26 @@ collections:
         name: "Awards"
         file: "_data/awards.yml"
         fields:
-          - label: Reconocimientos
-            name: es
-            widget: list
-            fields:
-              - {label: Nombre, name: name, widget: string}
-              - {label: Sitio, name: site, widget: string}
-              - {label: Fecha, name: date, widget: string, default: '2019,03'}
-              - {label: Duracion, name: long, widget: string}
-              - {label: Descripcion, name: desc, widget: string}
-              - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
-          - label: Awards,
-            name: en,
-            widget: list
+          - label: Items
+            name: items
             fields: 
-              - {label: Name, name: name, widget: string}
-              - {label: Site, name: site, widget: string}
-              - {label: Date, name: date, widget: string, default: '2019,03'}
-              - {label: Long, name: long, widget: string}
-              - {label: Description, name: desc, widget: string}
-              - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
+              - label: Reconocimientos
+                name: es
+                widget: list
+                fields:
+                  - {label: Nombre, name: name, widget: string}
+                  - {label: Sitio, name: site, widget: string}
+                  - {label: Fecha, name: date, widget: string, default: '2019,03'}
+                  - {label: Duracion, name: long, widget: string}
+                  - {label: Descripcion, name: desc, widget: string}
+                  - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
+              - label: Awards
+                name: en,
+                widget: list
+                fields: 
+                  - {label: Name, name: name, widget: string}
+                  - {label: Site, name: site, widget: string}
+                  - {label: Date, name: date, widget: string, default: '2019,03'}
+                  - {label: Long, name: long, widget: string}
+                  - {label: Description, name: desc, widget: string}
+                  - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
