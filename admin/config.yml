@@ -49,7 +49,7 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA
   - name: 'about'
     label: 'About'
-    fields:
+    files:
       - label: 'Skills'
         name: 'Skills'
         file: '_data/skills.yml'
@@ -144,7 +144,7 @@ collections:
                   - {label: Long, name: long, widget: string}
                   - {label: Description, name: desc, widget: string}
                   - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}    
-  # # - name: 'translations'
+  # - name: 'translations'
   #   label: 'Translations'
   #   file: '_data/translations.yml'
   #   widget: object
