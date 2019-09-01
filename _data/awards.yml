@@ -1,7 +1,4 @@
 items:
-  es: "Distinciones"
-  en: "Awards"
-  array:
     es:
       - name: "Hackaton Telefonica"
         site: "Universidad de Alicante"

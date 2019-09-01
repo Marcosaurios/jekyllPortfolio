@@ -10,3 +10,13 @@ items:
   landing:
     es:
     en:
+  about:
+    awards:
+      es: 'Distinciones'
+      en: 'Awards'
+    experiences:
+      es: 'Experiencias'
+      en: 'Experiences'  
+    educations:
+      es: 'Educaciones'
+      en: 'Educations'    
