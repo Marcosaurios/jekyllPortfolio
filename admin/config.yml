@@ -56,6 +56,7 @@ collections:
         fields:
           - label: Items
             name: items
+            widget: object
             fields: 
               - label: Reconocimientos
                 name: es
@@ -68,7 +69,7 @@ collections:
                   - {label: Descripcion, name: desc, widget: string}
                   - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
               - label: Awards
-                name: en,
+                name: en
                 widget: list
                 fields: 
                   - {label: Name, name: name, widget: string}
