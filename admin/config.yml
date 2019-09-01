@@ -58,11 +58,11 @@ collections:
           - {label: EN Translation, name: en, widget: string}
           - label: Awards
             name: array
-            widget: list
+            widget: object
             fields:
               - label: Awards-es,
                 name: es,
-                widget: array
+                widget: list
                 fields: 
                   - {label: Nombre, name: name, widget: string}
                   - {label: Sitio, name: name, widget: string}
