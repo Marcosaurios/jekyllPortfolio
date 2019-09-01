@@ -29,9 +29,11 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Ref', name: 'ref', widget: 'string' }
+      - { label: 'Date', name: 'date', widget: 'datetime', default: '' }
       - { label: 'Language', name: 'lang', widget: 'string', default: 'es'}
       - { label: 'Author', name: 'author', widget: 'string' , default: 'Marcos'}
-      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', default: 'Marcos'}
+      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image'}
+      - { label: 'Skills', name: 'skills', widget: 'string', hint: 'HTML CSS JS'}
       - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA
   - name: 'pages'
     label: 'Pages'
