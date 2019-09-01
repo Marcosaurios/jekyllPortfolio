@@ -2,9 +2,13 @@
 layout: project
 title:  "Good weather bro"
 ref: firstproject
+date: 2016-03-30 09:48:44 +0100
 lang: en
 author: Marcos
 thumbnail: /assets/imgs/testimage.webp
+skills: "CSS HTML AJAX NODE"
+permalink: /:title
+
 ---
 English version of project1
 

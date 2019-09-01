@@ -8,6 +8,7 @@ lang: en
 author: Marcos
 thumbnail: "/assets/imgs/testimage.png"
 skills: "CSS HTML AJAX NODE"
+permalink: /:title
 ---
 English version of project1
 

@@ -8,6 +8,7 @@ lang: es
 author: Marcos
 thumbnail: "/assets/imgs/testimage.png"
 skills: "CSS HTML AJAX NODE"
+permalink: /:title
 ---
 9Hola que tal este post es de prueba
 
