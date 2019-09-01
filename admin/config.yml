@@ -47,3 +47,36 @@ collections:
     - { label: 'Language', name: 'lang', widget: 'string', default: 'es'}
     - { label: 'Permalink', name: 'permalink', widget: 'string'}
     - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA
+  - label: 'about'
+    name: 'about'
+    files:
+      - label: "Awards"
+        name: "Awards"
+        file: "_data/awards.yml"
+        fields:
+          - {label: ES Translation, name: es, widget: string}
+          - {label: EN Translation, name: en, widget: string}
+          - label: Awards
+            name: array
+            widget: list
+            fields:
+              - label: Awards-es,
+                name: es,
+                widget: array
+                fields: 
+                  - {label: Nombre, name: name, widget: string}
+                  - {label: Sitio, name: name, widget: string}
+                  - {label: Fecha, name: name, widget: string, default: '2019,03'}
+                  - {label: Duracion, name: long, widget: string}
+                  - {label: Descripcion, name: desc, widget: string}
+                  - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
+              - label: Awards-en,
+                name: en,
+                widget: array
+                fields: 
+                  - {label: Name, name: name, widget: string}
+                  - {label: Site, name: site, widget: string}
+                  - {label: Date, name: date, widget: string, default: '2019,03'}
+                  - {label: Long, name: long, widget: string}
+                  - {label: Description, name: desc, widget: string}
+                  - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
