@@ -65,8 +65,8 @@ collections:
                 widget: list
                 fields: 
                   - {label: Nombre, name: name, widget: string}
-                  - {label: Sitio, name: name, widget: string}
-                  - {label: Fecha, name: name, widget: string, default: '2019,03'}
+                  - {label: Sitio, name: site, widget: string}
+                  - {label: Fecha, name: date, widget: string, default: '2019,03'}
                   - {label: Duracion, name: long, widget: string}
                   - {label: Descripcion, name: desc, widget: string}
                   - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
