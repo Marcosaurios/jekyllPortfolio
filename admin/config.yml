@@ -12,13 +12,13 @@ collections:
     editor:
       preview: true
     fields:
-    - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-    - { label: 'Title', name: 'title', widget: 'string' }
-    - { label: 'Ref', name: 'ref', widget: 'string' }
-    - { label: 'Language', name: 'lang', widget: 'string', default: 'es'}
-    - { label: 'Author', name: 'author', widget: 'string' , default: 'Marcos'}
-    - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', default: 'Marcos'}
-    - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Ref', name: 'ref', widget: 'string' }
+      - { label: 'Language', name: 'lang', widget: 'string', default: 'es'}
+      - { label: 'Author', name: 'author', widget: 'string' , default: 'Marcos'}
+      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', default: 'Marcos'}
+      - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA
   - name: 'projects'
     label: 'Projects'
     folder: '_projects/'
@@ -26,13 +26,13 @@ collections:
     editor:
       preview: true
     fields:
-    - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-    - { label: 'Title', name: 'title', widget: 'string' }
-    - { label: 'Ref', name: 'ref', widget: 'string' }
-    - { label: 'Language', name: 'lang', widget: 'string', default: 'es'}
-    - { label: 'Author', name: 'author', widget: 'string' , default: 'Marcos'}
-    - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', default: 'Marcos'}
-    - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Ref', name: 'ref', widget: 'string' }
+      - { label: 'Language', name: 'lang', widget: 'string', default: 'es'}
+      - { label: 'Author', name: 'author', widget: 'string' , default: 'Marcos'}
+      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image', default: 'Marcos'}
+      - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA
   - name: 'pages'
     label: 'Pages'
     folder: '/'
@@ -40,13 +40,13 @@ collections:
     editor:
       preview: true
     fields:
-    - { label: 'Title', name: 'title', widget: 'string' }
-    - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-    - { label: 'Author', name: 'author', widget: 'string' , default: 'Marcos'}
-    - { label: 'Ref', name: 'ref', widget: 'string' }
-    - { label: 'Language', name: 'lang', widget: 'string', default: 'es'}
-    - { label: 'Permalink', name: 'permalink', widget: 'string'}
-    - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Author', name: 'author', widget: 'string' , default: 'Marcos'}
+      - { label: 'Ref', name: 'ref', widget: 'string' }
+      - { label: 'Language', name: 'lang', widget: 'string', default: 'es'}
+      - { label: 'Permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA
   - name: 'about'
     label: 'About'
     fields:
