@@ -1,13 +1,10 @@
 ---
 layout: post
-title:  "Good weather bro"
+title: Good weather bro
 ref: firstproject
-date: 2016-03-30 09:48:44 +0100
-categories: 
 lang: en
 author: Marcos
-thumbnail: "/assets/imgs/testimage.png"
-skills: "CSS HTML AJAX NODE"
+thumbnail: /assets/imgs/testimage.webp
 ---
 English version of project1
 
