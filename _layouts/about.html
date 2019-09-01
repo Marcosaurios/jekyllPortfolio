@@ -14,11 +14,11 @@ layout: default
             <input type="checkbox" id="skills">
             <label for="skills">
                 <h2>
-                    ./{{ site.data.translations.about.skills[page.lang] }}
+                    ./{{ site.data.translations.items.about.skills[page.lang] }}
                 </h2>
             </label>
             <div class="values">
-                {%- for skill in site.data.skills.items.array -%}
+                {%- for skill in site.data.skills.items -%}
                     {%- if forloop.index <= 3 -%}
                     <div class="top">
                         <p> {{ skill.name }} </p>
@@ -38,15 +38,15 @@ layout: default
         <input type="checkbox" name="educations" id="educations" checked>
         <input type="checkbox" name="experiences" id="experiences" checked>
         <input type="checkbox" name="awards" id="awards" checked>
-        <label for="experiences" class="clickable"> {{ site.data.translations.about.experiences[page.lang] }} </label>
-        <label for="educations" class="clickable"> {{ site.data.translations.about.educations[page.lang] }} </label>
-        <label for="awards" class="clickable"> {{ site.data.translations.about.awards[page.lang] }} </label>
+        <label for="experiences" class="clickable"> {{ site.data.translations.items.about.experiences[page.lang] }} </label>
+        <label for="educations" class="clickable"> {{ site.data.translations.items.about.educations[page.lang] }} </label>
+        <label for="awards" class="clickable"> {{ site.data.translations.items.about.awards[page.lang] }} </label>
         
         {% assign items = "" | split: "" %}
-        {%- for experience in site.data.experiences.items.array[page.lang] -%}
+        {%- for experience in site.data.experiences.items[page.lang] -%}
             {% assign items = items | push: experience %}
         {%- endfor -%}
-        {%- for education in site.data.educations.items.array[page.lang] -%}
+        {%- for education in site.data.educations.items[page.lang] -%}
             {% assign items = items | push: education %}
         {%- endfor -%}
         {%- for award in site.data.awards.items[page.lang] -%}

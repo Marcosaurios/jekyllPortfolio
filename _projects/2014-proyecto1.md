@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title:  "Muy buen tiempo oye"
 ref: firstproject
 date: 2016-03-30 09:48:44 +0100

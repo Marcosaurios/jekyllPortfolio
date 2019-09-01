@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Good weather bro
+layout: project
+title:  "Good weather bro"
 ref: firstproject
 lang: en
 author: Marcos
