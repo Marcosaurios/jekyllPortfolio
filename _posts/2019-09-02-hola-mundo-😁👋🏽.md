@@ -4,6 +4,7 @@ title: "Hola mundo! \U0001F601\U0001F44B\U0001F3FD"
 ref: helloworld
 lang: es
 author: Marcos
+date: '2019-09-02'
 thumbnail: /assets/imgs/meSelfieKite.webp
 ---
 Hola! 
