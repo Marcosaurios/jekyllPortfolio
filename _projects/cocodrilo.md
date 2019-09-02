@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Cocodrilo
-ref: crocodrile
-date: 2019-01-04T16:00:00.000Z
+ref: croco
+date: 2019-01-03T16:00:00.000Z
 lang: es
 author: Marcos
 thumbnail: /assets/imgs/crocoSide.webp
