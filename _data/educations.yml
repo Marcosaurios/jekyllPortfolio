@@ -11,9 +11,8 @@ items:
       type: education
     - date: '2019,08'
       desc: >-
-        A scholarship from University of Alicante, let me finish my bachelor
-        degree in City University of Hong Kong. I'm studying big data subjects,
-        UI/UX, Artificial Intelligence and Internet security. 
+        Finishing my bachelor degree in City University of Hong Kong, studying
+        big data, UI/UX, Artificial Intelligence and web security subjects. 
       long: 'Actual '
       name: Computer Science
       site: Hong Kong CityU
@@ -30,10 +29,9 @@ items:
       type: education
     - date: '2019,08'
       desc: >-
-        Mediante una beca de la Universidad de Alicante, finalizo mis estudios
-        del grado en Ingeniería Multimedia en la City University de Hong Kong.
-        Asignaturas de big data, UI/UX, Inteligencia Artificial y seguridad en
-        Internet. 
+        Finalización del grado en Ingeniería Multimedia en la City University de
+        Hong Kong, cursando asignaturas de big data, UI/UX, Inteligencia
+        Artificial y seguridad en Internet. 
       long: Actual
       name: Computer Science
       site: Hong Kong CityU
