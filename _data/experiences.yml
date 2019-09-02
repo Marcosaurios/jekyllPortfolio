@@ -1,15 +1,31 @@
 items:
-  es:
-    - name: "Backend developer"
-      site: "Loteria el Negrito"
-      date: "2019,03"
-      long: "3 meses"
-      desc: "Descripcion en español" 
-      type: "experience"
   en:
-    - name: "Backend developer"
-      site: "Loteria el Negrito"
-      date: "2019,03"
-      long: "3 months"
-      desc: "English desc." 
-      type: "experience"
+    - date: '2019,03'
+      desc: >-
+        It has been my first opportunity as Multimedia Engineer. Loteria el
+        Negrito it's one of the 40 biggest lottery administrations in Spain,
+        selling lottery tickets since more than 100 years ago. I've been working
+        as Backend developer, deploying API and mysql servers, and most of my
+        time developing Node API. We've been working with biometric
+        recognitions, like face and DNI, lottery ticket recognitions, web
+        scrapping and tpv payments. Those have been the most interesting things
+        during those 3 months. 
+      long: 3 months
+      name: Backend developer
+      site: Loteria el Negrito
+      type: experience
+  es:
+    - date: '2019,03'
+      desc: >-
+        Mi primera oportunidad como ingeniero multimedia, fue como desarrollador
+        de backend en esta administración de lotería. Una de las 40 más grandes
+        en España y con más de 100 años vendiendo decimos en la provincia de
+        Alicante. Durante 3 meses me he encargado del backend, con tareas como
+        desplegar servidores API o mysql, y sobretodo desarrollar la API de las
+        apps, Scrapping de webs sin API, pagos con TPV, identificaciones
+        biometricas, reconocimiento facial y de DNI, entre otras cosas han sido
+        los retos más entretenidos para mí. 
+      long: 3 meses
+      name: Backend developer
+      site: Loteria el Negrito
+      type: experience
