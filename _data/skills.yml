@@ -7,15 +7,19 @@ items:
     progress: 3
   - name: Jekyll
     progress: 4
+  - name: WordPress
+    progress: 5
   - name: CSS
-    progress: 4
-  - name: WebGL
     progress: 4
   - name: NodeJS
     progress: 5
-  - name: Typescript
-    progress: 3
-  - name: Blender
-    progress: 4
   - name: ElasticSearch stack
     progress: 2
+  - name: Typescript
+    progress: 3
+  - name: WebGL
+    progress: 4
+  - name: Blender
+    progress: 4
+  - name: 3Ds Max
+    progress: 3
