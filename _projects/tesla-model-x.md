@@ -16,14 +16,14 @@ This was my 3rd car modeled in Blender. It took me a whole summer to finish but 
 
 And here I leave my progression modeling Blender cars... starting with the lambo, was the first one, I improved it in terms of shaping and reflections.
 
-First one (late 2017):
+## First one (late 2017):
 
 ![First lambo modeled](/assets/imgs/car1.webp "First lambo modeled")
 
-Second one (mid 2018):
+## Second one (mid 2018):
 
 ![Second lambo modeled](/assets/imgs/car2.webp "Second lambo modeled")
 
-Third one (late 2018):
+## Third one (late 2018):
 
 ![Third car modeled](/assets/imgs/car3.webp "Third car modeled")
