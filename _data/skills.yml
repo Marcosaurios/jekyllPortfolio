@@ -1,15 +1,15 @@
 items:
-  - name: "Backend"
+  - name: Backend
     progress: 4
-  - name: "UX & UI"
+  - name: UX & UI
     progress: 4
-  - name: "Frontend"
+  - name: Frontend
     progress: 3
-  - name: "Jekyll"
-    progress: 3
-  - name: "CSS"
+  - name: Jekyll
     progress: 4
-  - name: "WebGL"
+  - name: CSS
     progress: 4
-  - name: "NodeJS"
+  - name: WebGL
+    progress: 4
+  - name: NodeJS
     progress: 5
