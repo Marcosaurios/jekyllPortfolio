@@ -16,14 +16,14 @@ Este es el tercer coche modelado en Blender. Tardé 3 meses en terminarlo, pero 
 
 Aquí está la progresión seguida con los 3 primeros modelados. Se puede notar la diferencia... 😅todo mejora! 😁👏🏽
 
-## Primer modelo:
+## Primer modelo (finales 2017):
 
 ![Primer lamborghini](/assets/imgs/car1.webp "Primer lamborghini")
 
-## Segundo modelo:
+## Segundo modelo (mitad 2018):
 
 ![Segundo lamborghini](/assets/imgs/car2.webp "Segundo lamborghini")
 
-## Tercer modelo:
+## Tercer modelo (finales 2018):
 
 ![Tercer coche ](/assets/imgs/car3.webp "Tercer coche ")
