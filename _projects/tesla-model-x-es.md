@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tesla Model X es
+title: Tesla Model X
 ref: teslamodelx
 date: 2018-09-08T16:00:00.000Z
 lang: es
