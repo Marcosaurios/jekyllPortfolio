@@ -14,7 +14,7 @@ layout: default
             <input type="checkbox" id="skills">
             <label for="skills">
                 <h2>
-                    ./{{ site.data.translations.items.about.skills[page.lang] }}
+                    ./{{ site.data.translations.items.about.skills[page.lang] | downcase }}}}
                 </h2>
             </label>
             <div class="values">
@@ -34,7 +34,7 @@ layout: default
             </div>
     </div>
     <div id="timeline">
-        <h2>./Timeline</h2>
+        <h2>./timeline</h2>
         <input type="checkbox" name="educations" id="educations" checked>
         <input type="checkbox" name="experiences" id="experiences" checked>
         <input type="checkbox" name="awards" id="awards" checked>
