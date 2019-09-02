@@ -92,12 +92,12 @@ body[anim] footer {
 
 @keyframes fading1 {
     0% {opacity: 0;}
-    100% {opacity: 1; transform:translateX( calc(50% - 1em) );}
+    100% {opacity: 1; transform:translateX( calc(50% - 1.25em) );}
 }
 
 @keyframes fading2 {
     0% {opacity: 0;}
-    100% {opacity: 1; transform:translateX( calc(50% - 2em) );}
+    100% {opacity: 1; transform:translateX( calc(50% - 75px) );}
 }
 
 @keyframes fading3 {
