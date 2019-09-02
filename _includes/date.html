@@ -1,6 +1,6 @@
 {% assign day = include.date | date: "%-d" %}
 {% assign month = include.date | date: "%-m" %}
-{% if page.lang == 'es' %}
+{% if page.lang == ''es'' %}
 <!-- 23 Abril 2019 -->
     {{ day }} de
     {% case month %}
@@ -20,7 +20,8 @@
     {{ include.date | date: "%Y" }}
 
 {% elsif page.lang == 'en' %}
-<!-- April 23 2019 -->
+<!-- 23 April 2019 -->
+{{ day }}
 {% case month %}
     {% when  '1' %}January 
     {% when  '2' %}February 
@@ -35,6 +36,5 @@
     {% when '11' %}November 
     {% when '12' %}December 
 {% endcase %}
-{{ day }} 
 {{ include.date | date: "%Y" }}
 {% endif %}
