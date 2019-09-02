@@ -8,6 +8,14 @@ items:
       name: Hackaton Telefonica
       site: Universidad de Alicante
       type: award
+    - date: '2018,10'
+      desc: >-
+        Hidraqua award for developing the most optimal solution in big data
+        management branch in a dashboard.
+      long: 2 days
+      name: Hackaton Torrevieja
+      site: Torrevieja
+      type: award
   es:
     - date: '2019,03'
       desc: >-
@@ -16,4 +24,12 @@ items:
       long: 2 días
       name: Hackaton Telefonica
       site: Universidad de Alicante
+      type: award
+    - date: '2018,10'
+      desc: >-
+        Premio Hidraqua por aportar la solución más efectiva en cuanto al
+        tratamiento y gestión de big data en un cuadro de mandos.
+      long: 2 días
+      name: Hackaton Torrevieja
+      site: Torrevieja
       type: award
