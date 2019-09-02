@@ -13,7 +13,7 @@ items:
     progress: 4
   - name: NodeJS
     progress: 5
-  - name: ElasticSearch stack
+  - name: ElasticSearch
     progress: 2
   - name: Typescript
     progress: 3
