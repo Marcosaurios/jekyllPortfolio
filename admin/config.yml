@@ -108,7 +108,7 @@ collections:
                   - {label: Fecha, name: date, widget: string, default: '2019,03'}
                   - {label: Duracion, name: long, widget: string}
                   - {label: Descripcion, name: desc, widget: string}
-                  - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
+                  - {label: Type, name: type, widget: select, options: ['experience'], default: 'experience'}
               - label: Experiences
                 name: en
                 widget: list
@@ -118,7 +118,7 @@ collections:
                   - {label: Date, name: date, widget: string, default: '2019,03'}
                   - {label: Long, name: long, widget: string}
                   - {label: Description, name: desc, widget: string}
-                  - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
+                  - {label: Type, name: type, widget: select, options: ['experience'], default: 'experience'}
       - label: 'Educations'
         name: 'Educations'
         file: '_data/educations.yml'
@@ -136,7 +136,7 @@ collections:
                   - {label: Fecha, name: date, widget: string, default: '2019,03'}
                   - {label: Duracion, name: long, widget: string}
                   - {label: Descripcion, name: desc, widget: string}
-                  - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
+                  - {label: Type, name: type, widget: select, options: ['education'], default: 'education'}
               - label: Educations
                 name: en
                 widget: list
@@ -146,7 +146,7 @@ collections:
                   - {label: Date, name: date, widget: string, default: '2019,03'}
                   - {label: Long, name: long, widget: string}
                   - {label: Description, name: desc, widget: string}
-                  - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}    
+                  - {label: Type, name: type, widget: select, options: ['education'], default: 'education'}    
   # - name: 'translations'
   #   label: 'Translations'
   #   file: '_data/translations.yml'
