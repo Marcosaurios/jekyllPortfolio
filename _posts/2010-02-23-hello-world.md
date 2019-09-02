@@ -6,4 +6,4 @@ lang: en
 author: Marcos
 thumbnail: /assets/imgs/meSelfieKite.webp
 ---
-Hi! This is my first post
+Hi! This is my first post. :)
