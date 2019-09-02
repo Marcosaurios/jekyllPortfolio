@@ -1,15 +1,40 @@
 items:
-  es:
-    - name: "Ingenieria Multimedia"
-      site: "Universidad de Alicante"
-      date: "2019,01"
-      long: "5 años"
-      desc: "Descripcion en español" 
-      type: "education"
   en:
-    - name: "Multimedia Engineering"
-      site: "University of Alicante"
-      date: "2019,01"
-      long: "5 years"
-      desc: "English desc." 
-      type: "education" 
+    - date: '2019,01'
+      desc: >-
+        Multimedia Engineering Bachelor focused on content management and web
+        development. I also took some 3D subjects related to organic modeling,
+        rigging and environment design. 
+      long: 5 years
+      name: Multimedia Engineering
+      site: University of Alicante
+      type: education
+    - date: '2019,08'
+      desc: >-
+        A scholarship from University of Alicante, let me finish my bachelor
+        degree in City University of Hong Kong. I'm studying big data subjects,
+        UI/UX, Artificial Intelligence and Internet security. 
+      long: 'Actual '
+      name: Computer Science
+      site: Hong Kong CityU
+      type: education
+  es:
+    - date: '2019,01'
+      desc: >-
+        Grado en Ingeniería Multimedia, centrado en la rama de Gestión de
+        Contenidos y desarrollo web, sin perder el ojo a tecnologías 3D
+        orientadas a videojuegos. 
+      long: 5 años
+      name: Ingenieria Multimedia
+      site: Universidad de Alicante
+      type: education
+    - date: '2019,08'
+      desc: >-
+        Mediante una beca de la Universidad de Alicante, finalizo mis estudios
+        del grado en Ingeniería Multimedia en la City University de Hong Kong.
+        Asignaturas de big data, UI/UX, Inteligencia Artificial y seguridad en
+        Internet. 
+      long: Actual
+      name: Computer Science
+      site: Hong Kong CityU
+      type: education
