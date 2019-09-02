@@ -2,11 +2,9 @@ items:
   en:
     - date: '2019,03'
       desc: >-
-        It has been my first opportunity as Multimedia Engineer. I've been
-        working as Backend developer, deploying API and mysql servers, and most
-        of my time developing Node API. We've been working with biometric
-        recognitions, like face and DNI, lottery ticket recognitions, web
-        scrapping and tpv payments. 
+        Developing and deploying Node Typescript API with its mysql servers.
+        We've been working with biometric recognitions, like face and DNI,
+        lottery ticket recognitions, web scrapping and tpv payments. 
       long: 3 months
       name: Backend developer
       site: Loteria el Negrito
@@ -14,11 +12,10 @@ items:
   es:
     - date: '2019,03'
       desc: >-
-        Mi primera oportunidad como ingeniero Multimedia, ha sido como
-        desarrollador backend, con tareas como desplegar servidores API o mysql,
-        y sobretodo desarrollar la API de las apps, Scrapping de webs sin API,
-        pagos con TPV, identificaciones biometricas, reconocimiento facial y de
-        DNI,  han sido los retos más entretenidos para mí. 
+        Desarrollo de las APIs en Node Typescript y despliegue de servidores API
+        y mysql, cumpliendo objetivos como scrapping de webs, pagos con TPV,
+        identificaciones biométricas, reconocimiento facial y de DNI, han sido
+        los retos más entretenidos para mí. 
       long: 3 meses
       name: Backend developer
       site: Loteria el Negrito
