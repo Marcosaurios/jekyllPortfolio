@@ -1,0 +1,31 @@
+---
+layout: post
+title: Tesla Model X
+ref: teslamodelx
+date: 2018-09-08T16:00:00.000Z
+lang: en
+author: Marcos
+thumbnail: /assets/imgs/car3.webp
+skills: Blender
+---
+This was my 3rd car modeled in Blender. It took me a whole summer to finish but I reached good results. I need to improve even more the reflexions and the shiny parts, but I will make it better the next time. 
+
+![Front tesla](/assets/imgs/car3.webp "Front Tesla Model X")
+
+![Back side view of Tesla Model X](/assets/imgs/teslaModelXFront.webp "Back side view Tesla Model X")
+
+![Side Tesla Model X](/assets/imgs/teslaModelXSide.webp "Side Tesla Model X")
+
+And here I leave my progression modeling Blender cars... starting with the lambo, was the first one, I improved it in terms of shaping and reflections.
+
+First one:
+
+![First lambo modeled](/assets/imgs/car1.webp "First lambo modeled")
+
+Second one:
+
+![Second lambo modeled](/assets/imgs/car2.webp "Second lambo modeled")
+
+Third one:
+
+![Third car modeled](/assets/imgs/car3.webp "Third car modeled")
