@@ -6,7 +6,7 @@ items:
         development. I also took some 3D subjects related to organic modeling,
         rigging and environment design. 
       long: 5 years
-      name: Multimedia Engineering
+      name: BS Multimedia Engineering
       site: University of Alicante
       type: education
     - date: '2019,08'
@@ -14,7 +14,7 @@ items:
         Finishing my bachelor degree in City University of Hong Kong, studying
         big data, UI/UX, Artificial Intelligence and web security subjects. 
       long: 'Actual '
-      name: Computer Science
+      name: BS Computer Science
       site: Hong Kong CityU
       type: education
   es:
@@ -24,7 +24,7 @@ items:
         Contenidos y desarrollo web, sin perder el ojo a tecnologías 3D
         orientadas a videojuegos. 
       long: 5 años
-      name: Ingenieria Multimedia
+      name: Grado en Ingenieria Multimedia
       site: Universidad de Alicante
       type: education
     - date: '2019,08'
@@ -33,6 +33,6 @@ items:
         Hong Kong, cursando asignaturas de big data, UI/UX, Inteligencia
         Artificial y seguridad en Internet. 
       long: Actual
-      name: Computer Science
+      name: Grado en Informática
       site: Hong Kong CityU
       type: education
