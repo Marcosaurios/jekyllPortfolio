@@ -1,18 +1,19 @@
 ---
 layout: post
-title: "Hello world! \U0001F601\U0001F44B\U0001F3FD"
+title: "Hola mundo! \U0001F601\U0001F44B\U0001F3FD"
 ref: helloworld
 lang: es
 author: Marcos
 date: 2019-09-01T16:00:00.000Z
 thumbnail: /assets/imgs/meSelfieKite.webp
 ---
-Hi! 
+Hola! 
 
-Welcome to this web's first post! Before continue, if you don't know who I am it's quite strange that you're reading this, but don't worry because I think a introduction it's needed. I'm Marcos Urios, a guy interested in sports, 3D modelling and web development. I really enjoy discovering new things, so I could define myself as a curious and explorer person.
+Bienvenido a la primera entrada de esta web. Antes de nada, si no me conoces es extraño que estés leyendo esto, pero una presentación creo que es adecuada. Soy Marcos Urios, un chico interesado en el deporte, modelado 3D y el desarrollo web. Realmente me llama la atención cualquier campo que desconozca (que no serán pocos), por lo que podría definirme como una persona curiosa y exploradora.
 
-When I'm not thinking about any work to do (it's quite difficult nowadays), I like to free my mind surfing or kitesurfing with my friends. In those sports you depened of the weather conditions (_unpredictable_) and you need to be ready for any situation you'll find, just for when it comes, be able to face it and overpass it. I like thinking like this because it's kind of how life works, but in the perspective of a game, playing those sports (not at the same level, obviously).
+Cuando no tengo la mente en algún trabajo pendiente (cosa que es difícil), me gusta despejarme surfeando o haciendo kitesurf con mis amigos. Son deportes en los que dependes de las condiciones meteorológicas (_impredecibles_) y necesitas estar preparado para cualquier cosa que venga por delante, para entonces cuando llegue, saber cómo afrontarlo. Me gusta pensar así porque es como un reflejo de lo que es la vida, pero vista desde una especie de juego, como pueden ser estos deportes (no a la misma escala, evidentemente).
 
-> In this blog you'll find interesting posts about web development, news, videogames or even any other fact about me.
+> Este será un blog en el que publique contenido interesante acerca del desarrollo web, novedades, videojuegos o incluso sobre algún que otro aspecto de mi vida.
 
-Finally, I would like to dedicate this personal project just lift off to my family, specially to my grandparents. Thanks to everyone for giving to this dune your grain of sand.
+Finalmente, me gustaría dedicar este proyecto personal que acaba de despegar a mi familia, en especial a mis queridos abuelos y abuelas. Gracias a cada uno de vosotros por aportar siempre vuestro _distinto_ granito de arena a esta incipiente duna ubicada en algún lugar del desierto.
+
