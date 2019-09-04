@@ -1,5 +1,5 @@
 
-body[anim] p:nth-of-type(1) {
+body.anim p:nth-of-type(1) {
     opacity: 0;
 
     animation-delay: 0s;
@@ -10,7 +10,7 @@ body[anim] p:nth-of-type(1) {
 
     margin: .3em;
 }
-body[anim] p:nth-of-type(2) {
+body.anim p:nth-of-type(2) {
     opacity: 0;
 
     animation-delay: 1.2s;
@@ -22,7 +22,7 @@ body[anim] p:nth-of-type(2) {
 }
 
 // Name
-body[anim] p:nth-of-type(3) {
+body.anim p:nth-of-type(3) {
     opacity: 0;
 
     animation-delay: 1.6s;
@@ -36,7 +36,7 @@ body[anim] p:nth-of-type(3) {
     // width: fit-content;
     // text-align: center;
 }
-body[anim] p:nth-of-type(4) {
+body.anim p:nth-of-type(4) {
     opacity: 0;
 
     animation-delay: 1.8s;
@@ -50,7 +50,7 @@ body[anim] p:nth-of-type(4) {
     // width: fit-content;
     // text-align: center;
 }
-body[anim] p:nth-of-type(5) {
+body.anim p:nth-of-type(5) {
     opacity: 0;
 
     animation-delay: 2s;
@@ -66,7 +66,7 @@ body[anim] p:nth-of-type(5) {
 }
 
 // End
-body[anim] p:nth-of-type(6) {
+body.anim p:nth-of-type(6) {
     opacity: 0;
 
     animation-delay: 2.6s;
@@ -78,7 +78,7 @@ body[anim] p:nth-of-type(6) {
     text-align: center;
 }
 
-body[anim] footer {
+body.anim footer {
     opacity: 0;
 
     animation-delay: 2.9s;

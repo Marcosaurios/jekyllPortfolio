@@ -7,11 +7,24 @@ notificationColor: 172433
 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: https://www.marcosurios.com # the base hostname & protocol for your site
-# url: /
+
+social:
+  name: Marcos Urios
+  links:
+    - https://twitter.com/Marcosaurios
+    - https://www.facebook.com/marcos.urios
+    - https://www.linkedin.com/in/marcosurios
+    - https://github.com/Marcosaurios
+    - https://www.artstation.com/marcosaurios
+
+twitter:
+  username: marcosaurios
+  card: summary
+
 twitter_username: Marcosaurios
 linkedin_username: marcosurios
 github_username:  Marcosaurios
-artstation_usermane: marcosaurios
+artstation_username: marcosaurios
 sketchfab_username: marcosaurios
 
 
