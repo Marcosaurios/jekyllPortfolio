@@ -17,6 +17,21 @@
     <script> window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-106315954-1');</script>
 
     <meta name="theme-color" content="#{{site.notificationColor}}" />
-    <title> {{ site.title}} </title>
     {% seo %}
+
+    {% assign actual_lang = page.lang %}
+    {% assign language_url = '' %}
+    {% assign pages = site.pages | where: "ref", page.ref | sort: "lang" %}
+
+    {% for pagei in pages %}
+        {% if pagei.lang != actual_lang %}<link rel="alternate" hreflang="{% if actual_lang == 'es' %}en{% else %}es{% endif %}" href="{{pagei.url | absolute_url}}"/>{% assign language_url = pagei.url | absolute_url %}{% endif %}
+    {% endfor %}
+    {% assign posts = site.posts | where:"ref", page.ref | sort: "lang" %}
+    {% for post in posts %}
+        {% if post.lang == actual_lang %}{% else %}<link rel="alternate" hreflang="{% if post.lang == 'es' %}en{% else %}es{% endif %}" href="{{post.url | absolute_url}}"/>{% assign language_url = post.url | absolute_url %}{% endif %}
+    {% endfor %}
+    {% assign projects = site.projects | where:"ref", page.ref | sort: "lang" %}
+    {% for project in projects %}
+        {% if project.lang == actual_lang %}{% else %}<link rel="alternate" hreflang="{% if project.lang == 'es' %}en{% else %}es{% endif %}" href="{{project.url | absolute_url}}"/>{% assign language_url = project.url | absolute_url %}{% endif %}
+    {% endfor %}
 </head>

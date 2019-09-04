@@ -1,15 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang={{page.lang}}>
 
     {% include head.html %}
-
-    <!-- {% if page.ref == 'index' %} {% include landingscripts.html %} {% endif %} -->
     
 <body ontouchstart {% if page.ref == 'index' %} anim {% endif %}>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQ6DVCC"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQ6DVCC"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     {% include header.html %}
 
     <div class="content">
