@@ -10,7 +10,8 @@ collections:
     label: 'Blog'
     folder: '_posts/'
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{title}}"
+    delete: true
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.ref}}-{{fields.lang}}"
     editor:
       preview: true
     fields:
@@ -26,6 +27,8 @@ collections:
     label: 'Projects'
     folder: '_projects/'
     create: true
+    delete: true
+    slug: "{{fields.ref}}-{{fields.lang}}"
     editor:
       preview: true
     fields:
