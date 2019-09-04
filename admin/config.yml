@@ -16,6 +16,7 @@ collections:
       preview: true
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Permalink', name: 'permalink', widget: 'string', default: 'blog-es/:year/:month/:day/:title', hint: 'Change blog-es to blog-en' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Ref', name: 'ref', widget: 'string' }
       - { label: 'Language', name: 'lang', widget: 'string', default: 'es'}
@@ -33,11 +34,12 @@ collections:
       preview: true
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Permalink', name: 'permalink', widget: 'string', default: 'projects/:title', hint: 'Change to proyectos' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Ref', name: 'ref', widget: 'string' }
-      - { label: 'Date', name: 'date', widget: 'datetime', default: '' }
       - { label: 'Language', name: 'lang', widget: 'string', default: 'es'}
       - { label: 'Author', name: 'author', widget: 'string' , default: 'Marcos'}
+      - { label: 'Date', name: 'date', widget: 'datetime', default: '' }
       - { label: 'Thumbnail', name: 'thumbnail', widget: 'image'}
       - { label: 'Skills', name: 'skills', widget: 'string', hint: 'HTML CSS JS'}
       - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA

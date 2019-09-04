@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: blog-es/:year/:month/:day/:title
 title: "Hola mundo! \U0001F601\U0001F44B\U0001F3FD"
 ref: helloworld
 lang: es

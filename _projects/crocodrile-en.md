@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /projects/:title
 title: Crocodrile
 ref: crocodrile
 date: 2019-01-02T16:00:00.000Z
