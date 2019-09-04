@@ -2,14 +2,11 @@
 title: Marcos Urios Portfolio
 notificationColor: 172433
 
-## Site settings
-*global_url: https://www.marcosurios.com
-
 ## Deploy: origin_url: sitename
 ## Local: origin_url: /
 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: *global_url # the base hostname & protocol for your site
+url: https://www.marcosurios.com # the base hostname & protocol for your site
 # url: /
 twitter_username: Marcosaurios
 linkedin_username: marcosurios
