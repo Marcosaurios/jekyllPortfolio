@@ -2,11 +2,10 @@
 title: Indice
 layout: index
 author: Marcos
-permalink: /indice
-lang: es
 ref: index
+lang: es
+permalink: /indice
 ---
-
 Hola!
 
 Soy
@@ -15,6 +14,6 @@ Marcos
 
 Urios
 
-Gomez
+Gómez
 
-un ingeniero multimedia interdisciplinar 
+un ingeniero multimedia interdisciplinar
