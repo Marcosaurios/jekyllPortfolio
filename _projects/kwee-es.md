@@ -5,7 +5,7 @@ title: Kwee
 ref: kwee
 lang: en
 author: Marcos
-date: 2019-05-19T16:00:00.000Z
+date: 2019-05-27T16:00:00.000Z
 thumbnail: /assets/imgs/kwee_final.gif
 skills: Elastic Angular Node WebGL
 ---
