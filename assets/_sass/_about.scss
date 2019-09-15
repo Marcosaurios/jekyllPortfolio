@@ -78,10 +78,11 @@ div.extend{
             display: flex;
             flex: 0 0 50%;
             // justify-content: flex-end;            
-            justify-content: center;            
+            justify-content: space-between;
+            padding: 3px 8px;            
             color: $secondWhiteColor;
             align-items: center;
-            p { margin: 0 10px 0 0  }
+            p { margin: 0 10px 0 0; }
 
             // padding: 0 3em 0 0;         
         }
@@ -255,20 +256,28 @@ input[type="checkbox"]:not(:checked)#awards ~ label[for="awards"]
             padding: 1em 3em;
         }
     }
-    div.extend{
-        input + label + div {
-            div.mini {
-                // right padding;
-                padding: 0 6em 0 0em;
 
-            }
-            div.mini:nth-child(even) {
-                // left
-                padding: 0 0 0 3em;
-
-            }
-        }   
+    div.extend {
+        div.mini {
+            padding: 3px 67px;
+        }
     }
+    // div.extend{
+    //     input + label + div {
+    //         div.mini {
+    //             // right padding;
+    //             padding: 0 6em 0 0em;
+
+    //         }
+    //         div.mini:nth-child(even) {
+    //             // left
+    //             padding: 0 0 0 3em;
+
+    //         }
+    //     }   
+    // }
+
+
     // div#timeline .timeitem span{
     //     transform: translateY(-17px) translateX(-42px);
     // }
@@ -283,5 +292,15 @@ input[type="checkbox"]:not(:checked)#awards ~ label[for="awards"]
     }
     div#timeline .timeitem div:nth-of-type(2){
         padding: 1em 0 0 1em;
+    }
+}
+
+@media (max-width: 380px) {
+    div.extend input+label+div {
+        div.mini {
+            // padding: 3px 90px;
+            flex: 0 0 100%;
+            justify-content: center;
+        }
     }
 }
