@@ -161,6 +161,8 @@ nav {
         @include transform( translateY($navPosition) );  
     }
     & ~ div.content, & ~ footer{
+        will-change: transform;
+        transform: translateZ(0);
         -webkit-transition: all $menuTime;
         -moz-transition: all $menuTime;
         transition: all $menuTime;
@@ -171,6 +173,15 @@ nav {
         -o-filter: blur($blurry) brightness(70%); 
         -ms-filter: blur($blurry) brightness(70%); 
         filter: blur($blurry) brightness(70%);
+
+        // -webkit-backface-visibility: hidden;
+        // -webkit-perspective: 1000;
+        // -webkit-transform: translate3d(0,0,0);
+        // -webkit-transform: translateZ(0);
+        // backface-visibility: hidden;
+        // perspective: 1000;
+        // transform: translate3d(0,0,0);
+        // transform: translateZ(0);
     }
 }
 

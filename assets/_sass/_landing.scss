@@ -1,4 +1,9 @@
 
+body.anim p {
+    width: min-content;
+    margin: 0 auto;
+}
+
 body.anim p:nth-of-type(1) {
     opacity: 0;
 
@@ -8,7 +13,7 @@ body.anim p:nth-of-type(1) {
     animation-fill-mode: forwards; 
     font-size: 4em;
 
-    margin: .3em;
+    margin-bottom: .3em;
 }
 body.anim p:nth-of-type(2) {
     opacity: 0;
@@ -17,7 +22,7 @@ body.anim p:nth-of-type(2) {
     animation-name: fading1;
     animation-duration: .4s;
     animation-fill-mode: forwards; 
-    margin: .3em;
+    margin-bottom: .3em;
     font-size: 1.3em;
 }
 
@@ -32,7 +37,7 @@ body.anim p:nth-of-type(3) {
     font-size: 2.5em;
 
     color: $accentColor;
-    margin: 0;
+    margin-bottom: 0;
     // width: fit-content;
     // text-align: center;
 }
@@ -46,7 +51,7 @@ body.anim p:nth-of-type(4) {
     font-size: 2.5em;
 
     color: $accentColor;
-    margin: 0;
+    margin-bottom: 0;
     // width: fit-content;
     // text-align: center;
 }
@@ -60,7 +65,7 @@ body.anim p:nth-of-type(5) {
     font-size: 2.5em;
 
     color: $accentColor;
-    margin: 0;
+    margin-bottom: 2em;
     // width: fit-content;
     // text-align: center;
 }
@@ -76,6 +81,8 @@ body.anim p:nth-of-type(6) {
 
     font-size: 1em;
     text-align: center;
+
+    width: inherit;
 }
 
 body.anim footer {
