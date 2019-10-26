@@ -20,7 +20,8 @@ items:
       desc: >-
         NASA award for bringing to the space new approaches to human-machine
         interactions, while using a hand gesture recognition device (Leap
-        Motion). Demo https://www.youtube.com/watch?v=2ytr35p4DNo
+        Motion). Demo <a
+        href="https://www.youtube.com/watch?v=2ytr35p4DNo">here</a>
       long: 2 days
       name: Best use of Hardware NASA Space Apps
       site: Hong Kong
