@@ -16,6 +16,15 @@ items:
       name: Hackaton Torrevieja
       site: Torrevieja
       type: award
+    - date: '2019,10'
+      desc: >-
+        NASA award for bringing to the space new approaches to human-machine
+        interactions, while using a hand gesture recognition device (Leap
+        Motion). Demo https://www.youtube.com/watch?v=2ytr35p4DNo
+      long: 2 days
+      name: Best use of Hardware NASA Space Apps
+      site: Hong Kong
+      type: award
   es:
     - date: '2017,03'
       desc: >-
@@ -32,4 +41,14 @@ items:
       long: 2 días
       name: Hackaton Torrevieja
       site: Torrevieja
+      type: award
+    - date: '2019,10'
+      desc: >-
+        Premio a mejor uso de hardware por el desarrollo de nuevas formas de
+        interacción humano-máquina en el espacio, mediante un dispositivo de
+        reconocimiento de movimiento (Leap Motion). Demo
+        https://www.youtube.com/watch?v=2ytr35p4DNo
+      long: 2 días
+      name: Mejor uso de hardware NASA Space Apps
+      site: Hong Kong
       type: award
