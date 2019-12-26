@@ -3,7 +3,7 @@ layout: post
 permalink: 'blog-en/:year/:month/:day/:title'
 title: Discovering Asia
 ref: hongkong
-lang: eng
+lang: en
 author: Marcos
 date: 2019-12-11T23:00:00.000Z
 thumbnail: /assets/imgs/meHongkong.webp
