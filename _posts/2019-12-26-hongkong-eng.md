@@ -16,10 +16,6 @@ I took the first weeks as adaptive time for me, it was my first time living alon
 
 During the first days, it was a bit strange to be alone in the other part of the world. It made me to think about a lot of things that we have in our daily routine that we don't realise how important they are. Your family, your house, your local food, your friends... But sometimes to keep growing is need to leave your comfort zone and start a leap into the void. In this void I found the friends who were going to go along with me during all this adventure. An italian girl, two spanish boys, a few dutch, some belgiums, one crazy austrian and a big group of germans. And damn, they filled that void with adventures, experiences and a really great time together, meeting them and discovering Hong Kong!!
 
-
-
-The first trip we did was Philippines. We stayed in Manila for 4 days, and maybe it's not the best spot to enjoy
-
-
+The first trip we did was Philippines. We stayed in Manila for 4 days, and maybe it's not the best place to enjoy the beaches and the nice weather, but we discovered that the citizens turn crazy when they see an european just walking there. We took a lot of pictures with people of every age and they were so nice and polite! Manila is the place where probably you can be a bit scared or feeling insecure about the people because how they look like, maybe thinking they are not trustworthy. But really, every Philippino I've met is so nice, simpathic and honest, he won't give to you any reason for not trusting him.
 
 Vitaly
