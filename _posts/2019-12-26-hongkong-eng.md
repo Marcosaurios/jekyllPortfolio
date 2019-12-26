@@ -18,4 +18,6 @@ During the first days, it was a bit strange to be alone in the other part of the
 
 The first trip we did was Philippines. We stayed in Manila for 4 days, and maybe it's not the best place to enjoy the beaches and the nice weather, but we discovered that the citizens turn crazy when they see an european just walking there. We took a lot of pictures with people of every age and they were so nice and polite! Manila is the place where probably you can be a bit scared or feeling insecure about the people because how they look like, maybe thinking they are not trustworthy. But really, every Philippino I've met is so nice, simpathic and honest, he won't give to you any reason for not trusting him.
 
+![](/assets/imgs/_taallake_us.webp)
+
 Vitaly
