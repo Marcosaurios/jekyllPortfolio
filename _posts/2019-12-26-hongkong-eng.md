@@ -24,7 +24,7 @@ Hong Kong is such a nice *'country'*, full of people of every part of Asia, lets
 
 The first trip we did was Philippines. We stayed in Manila for 4 days, and maybe it's not the best place to enjoy the beaches and the nice weather, but we discovered that the citizens turn crazy when they see an european just walking there. We took a lot of pictures with people of every age and they were so nice and polite! Manila is the place where probably you can be a bit scared or feeling insecure about the people because how they look like, maybe thinking they are not trustworthy. But really, every Philippino I've met is so nice, simpathic and honest, he won't give to you any reason for not trusting him.
 
-![Philippinas Taal Lake](/assets/imgs/_taallake_us.webp "Philippinas Taal Lake")
+![Philippinas Taal Lake](/assets/imgs/taallake.webp "Philippinas Taal Lake")
 
 Another trip we enjoyed a lot was Japan. We booked the flight 7 hours before the plane took off, so we packed all our clothes in a few hours and next we were heading to the airport. It was so nice because the flight was cheap and we managed to catch the plane on time.
 
