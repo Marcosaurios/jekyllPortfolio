@@ -34,6 +34,8 @@ The first trip we did was Philippines. We stayed in Manila for 4 days, and maybe
 
 Another trip we enjoyed a lot was Japan. We booked the flight 7 hours before the plane took off, so we packed all our clothes very quickly and headed to the airport. The first city we went was Osaka, a beautiful and lovely place, full of neon lights and advertisements in every building. It's impressive, being there feels like being in a film, surrounded by people very different than you, the street markets, the weather (compared with Hong Kong it's way better, less poluted and you can feel a breeze of fresh air); it's an environment you'll need to live it to understand it.
 
-This area of Japan is more traditional than Tokyo, so it will be a bit more tricky to communicate with locals speaking english. Don't hesitate to ask anything to a young japanese, they will be a bit shy at first but will try to help you,
+This area of Japan is more traditional than Tokyo, so it will be a bit more tricky to communicate with locals speaking english. Don't hesitate to ask anything to a young japanese, they will be a bit shy at first but will try to help you. You have to understand that you're in a very respectful and traditional place in the world; so don't expect to find people as open and outgoing as spaniards 😉
 
-Vitaly
+
+
+## South Korea, reaching the most respectful society I've ever met
