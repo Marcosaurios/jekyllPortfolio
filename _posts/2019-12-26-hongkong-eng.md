@@ -26,8 +26,6 @@ Hong Kong is such a nice *'country'*, full of people of every part of Asia, lets
 
 But don't let yourself impress thinking Hong Kong is not a safe place. Maybe right now isn't the best moment to visit this beautiful country, but is a really safe place. I've never felt insecure or in problems these 5 months there, I met a lot of new Hongkongers friends and everyone tries to help you if you're in trouble. One of the experiences I enjoyed the most was playing football with people from every part of the world. Playing with and againts Africans, Americans, Europeans or obviously, Asians, really made me appreciate how good is our spanish football. Seriously they enjoy a lot just watching a spanish guy running trying to avoid de defense, and that makes me happy!
 
-
-
 ## Philippines, meet the contrast
 
 The first trip we did was Philippines. We stayed in Manila for 4 days, and maybe it's not the best place to enjoy the beaches and the nice weather, but we discovered that the citizens turn crazy when they see an european just walking there. We took a lot of pictures with people of every age and they were so nice and polite! Manila is the place where probably you can be a bit scared or feeling insecure about the people because how they look like, maybe thinking they are not trustworthy. But really, every Philippino I've met is so nice, simpathic and honest, he won't give you any reason for not trusting him. You will see the contrast of the richest people there and the poorest
@@ -35,8 +33,6 @@ The first trip we did was Philippines. We stayed in Manila for 4 days, and maybe
 ![Philippinas Taal Lake](/assets/imgs/taallake.webp "Philippinas Taal Lake")
 
 ## Thailand, nightlife melt into the nature
-
-
 
 ## Japan, where tradition and technology mixes in one
 
@@ -52,6 +48,10 @@ But c'mon, I've never seen anyone respecting each other such as this in my life!
 
 Seriously I love South Korea. Maybe the people are more open than japanese, but as you can imagine, they're still a bit reserved. We were staying in Hongdae, a neighbourhood full of university students, so it was easier for us to meet new friends there. Actually, we made a group of South-Korean friends there and it was incredible! They explained to us their traditions and different ways to bow in differents seasons of the year or to show more respect to others: the more you bow, more respect you're showing. 
 
-We also learnt that South-Korea was the land of a big war (called the war of Korea); Korea was a Japanese settlement (grantled by British) in 1910. But once the Hiroshima atomic bomb was exploded by EEUU in 1945, Japan surrended and EEUU occupied the area of South Korea. In this moment the URSS and EEUU accorded to divide Korea in 2 parts: North and South. 5 years later the Second World War was ended, North Korea (helped by the URSS headed by Stalin in that moment) invaded South Korea. The ONU and northamericans tried to defense this attack, but the situation was not easy at all: SouthKorean empire was retracted till Pusan, the South-East corner in Korea, and the northkoreans were occupying most of the part of Korea.
+*A bit of history...*
 
- Just remember *Gang-sa-ham-ni-da* (thank you in Korean), and try to be as respectful, silent and polite as possible. You can use also *Chué-son-han-ni-da* (I'm sorry), *An-yeong-ha-se-yo* (hello or goodbye) and
+We also learnt that South-Korea was the land of a big war (called the war of Korea); Korea was a Japanese settlement (grantled by British) in 1910. But once the Hiroshima atomic bomb was exploded by EEUU in 1945, Japan surrended and EEUU occupied the area of South Korea. In this moment the URSS and EEUU accorded to divide Korea in 2 parts: North and South. 5 years later the Second World War was ended, North Korea (helped by the URSS headed by Stalin in that moment) invaded South Korea. The situation was not easy at all: SouthKorean army was retracted till Pusan, the South-Eastest corner in Korea, and the northkoreans were occupying most of the land. So the ONU and northamericans tried to defense this attack, heading directly to Seoul (the North-western part of Korea) by sea, breaking and splitting the North-Korean army in two parts. With this way, it was possible to join with the SoutKorean army that was located in Pusan and restore South Korea.
+
+Since that, EEUU signed a Non Agression pact with North Korea and South Korea, until a final peace agreement is reached. This final peace agreement it doesn't have reached yet, so theorically Nort and South Korea they are still in war.
+
+Just remember *Gang-sa-ham-ni-da* (thank you in Korean), and try to be as respectful, silent and polite as possible. You can use also *Chué-son-han-ni-da* (I'm sorry), *An-yeong-ha-se-yo* (hello or goodbye) and
