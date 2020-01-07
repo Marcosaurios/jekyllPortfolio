@@ -24,11 +24,19 @@ During the first days, it was a bit strange to be alone in the other part of the
 
 Hong Kong is such a nice *'country'*, full of people of every part of Asia, lets you to meet new friends of any part of the world and explore not only the Hongkongese culture, also a wide range of cultures. I'm saying *'country'* between quotes because right now is an 'Special Administrative Region' (SAR) of China. Even the Hongkongers say they have two different government system for one country, a fact that is a bit contradictory. It's a difficult matter to discuss and to conclude something... 
 
+But don't let yourself impress thinking Hong Kong is not a safe place. Maybe right now isn't the best moment to visit this beautiful country, but is a really safe place. I've never felt insecure or in problems these 5 months there, I met a lot of new Hongkongers friends and everyone tries to help you if you're in trouble. One of the experiences I enjoyed the most was playing football with people from every part of the world. Playing with and againts Africans, Americans, Europeans or obviously, Asians, really made me appreciate how good is our spanish football. Seriously they enjoy a lot just watching a spanish guy running trying to avoid de defense, and that makes me happy!
+
+
+
 ## Philippines, meet the contrast
 
 The first trip we did was Philippines. We stayed in Manila for 4 days, and maybe it's not the best place to enjoy the beaches and the nice weather, but we discovered that the citizens turn crazy when they see an european just walking there. We took a lot of pictures with people of every age and they were so nice and polite! Manila is the place where probably you can be a bit scared or feeling insecure about the people because how they look like, maybe thinking they are not trustworthy. But really, every Philippino I've met is so nice, simpathic and honest, he won't give you any reason for not trusting him. You will see the contrast of the richest people there and the poorest
 
 ![Philippinas Taal Lake](/assets/imgs/taallake.webp "Philippinas Taal Lake")
+
+## Thailand, nightlife melt into the nature
+
+
 
 ## Japan, where tradition and technology mixes in one
 
@@ -36,6 +44,14 @@ Another trip we enjoyed a lot was Japan. We booked the flight 7 hours before the
 
 This area of Japan is more traditional than Tokyo, so it will be a bit more tricky to communicate with locals speaking english. Don't hesitate to ask anything to a young japanese, they will be a bit shy at first but will try to help you. You have to understand that you're in a very respectful and traditional place in the world; so don't expect to find people as open and outgoing as spaniards 😉
 
-
-
 ## South Korea, reaching the most respectful society I've ever met
+
+And the last stop but not least: South Korea. Wow, what a country. We visited it in a really cold season (for two spanish guys at least), the last week of november with -6ºC. We were sheltered with at least 3 or 4 layers of clothes, with tshirts, hoodies and a jacket. The bars and restaurants are very well equipped, as you can imagine. The air quality it feels very clean, as Japan for example. But compared with Hong Kong, this had a terrible and heavy feeling with no breeze of fresh air, feeling it really poluted. Maybe I can sound a bit dramatic talking about the air quality, but once you have experienced a bad air quality, you can compare the rest and evaluate by yourself 😂
+
+But c'mon, I've never seen anyone respecting each other such as this in my life! They are so respectful, giving the things with two hands and lowering their head, as sign of respect. Or bowing everytime they sya goodbye. As a spanish guy this shocked me a lot, we are used to give the other person two kisses in the cheeks, or hugging, but they won't do that anytime! It seems that they don't like so much the physical contact, so it was a matter of getting used to it... 
+
+Seriously I love South Korea. Maybe the people are more open than japanese, but as you can imagine, they're still a bit reserved. We were staying in Hongdae, a neighbourhood full of university students, so it was easier for us to meet new friends there. Actually, we made a group of South-Korean friends there and it was incredible! They explained to us their traditions and different ways to bow in differents seasons of the year or to show more respect to others: the more you bow, more respect you're showing. 
+
+We also learnt that South-Korea was the land of a big war (called the war of Korea); Korea was a Japanese settlement (grantled by British) in 1910. But once the Hiroshima atomic bomb was exploded by EEUU in 1945, Japan surrended and EEUU occupied the area of South Korea. In this moment the URSS and EEUU accorded to divide Korea in 2 parts: North and South. 5 years later the Second World War was ended, North Korea (helped by the URSS headed by Stalin in that moment) invaded South Korea. The ONU and northamericans tried to defense this attack, but the situation was not easy at all: SouthKorean empire was retracted till Pusan, the South-East corner in Korea, and the northkoreans were occupying most of the part of Korea.
+
+ Just remember *Gang-sa-ham-ni-da* (thank you in Korean), and try to be as respectful, silent and polite as possible. You can use also *Chué-son-han-ni-da* (I'm sorry), *An-yeong-ha-se-yo* (hello or goodbye) and
