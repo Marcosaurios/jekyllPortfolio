@@ -16,7 +16,7 @@ Once I had finished the mandatory Project Based Learning in Multimedia Engineeri
 
 Nothing will be more Hong Kongese in these times than finding a protest on the subway station where we had to stop. We saw black dressed people with gas masks running, screaming and skipping every security check. The situation was strange by itself, but the thing got better when a woman helped us to reach my accomodation safely. This was my first impression of Hong Kong: unexpected chaos but secure. As a foreigner, every Hong Konger tries to help you to be safe and avoid the conflicts, that's so nice by their part. 
 
-I took the first weeks as adaptive time for me, it was my first time living alone and also abroad; I was living in Sham Shui Po, a very local neighbourhood where not everyone can speak english, so it was a bit tricky to have dinner around my accomodation. Luckily I met some local friends able to speak english, like the receptionist -Ken- which ended being a really good friend of mine, and also Derrick and James, two nice guys who were the barmans of the coffee bar in my accomodation. Every day I had the breakfast there and started the day talking about music taste, people, travelling or anything with them.
+I took the first weeks as adaptive time for me, it was my first time living alone and also abroad; I was living in Sham Shui Po, a very local neighbourhood where not everyone can speak english, so it was a bit tricky to have dinner around my accomodation. Luckily I met some local friends able to speak english, like the receptionist -Ken- which ended being a really good friend of mine, and also Derrick and James, two nice guys who were the baristas of the coffee bar in my accomodation. Every day I had the breakfast there and started the day talking about music taste, people, travelling or anything with them.
 
 ![Hong Kong view (Victoria Peak)](/assets/imgs/hk.webp "Hong Kong view (Victoria Peak)")
 
@@ -32,11 +32,19 @@ The first trip we did was Philippines. We stayed in Manila for 4 days, and maybe
 
 ![Philippinas Taal Lake](/assets/imgs/taallake.webp "Philippinas Taal Lake")
 
+This picture was taken in Taal Volcano, it's a volcano that it's inside an island and that island is inside another island, inside the island of Philippines. Yes, it could be a bit mind blowing to understand it 😅 In case you want to visit it, they have a bus service from Manila and it's just 1 hour and a half. Everything it's very cheap, in case you get lost you can pay 1 hour taxi for less than 14€. We stayed in Z-hostel, a really good hostel with a lot of young  people that can help you in anything. Also the staff was very helpful recommending us activities and things to do around. And also, it's very cheap.
+
 ## Thailand, nightlife melt into the nature
+
+Well it depends so much which place of Thailand you visit. We stayed in Patong (Phuket), the southest-west side of Thailand and we spent the last day in Bangkok. Patong is the capital of party in Thailand in my opinion. Is where all the foreigners go to just lay in the beautiful and white sandy beaches and going for a drinks later. Thai massages, house surfing, snorkelling, scuba diving, jetski... you can do whatever you can imagine here! Personally I won't recommend to do any activity related with animals, because my guesses are they are not well treated even if they tell you they're. 
+
+The top activity here is visiting PhiPhi Islands and James Bond island. These two are different activities, if you would like to visit both I'll recommend to get a single tour that includes both, it will be cheaper. The tour normally includes a visit around some incredible islands from 9 am till 5pm (when the sun sets) with food and drinks included, around 30€. Take some sunbathing and please, respect the nature and don't let the human footprints fouls those awesome islands. Take your litter with you and don't be an idiot. Thanks 😊👌.
 
 ## Japan, where tradition and technology mixes in one
 
 Another trip we enjoyed a lot was Japan. We booked the flight 7 hours before the plane took off, so we packed all our clothes very quickly and headed to the airport. The first city we went was Osaka, a beautiful and lovely place, full of neon lights and advertisements in every building. It's impressive, being there feels like being in a film, surrounded by people very different than you, the street markets, the weather (compared with Hong Kong it's way better, less poluted and you can feel a breeze of fresh air); it's an environment you'll need to live it to understand it.
+
+![](/assets/imgs/IMG_20191008_151716_01-01.jpeg)
 
 This area of Japan is more traditional than Tokyo, so it will be a bit more tricky to communicate with locals speaking english. Don't hesitate to ask anything to a young japanese, they will be a bit shy at first but will try to help you. You have to understand that you're in a very respectful and traditional place in the world; so don't expect to find people as open and outgoing as spaniards 😉
 
