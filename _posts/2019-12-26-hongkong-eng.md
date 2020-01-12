@@ -38,15 +38,21 @@ This picture was taken in Taal Volcano, it's a volcano that it's inside an islan
 
 Well it depends so much which place of Thailand you visit. We stayed in Patong (Phuket), the southest-west side of Thailand and we spent the last day in Bangkok. Patong is the capital of party in Thailand in my opinion. Is where all the foreigners go to just lay in the beautiful and white sandy beaches and going for a drinks later. Thai massages, house surfing, snorkelling, scuba diving, jetski... you can do whatever you can imagine here! Personally I won't recommend to do any activity related with animals, because my guesses are they are not well treated even if they tell you they're. 
 
+![Old town Phuket](/assets/imgs/phuket.webp "Old town Phuket")
+
+![Party clubs in Patong, Old Town Phuket market and chinese guard lion in Put Cho Shrine](/assets/imgs/thai.webp "Party clubs in Patong, Old Town Phuket market and chinese guard lion in Put Cho Shrine")
+
 The top activity here is visiting PhiPhi Islands and James Bond island. These two are different activities, if you would like to visit both I'll recommend to get a single tour that includes both, it will be cheaper. The tour normally includes a visit around some incredible islands from 9 am till 5pm (when the sun sets) with food and drinks included, around 30€. Take some sunbathing and please, respect the nature and don't let the human footprints fouls those awesome islands. Take your litter with you and don't be an idiot. Thanks 😊👌.
 
 ## Japan, where tradition and technology mixes in one
 
 Another trip we enjoyed a lot was Japan. We booked the flight 7 hours before the plane took off, so we packed all our clothes very quickly and headed to the airport. The first city we went was Osaka, a beautiful and lovely place, full of neon lights and advertisements in every building. It's impressive, being there feels like being in a film, surrounded by people very different than you, the street markets, the weather (compared with Hong Kong it's way better, less poluted and you can feel a breeze of fresh air); it's an environment you'll need to live it to understand it.
 
-![Osaka Castle and places](/assets/imgs/osaka.webp "Osaka Castle and places")
+![Osaka Castle, market and places](/assets/imgs/osaka.webp "Osaka Castle, market and places")
 
 This area of Japan is more traditional than Tokyo, so it will be a bit more tricky to communicate with locals speaking english. Don't hesitate to ask anything to a young japanese, they will be a bit shy at first but will try to help you. You have to understand that you're in a very respectful and traditional place in the world; so don't expect to find people as open and outgoing as spaniards 😉
+
+![Tokyo streets and the last samurai statue (Saigo Takamori)](/assets/imgs/tokyo.webp "Tokyo streets and the last samurai statue (Saigo Takamori)")
 
 ## South Korea, reaching the most respectful society I've ever met
 
@@ -54,7 +60,7 @@ And the last stop but not least: South Korea. Wow, what a country. We visited it
 
 But c'mon, I've never seen anyone respecting each other such as this in my life! They are so respectful, giving the things with two hands and lowering their head, as sign of respect. Or bowing everytime they sya goodbye. As a spanish guy this shocked me a lot, we are used to give the other person two kisses in the cheeks, or hugging, but they won't do that anytime! It seems that they don't like so much the physical contact, so it was a matter of getting used to it... 
 
-Seriously I love South Korea. Maybe the people are more open than japanese, but as you can imagine, they're still a bit reserved. We were staying in Hongdae, a neighbourhood full of university students, so it was easier for us to meet new friends there. Actually, we made a group of South-Korean friends there and it was incredible! They explained to us their traditions and different ways to bow in differents seasons of the year or to show more respect to others: the more you bow, more respect you're showing. 
+Seriously I love South Korea. Maybe the people are more open than japanese, but as you can imagine, they're still a bit reserved. We were staying in Hongdae, a neighbourhood full of university students, so it was easier for us to meet new friends there. Actually, we made a group of South-Korean friends there and it was incredible! They explained us their traditions and different ways to bow in differents seasons of the year or to show more respect to others: the more you bow, more respect you're showing. 
 
 *A bit of history...*
 
