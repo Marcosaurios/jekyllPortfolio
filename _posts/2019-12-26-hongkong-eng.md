@@ -12,6 +12,8 @@ Once I had finished the mandatory Project Based Learning in Multimedia Engineeri
 
 ![CityU University entrance](/assets/imgs/cityu.webp "CityU University entrance")
 
+{% cloudinary /assets/imgs/cityu.webp alt="CityU University entrance!" %}
+
 ## Hong Kong
 
 Nothing will be more Hong Kongese in these times than finding a protest on the **first** subway station where we had to stop. We saw black dressed people with gas masks running, screaming and skipping every security check. The situation was strange by itself, but the thing got better when a woman helped us to reach my accomodation safely. This was my first impression of Hong Kong: unexpected chaos but secure. As a foreigner, every Hong Konger tries to help you to be safe and avoid the conflicts, that's so nice by their part. 
