@@ -70,4 +70,4 @@ We also learnt that South-Korea was the land of a big war (called the war of Kor
 
 Since that, EEUU signed a Non Agression pact with North Korea and South Korea, until a final peace agreement is reached. This final peace agreement it doesn't have reached yet, so theorically Nort and South Korea they are still in war.
 
-Just remember *Gang-sa-ham-ni-da* (thank you in Korean), and try to be as respectful, silent and polite as possible. You can use also *Chué-son-han-ni-da* (I'm sorry), *An-yeong-ha-se-yo* (hello or goodbye) and
+Just remember *Gang-sa-ham-ni-da* (thank you in Korean), and try to be as respectful, silent and polite as possible. For surviving ing Korea, you can also use *Chué-son-han-ni-da* (I'm sorry) and *An-yeong-ha-se-yo* (hello or goodbye).
