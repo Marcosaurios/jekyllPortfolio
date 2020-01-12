@@ -60,6 +60,8 @@ And the last stop but not least: South Korea. Wow, what a country. We visited it
 
 But c'mon, I've never seen anyone respecting each other such as this in my life! They are so respectful, giving the things with two hands and lowering their head, as sign of respect. Or bowing everytime they sya goodbye. As a spanish guy this shocked me a lot, we are used to give the other person two kisses in the cheeks, or hugging, but they won't do that anytime! It seems that they don't like so much the physical contact, so it was a matter of getting used to it... 
 
+![Joseon Changgyeonggung Palace and Bukchon Hanok Village](/assets/imgs/korea.webp "Joseon Changgyeonggung Palace and Bukchon Hanok Village")
+
 Seriously I love South Korea. Maybe the people are more open than japanese, but as you can imagine, they're still a bit reserved. We were staying in Hongdae, a neighbourhood full of university students, so it was easier for us to meet new friends there. Actually, we made a group of South-Korean friends there and it was incredible! They explained us their traditions and different ways to bow in differents seasons of the year or to show more respect to others: the more you bow, more respect you're showing. 
 
 *A bit of history...*
