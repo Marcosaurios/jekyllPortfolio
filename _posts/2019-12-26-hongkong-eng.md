@@ -44,7 +44,7 @@ The top activity here is visiting PhiPhi Islands and James Bond island. These tw
 
 Another trip we enjoyed a lot was Japan. We booked the flight 7 hours before the plane took off, so we packed all our clothes very quickly and headed to the airport. The first city we went was Osaka, a beautiful and lovely place, full of neon lights and advertisements in every building. It's impressive, being there feels like being in a film, surrounded by people very different than you, the street markets, the weather (compared with Hong Kong it's way better, less poluted and you can feel a breeze of fresh air); it's an environment you'll need to live it to understand it.
 
-![](/assets/imgs/IMG_20191008_151716_01-01.jpeg)
+![Osaka Castle and places](/assets/imgs/osaka.webp "Osaka Castle and places")
 
 This area of Japan is more traditional than Tokyo, so it will be a bit more tricky to communicate with locals speaking english. Don't hesitate to ask anything to a young japanese, they will be a bit shy at first but will try to help you. You have to understand that you're in a very respectful and traditional place in the world; so don't expect to find people as open and outgoing as spaniards 😉
 
