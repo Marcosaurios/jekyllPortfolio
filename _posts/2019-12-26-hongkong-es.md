@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: 'blog-es/:year/:month/:day/:title'
-title: Conociendo Asia
+title: "Conociendo Asia \U0001F30F"
 ref: hongkong
 lang: es
 author: Marcos
