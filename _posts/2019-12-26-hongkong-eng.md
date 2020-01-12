@@ -10,8 +10,7 @@ thumbnail: /assets/imgs/meHongkong.webp
 ---
 Once I had finished the mandatory Project Based Learning in Multimedia Engineering, I thought about the possibility to finish the last two subjects of my degree abroad. Hong Kong CityU University accepted my proposal and I started my last degree studies there.
 
-![CityU University entrance](/assets/imgs/cityu.webp "CityU University entrance")
-{% cloudinary /assets/imgs/cityu.webp alt="CityU University entrance!" %}
+![CityU University entrance](/assets/imgs/cityu.webp "CityU University entrance") {% cloudinary /assets/imgs/cityu.webp alt="CityU University entrance!" %}
 
 ## Hong Kong
 
