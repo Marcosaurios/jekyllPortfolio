@@ -10,7 +10,7 @@ thumbnail: /assets/imgs/meHK.webp
 ---
 Once I had finished the mandatory Project Based Learning in Multimedia Engineering, I thought about the possibility to finish the last two subjects of my degree abroad. Hong Kong CityU University accepted my proposal and I started my last degree studies there.
 
-{% cloudinary /assets/imgs/cityu.webp alt="CityU University entrance!" %}
+{% cloudinary /assets/imgs/cityu.webp alt="CityU University entrance!" title="CityU University entrance!" %}
 
 ## Hong Kong
 
@@ -18,7 +18,7 @@ Nothing will be more Hong Kongese in these times than finding a protest on the *
 
 I took the first weeks as adaptive time for me, it was my first time living alone and also abroad; I was living in Sham Shui Po, a very local neighbourhood where not everyone can speak english, so it was a bit tricky to have dinner around my accomodation. Luckily I met some local friends able to speak english, like the receptionist -Ken- which ended being a really good friend of mine, and also Derrick and James, two nice guys who were the baristas of the coffee bar in my accomodation. Every day I had the breakfast there and started the day talking about music taste, people, travelling or anything with them.
 
-{% cloudinary /assets/imgs/hk.webp alt="Hong Kong skyline from Victoria Peak" %}
+{% cloudinary /assets/imgs/hk.webp alt="Hong Kong skyline from Victoria Peak" title="Hong Kong skyline from Victoria Peak" %}
 
 During the first days, it was a bit strange to be alone in the other part of the world. It made me to think about a lot of things that we have in our daily routine that we don't realise how important they are. Your family, your house, your local food, your friends... But sometimes to keep growing is need to leave your comfort zone and start a leap into the void. In this void I found the friends who were going to go along with me during all this adventure: an italian girl, two spanish boys, a few dutch, some belgiums, one crazy austrian and a big group of germans. And damn, they filled that void with adventures, experiences and a really great time together, meeting them and discovering Hong Kong!
 
@@ -31,7 +31,7 @@ But don't let yourself impress thinking Hong Kong is not a safe place. Maybe rig
 The first trip we did was Philippines. We stayed in Manila for 4 days, and maybe it's not the best place to enjoy the beaches and the nice weather, but we discovered that the citizens turn crazy when they see an european just walking there. We took a lot of pictures with people of every age and they were so nice and polite! Manila is the place where probably you can be a bit scared or feeling insecure about the people because how they look like, maybe thinking they are not trustworthy. But really, every Philippino I've met is so nice, simpathic and honest, he won't give you any reason for not trusting him. You will see the contrast of the richest people there and the poorest
 
 
-{% cloudinary /assets/imgs/taallake.webp alt="Philippinas Taal Lake" %}
+{% cloudinary /assets/imgs/taallake.webp alt="Philippinas Taal Lake" title="Philippinas Taal Lake" %}
 
 This picture was taken in Taal Volcano, it's a volcano that it's inside an island and that island is inside another island, inside the island of Philippines. Yes, it could be a bit mind blowing to understand it 😅 In case you want to visit it, they have a bus service from Manila and it's just 1 hour and a half. Everything it's very cheap, in case you get lost you can pay 1 hour taxi for less than 14€. We stayed in Z-hostel, a really good hostel with a lot of young  people that can help you in anything. Also the staff was very helpful recommending us activities and things to do around. And also, it's very cheap.
 
@@ -39,9 +39,9 @@ This picture was taken in Taal Volcano, it's a volcano that it's inside an islan
 
 Well it depends so much which place of Thailand you visit. We stayed in Patong (Phuket), the southest-west side of Thailand and we spent the last day in Bangkok. Patong is the capital of party in Thailand in my opinion. Is where all the foreigners go to just lay in the beautiful and white sandy beaches and going for a drinks later. Thai massages, house surfing, snorkelling, scuba diving, jetski... you can do whatever you can imagine here! Personally I won't recommend to do any activity related with animals, because my guesses are they are not well treated even if they tell you they're. 
 
-{% cloudinary /assets/imgs/phuket.webp alt="Old Town Phuket!" %}
+{% cloudinary /assets/imgs/phuket.webp alt="Old Town Phuket!" title="Old Town Phuket!" %}
 
-{% cloudinary /assets/imgs/thai.webp alt="Party clubs in Patong, Old Town Phuket market and chinese guard lion in Put Cho Shrine" %} 
+{% cloudinary /assets/imgs/thai.webp alt="Party clubs in Patong, Old Town Phuket market and chinese guard lion in Put Cho Shrine" title="Party clubs in Patong, Old Town Phuket market and chinese guard lion in Put Cho Shrine" %} 
 
 The top activity here is visiting PhiPhi Islands and James Bond island. These two are different activities, if you would like to visit both I'll recommend to get a single tour that includes both, it will be cheaper. The tour normally includes a visit around some incredible islands from 9 am till 5pm (when the sun sets) with food and drinks included, around 30€. Take some sunbathing and please, respect the nature and don't let the human footprints fouls those awesome islands. Take your litter with you and don't be an idiot. Thanks 😊👌.
 
@@ -49,11 +49,11 @@ The top activity here is visiting PhiPhi Islands and James Bond island. These tw
 
 Another trip we enjoyed a lot was Japan. We booked the flight 7 hours before the plane took off, so we packed all our clothes very quickly and headed to the airport. The first city we went was Osaka, a beautiful and lovely place, full of neon lights and advertisements in every building. It's impressive, being there feels like being in a film, surrounded by people very different than you, the street markets, the weather (compared with Hong Kong it's way better, less poluted and you can feel a breeze of fresh air); it's an environment you'll need to live it to understand it.
 
-{% cloudinary /assets/imgs/osaka.webp alt="Osaka Castle, market and places" %}
+{% cloudinary /assets/imgs/osaka.webp alt="Osaka Castle, market and places" title="Osaka Castle, market and places"%}
 
 This area of Japan is more traditional than Tokyo, so it will be a bit more tricky to communicate with locals speaking english. Don't hesitate to ask anything to a young japanese, they will be a bit shy at first but will try to help you. You have to understand that you're in a very respectful and traditional place in the world; so don't expect to find people as open and outgoing as spaniards 😉
 
-{% cloudinary /assets/imgs/tokyo.webp alt="Tokyo streets and the last samurai statue (Saigo Takamori)" %}
+{% cloudinary /assets/imgs/tokyo.webp alt="Tokyo streets and the last samurai statue (Saigo Takamori)" title="Tokyo streets and the last samurai statue (Saigo Takamori)" %}
 
 ## South Korea, reaching the most respectful society I've ever met
 
@@ -61,7 +61,7 @@ And the last stop but not least: South Korea. Wow, what a country. We visited it
 
 But c'mon, I've never seen anyone respecting each other such as this in my life! They are so respectful, giving the things with two hands and lowering their head, as sign of respect. Or bowing everytime they sya goodbye. As a spanish guy this shocked me a lot, we are used to give the other person two kisses in the cheeks, or hugging, but they won't do that anytime! It seems that they don't like so much the physical contact, so it was a matter of getting used to it... 
 
-{% cloudinary /assets/imgs/korea.webp alt="Joseon Changgyeonggung Palace and Bukchon Hanok Village" %}
+{% cloudinary /assets/imgs/korea.webp alt="Joseon Changgyeonggung Palace and Bukchon Hanok Village" title="Joseon Changgyeonggung Palace and Bukchon Hanok Village" %}
 
 Seriously I love South Korea. Maybe the people are more open than japanese, but as you can imagine, they're still a bit reserved. We were staying in Hongdae, a neighbourhood full of university students, so it was easier for us to meet new friends there. Actually, we made a group of South-Korean friends there and it was incredible! They explained us their traditions and different ways to bow in differents seasons of the year or to show more respect to others: the more you bow, more respect you're showing. 
 
