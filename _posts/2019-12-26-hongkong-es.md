@@ -6,7 +6,7 @@ ref: hongkong
 lang: es
 author: Marcos
 date: 2020-01-11T23:00:00.000Z
-thumbnail: /assets/imgs/meHongkong.webp
+thumbnail: /assets/imgs/meHK.webp
 ---
 Una vez que terminé el Aprendizaje Basado en Proyectos en el grado en Ingeniería Multimedia, pensé en la posibilidad de terminar las dos últimas asignaturas de mi carrera en el extranjero. La Universidad de Hong Kong CityU aceptó mi propuesta y comencé mis últimos estudios de grado allí.
 
