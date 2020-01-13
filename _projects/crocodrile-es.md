@@ -1,18 +1,19 @@
 ---
 layout: post
-permalink: /proyectos/:title
+permalink: '/proyectos/:title'
 title: Cocodrilo
 ref: crocodrile
-date: 2019-01-02T16:00:00.000Z
 lang: es
 author: Marcos
+date: 2019-01-02T16:00:00.000Z
 thumbnail: /assets/imgs/crocoSide.webp
 skills: ZBrush Substance Marmoset
 ---
-![crocoFront](/assets/imgs/crocoFront.webp "Frontal del cocodrilo")
+{% cloudinary /assets/imgs/crocoFront.webp alt="Frontal del cocodrilo" title="Frontal del cocodrilo" %}
 
-![crocoAtras](/assets/imgs/crocoBack.webp "Espalda del cocodrilo")
+{% cloudinary /assets/imgs/crocoBack.webp alt="Espalda del cocodrilo" title="Espalda del cocodrilo" %}
 
-![crocoLado](/assets/imgs/crocoSide.webp "Lado del cocodrilo")
+{% cloudinary /assets/imgs/crocoSide.webp alt="Lado del cocodrilo" title="Lado del cocodrilo" %}
 
-![crocoMalla](/assets/imgs/crocoMesh.webp "Malla poligonal del cocodrilo")
+{% cloudinary /assets/imgs/crocoMesh.webp alt="Malla poligonal del cocodrilo" title="Malla poligonal del cocodrilo" %}
+
