@@ -1,15 +1,16 @@
 ---
 layout: post
-permalink: /projects/:title
+permalink: '/projects/:title'
 title: Crocodrile
 ref: crocodrile
-date: 2019-01-02T16:00:00.000Z
 lang: en
 author: Marcos
+date: 2019-01-02T16:00:00.000Z
 thumbnail: /assets/imgs/crocoSide.webp
 skills: ZBrush Substance Marmoset
 ---
-![crocoFront](/assets/imgs/crocoFront.webp "Front crocodrile")
+
+![](/assets/imgs/crocoFront.webp "Front crocodrile")
 
 ![crocoBack](/assets/imgs/crocoBack.webp "Back crocodrile")
 
