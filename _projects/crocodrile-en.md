@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 permalink: '/projects/:title'
 title: Crocodrile
 ref: crocodrile
