@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 permalink: 'proyectos/:title'
 title: Kwee
 ref: kwee
