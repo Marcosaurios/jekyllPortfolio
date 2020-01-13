@@ -13,10 +13,10 @@ En mi último año de Ingeniería Multimedia nos evaluaron con un ABP (Aprendiza
 
 Nuestra característica más distintiva es el Índice Kwee. Este índice está disponible para todos los usuarios (empresas y candidatos) y se construye con las opiniones que recibiste, tus habilidades, tus estudios y tu comportamiento en nuestra plataforma. Esta puntuación es útil para ver si el usuario se ajusta a los requisitos que estás buscando, así como para demostrar la fiabilidad del usuario en nuestra plataforma. 
 
-![Grupo Kwee](/assets/imgs/kwee-group.webp "Grupo Kwee")
+{% cloudinary /assets/imgs/kwee-group.webp title="Grupo Kwee" alt="Grupo Kwee"%}
 
 La aplicación web se sirve desde un servidor Apache, usando Mysql como base de datos. El frontend ha sido construido con Angular framework y el backend consiste en una API corriendo en Node usando un ORM como Sequelize para enviar la información a Mysql. Utilizamos Sockets para el chat en tiempo real en la plataforma y para las estadísticas utilizamos Grafana junto con ElasticSearch. El uso de Elastic stack es para mejorar la velocidad de búsqueda y para obtener estadísticas más significativas. Finalmente, la landing utiliza WebGL integrado con la información de nuestra plataforma, para realizar los movimientos del mundo 3D mostrando las últimas 25 ofertas en el mundo. 
 
 Hemos pasado 9 meses desarrollando este gran proyecto. Nos divertimos, también tuvimos momentos difíciles con problemas pero finalmente pudimos resolverlos y tuvimos una gran presentación en nuestra Universidad.
 
-![Presentación Kwee](/assets/imgs/kwee-presentation.webp "Presentación Kwee")
+{% cloudinary /assets/imgs/kwee-presentation.webp title="Presentación Kwee" alt="Presentación Kwee" %}
