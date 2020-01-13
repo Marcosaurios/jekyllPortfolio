@@ -33,7 +33,7 @@ collections:
     editor:
       preview: true
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Layout', name: 'layout', widget: 'string', default: 'post' }
       - { label: 'Permalink', name: 'permalink', widget: 'string', default: 'projects/:title', hint: 'Change to proyectos' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Ref', name: 'ref', widget: 'string' }
