@@ -9,7 +9,7 @@ date: 2019-01-02T16:00:00.000Z
 thumbnail: /assets/imgs/crocoSide.webp
 skills: ZBrush Substance Marmoset
 ---
-
+{% cloudinary /assets/imgs/crocoFront.webp "Front crocodrile"%}
 ![](/assets/imgs/crocoFront.webp "Front crocodrile")
 
 ![crocoBack](/assets/imgs/crocoBack.webp "Back crocodrile")
