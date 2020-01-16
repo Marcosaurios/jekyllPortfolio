@@ -1,11 +1,11 @@
 ---
 layout: post
-permalink: blog-es/:year/:month/:day/:title
+permalink: 'blog-es/:year/:month/:day/:title'
 title: "Hola mundo! \U0001F601\U0001F44B\U0001F3FD"
 ref: helloworld
 lang: es
 author: Marcos
-date: 2019-09-01T16:00:00.000Z
+date: 2019-08-31T16:00:00.000Z
 thumbnail: /assets/imgs/meSelfieKite.webp
 ---
 Hola! 
