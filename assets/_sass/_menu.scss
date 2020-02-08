@@ -15,6 +15,8 @@ nav {
 
     transition: all $menuTime ease-in-out;
 
+    transform: translateZ(0);
+
     ul {
         margin: 0;
         padding: 0;
