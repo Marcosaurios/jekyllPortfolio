@@ -6,7 +6,7 @@ ref: teslamodelx
 lang: en
 author: Marcos
 date: 2018-09-07T16:00:00.000Z
-thumbnail: /assets/imgs/car3.webp
+image: /assets/imgs/car3.webp
 skills: Blender
 ---
 This was my 3rd car modeled in Blender. It took me a whole summer to finish but I reached good results. I need to improve even more the reflexions and the shiny parts, but I will make it better the next time. 

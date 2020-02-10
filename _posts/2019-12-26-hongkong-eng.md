@@ -6,7 +6,7 @@ ref: hongkong
 lang: en
 author: Marcos
 date: 2020-01-11T23:00:00.000Z
-thumbnail: /assets/imgs/meHK.webp
+image: /assets/imgs/meHK.webp
 ---
 Once I had finished the mandatory Project Based Learning in Multimedia Engineering, I thought about the possibility to finish the last two subjects of my degree abroad. Hong Kong CityU University accepted my proposal and I started my last degree studies there.
 

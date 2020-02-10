@@ -6,7 +6,7 @@ ref: helloworld
 lang: es
 author: Marcos
 date: 2019-08-31T16:00:00.000Z
-thumbnail: /assets/imgs/meSelfieKite.webp
+image: /assets/imgs/meSelfieKite.webp
 ---
 Hola! 
 

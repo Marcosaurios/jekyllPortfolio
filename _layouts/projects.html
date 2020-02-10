@@ -8,9 +8,9 @@ layout: default
     {% for project in projects %}
       <article>
           <a class="post-link" href="{{ project.url | relative_url }}">
-            {% if project.thumbnail %}
+            {% if project.image %}
             <div class="gradient">
-                {% cloudinary {{project.thumbnail}} alt="Project '{{project.title}}' image" loading="lazy"%}
+                {% cloudinary {{project.image}} alt="Project '{{project.title}}' image" loading="lazy"%}
             </div>
             {% else %}
             <div class="color">

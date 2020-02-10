@@ -6,7 +6,7 @@ ref: crocodrile
 lang: es
 author: Marcos
 date: 2019-01-02T16:00:00.000Z
-thumbnail: /assets/imgs/crocoSide.webp
+image: /assets/imgs/crocoSide.webp
 skills: ZBrush Substance Marmoset
 ---
 {% cloudinary /assets/imgs/crocoFront.webp alt="Frontal del cocodrilo" title="Frontal del cocodrilo" %}

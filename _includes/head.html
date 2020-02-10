@@ -3,15 +3,19 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="google-site-verification" content="R53BwwFZUtjoCMUFBCLiAWI9qvMdxwJ5-QLTh5jnf0g" />
-    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap" async>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap" async>
     <link rel="stylesheet" type="text/css" href= {{ "assets/css/styles.css" | relative_url }} >
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106315954-1"></script>
     <script> window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-106315954-1');</script>
 
     <meta name="theme-color" content="#{{site.notificationColor}}" />
+    <meta name="description" content="Marcos Urios personal website and blog. Multimedia Engineering. Projects, experience and interests." />
+    
+    
+    
     {% seo %}
-
+    
     {% assign actual_lang = page.lang %}
     {% assign language_url = '' %}
     {% assign pages = site.pages | where: "ref", page.ref | sort: "lang" %}

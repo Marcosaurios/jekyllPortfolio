@@ -6,7 +6,7 @@ ref: teslamodelx
 lang: es
 author: Marcos
 date: 2018-09-07T16:00:00.000Z
-thumbnail: /assets/imgs/car3.webp
+image: /assets/imgs/car3.webp
 skills: Blender
 ---
 Este es el tercer coche modelado en Blender. Tardé 3 meses en terminarlo, pero mereció la pena. Todavía le quedan muchos aspectos por mejorar, como los brillos y reflejos que son los siguientes aspectos en los que me centraré en siguientes modelos. Estoy bastante contento con el resultado puesto que fue el primer modelado "realista" que realicé.
