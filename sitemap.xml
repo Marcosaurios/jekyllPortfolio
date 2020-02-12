@@ -9,92 +9,102 @@
 
 <url>
   <loc>https://www.marcosurios.com/</loc>
-  <lastmod>2019-09-02T05:13:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-02-12T16:24:32+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.marcosurios.com/about</loc>
-  <lastmod>2019-09-02T05:13:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-02-12T16:24:32+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marcosurios.com/blog-en</loc>
-  <lastmod>2019-09-02T05:13:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-02-12T16:24:32+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marcosurios.com/projects</loc>
-  <lastmod>2019-09-02T05:13:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-02-12T16:24:32+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marcosurios.com/contact</loc>
-  <lastmod>2019-09-02T05:13:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-02-12T16:24:32+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marcosurios.com/indice</loc>
-  <lastmod>2019-09-02T05:13:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-02-12T16:24:32+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.marcosurios.com/sobre</loc>
-  <lastmod>2019-09-02T05:13:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-02-12T16:24:32+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.marcosurios.com/blog-es</loc>
-  <lastmod>2019-09-02T05:13:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-02-12T16:24:32+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.marcosurios.com/2019/09/02/hello-world.html</loc>
-  <lastmod>2019-09-02T05:13:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>https://www.marcosurios.com/blog-en/2020/01/11/hongkong-eng</loc>
+  <lastmod>2020-02-12T16:24:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.marcosurios.com/blog-en/2019/08/31/helloworld-en</loc>
+  <lastmod>2020-02-12T16:24:32+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.marcosurios.com/proyectos</loc>
-  <lastmod>2019-09-02T05:13:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-02-12T16:24:32+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.marcosurios.com/projects/kwee-en.html</loc>
-  <lastmod>2019-09-02T05:13:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>https://www.marcosurios.com/projects/teslamodelx-en</loc>
+  <lastmod>2020-02-12T16:24:32+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.marcosurios.com/projects/tesla-model-x-en.html</loc>
-  <lastmod>2019-09-02T05:13:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>https://www.marcosurios.com/projects/crocodrile-en</loc>
+  <lastmod>2020-02-12T16:24:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.marcosurios.com/projects/kwee-en</loc>
+  <lastmod>2020-02-12T16:24:32+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.marcosurios.com/contacto</loc>
-  <lastmod>2019-09-02T05:13:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <lastmod>2020-02-12T16:24:32+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.marcosurios.com/projects/kwee-es.html</loc>
-  <lastmod>2019-09-02T05:13:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>https://www.marcosurios.com/blog-es/2020/01/11/hongkong-es</loc>
+  <lastmod>2020-02-12T16:24:32+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.marcosurios.com/projects/tesla-model-x-es.html</loc>
-  <lastmod>2019-09-02T05:13:18+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>https://www.marcosurios.com/blog-es/2019/08/31/helloworld-es</loc>
+  <lastmod>2020-02-12T16:24:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.marcosurios.com/proyectos/teslamodelx-es</loc>
+  <lastmod>2020-02-12T16:24:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.marcosurios.com/proyectos/crocodrile-es</loc>
+  <lastmod>2020-02-12T16:24:32+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.marcosurios.com/proyectos/kwee-es</loc>
+  <lastmod>2020-02-12T16:24:32+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 

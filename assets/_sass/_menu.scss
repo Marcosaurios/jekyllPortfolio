@@ -168,13 +168,13 @@ nav {
         -webkit-transition: all $menuTime;
         -moz-transition: all $menuTime;
         transition: all $menuTime;
-        @include transform( scale(0.7) );
+        @include transform( scale(0.9) );
 
-        -webkit-filter: blur($blurry) brightness(70%); 
-        -moz-filter: blur($blurry) brightness(70%);
-        -o-filter: blur($blurry) brightness(70%); 
-        -ms-filter: blur($blurry) brightness(70%); 
-        filter: blur($blurry) brightness(70%);
+        -webkit-filter: blur($blurry) brightness(50%); 
+        -moz-filter: blur($blurry) brightness(50%);
+        -o-filter: blur($blurry) brightness(50%); 
+        -ms-filter: blur($blurry) brightness(50%); 
+        filter: blur($blurry) brightness(50%);
 
         // -webkit-backface-visibility: hidden;
         // -webkit-perspective: 1000;
