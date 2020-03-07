@@ -2,6 +2,12 @@ div.content div.presentation + div {
     margin: 0 auto;
     max-width: 600px;
 }
+body.loaded {
+    img {
+        opacity: 1;
+    }
+
+}
 
 .presentation {
     display: flex;
@@ -14,6 +20,9 @@ div.content div.presentation + div {
     align-items: center;
 
     img{
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+
         width: 40vw;
         height: 40vw;
 

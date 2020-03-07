@@ -3,7 +3,7 @@
 
     {% include head.html %}
     
-<body  {% if page.ref == 'index' %}class="anim"{% endif %}>
+<body  {% if page.ref == 'index' %}class="anim" {% else %} onload=" document.body.className += 'loaded' " {% endif %}>
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TQ6DVCC"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

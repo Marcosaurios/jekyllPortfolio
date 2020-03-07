@@ -16,4 +16,4 @@ Urios
 
 Gómez
 
-a interdisciplinary multimedia engineer
+an interdisciplinary multimedia engineer
