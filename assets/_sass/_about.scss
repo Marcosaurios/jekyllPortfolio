@@ -195,7 +195,13 @@ div#timeline{
             align-items: center;
             justify-content: flex-end;
             margin: .25em;
-            p:nth-of-type(2){
+            
+            // p:nth-of-type(1) {
+            //     display: inline;
+            //     font-size: smaller;
+            //     margin-right: 5px;
+            // }
+            p:nth-of-type(1){
                 display: inline;
                 font-size: smaller;
                 padding: .25em .25em .25em .25em;
@@ -204,10 +210,11 @@ div#timeline{
                 border: 1px solid white;
                 border-radius: 5px;
             }
-            p:nth-of-type(1) {
-                display: inline;
-                font-size: smaller;
-                margin-right: 5px;
+            
+            p:nth-of-type(3) {
+                flex-grow: 1;
+                display: flex;
+                justify-content: flex-end;
             }
         }
         div:nth-of-type(2){
@@ -219,6 +226,45 @@ div#timeline{
     //     margin-top: 1em;
     // }
 }
+
+
+@keyframes show{
+    0% {opacity: 0}  
+    100% {opacity: 1}
+}
+
+@keyframes turn{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(180deg);}
+}
+
+input[type="checkbox"].expand {
+    display: none;
+    visibility: hidden;
+}
+input[type="checkbox"].expand ~ div:last-child{
+    height: 0;
+    overflow: hidden;
+}
+input[type="checkbox"].expand ~ div label > svg{
+
+    transform: rotate(90deg) scale(1.5);
+    transition: all .2s;
+}
+input[type="checkbox"].expand ~ div label{
+    padding: 0 1em;
+}
+input[type="checkbox"]:checked.expand ~ div label > svg{
+    transform: rotate(0deg) scale(1.5);
+    transition: all .2s;
+}
+input[type="checkbox"]:checked.expand ~ div:last-child{
+    height: auto;
+    animation-name: show;
+    animation-duration: .8s;
+}
+
+
 
 // Show and hide on timeline
 input[type="checkbox"]:checked#experiences ~ div.timeitem.experience,
@@ -235,6 +281,7 @@ input[type="checkbox"]:not(:checked)#awards ~ label[for="awards"]
 {
     border-color: rgba($color: #000000, $alpha: 0.0);
 }
+
 
 
 
@@ -271,25 +318,7 @@ input[type="checkbox"]:not(:checked)#awards ~ label[for="awards"]
             padding: 3px 67px;
         }
     }
-    // div.extend{
-    //     input + label + div {
-    //         div.mini {
-    //             // right padding;
-    //             padding: 0 6em 0 0em;
 
-    //         }
-    //         div.mini:nth-child(even) {
-    //             // left
-    //             padding: 0 0 0 3em;
-
-    //         }
-    //     }   
-    // }
-
-
-    // div#timeline .timeitem span{
-    //     transform: translateY(-17px) translateX(-42px);
-    // }
     div#timeline .timeitem p:nth-of-type(1) {
         flex: initial;
     }
@@ -298,9 +327,6 @@ input[type="checkbox"]:not(:checked)#awards ~ label[for="awards"]
         flex: 1 0 0;
         display: flex;
         justify-content: flex-end;
-    }
-    div#timeline .timeitem div:nth-of-type(2){
-        padding: 1em 0 0 1em;
     }
 }
 

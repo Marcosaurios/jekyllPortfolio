@@ -46,21 +46,37 @@ layout: default
         {%- for experience in site.data.experiences.items[page.lang] -%}
             {% assign items = items | push: experience %}
         {%- endfor -%}
+
         {%- for education in site.data.educations.items[page.lang] -%}
             {% assign items = items | push: education %}
         {%- endfor -%}
+
         {%- for award in site.data.awards.items[page.lang] -%}
             {% assign items = items | push: award %}
         {%- endfor -%}
+
         {% assign sorted = items | sort: 'date' | reverse %}
         {%- for item in sorted -%}
-        
         <div class="timeitem {{ item.type }}">
+            <input type="checkbox" id="{{ item.name }}" class="expand">
             <span>{{ item.date | split: ',' | reverse | join: '/' }}</span>
             <p> {{ item.name }} </p>
             <div>
-                <p> {{ item.long }} </p>
+                <!-- <p> {{ item.long }} </p> -->
                 <p> {{ item.site }} </p>
+                <label for="{{item.name}}">
+                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px"
+                        height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                    <g id="Icons" style="opacity:0.75;">
+                        <g id="expand">
+                            <polygon id="arrow_2_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#41EAD4" points="17.303,8.283 12,13.586 6.697,8.283 5.283,9.697
+                                12,16.414 18.717,9.697 		"/>
+                        </g>
+                    </g>
+                    <g id="Guides" style="display:none;">
+                    </g>
+                    </svg>
+                </label>
             </div>
             <div>
                 <p> {{ item.desc }} </p>
