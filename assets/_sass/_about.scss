@@ -289,7 +289,23 @@ input[type="checkbox"]:not(:checked)#awards ~ label[for="awards"]
     cursor: pointer;
 }
 
-//
+
+
+
+@include desktop {
+    .presentation{
+        flex-direction: row;
+        p{
+            padding: 1em 3em;
+        }
+    }
+
+    div.extend {
+        div.mini {
+            padding: 3px 67px;
+        }
+    }
+}
 
 @media (min-width: 380px) {
     div.extend div.values div.main-skills {

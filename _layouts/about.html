@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h1>{{page.title | downcase }}</h1>
+<h1>{{page.title | replace: '_', ' ' | replace: 'mi', 'mí'}}</h1>
 
 {% assign author = site.data.authors.Marcos[page.lang] %}
 <div class="presentation">
