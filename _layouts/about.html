@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<h1>/{{page.title | downcase }}</h1>
+<h1>{{page.title | downcase }}</h1>
 
 {% assign author = site.data.authors.Marcos[page.lang] %}
 <div class="presentation">
@@ -14,27 +14,31 @@ layout: default
             <input type="checkbox" id="skills">
             <label for="skills">
                 <h2>
-                    ./{{ site.data.translations.items.about.skills[page.lang] | downcase }}
+                    {{ site.data.translations.items.about.skills[page.lang] }}
                 </h2>
             </label>
             <div class="values">
+                <div class="main-skills">
                 {%- for skill in site.data.skills.items -%}
                     {%- if forloop.index <= 3 -%}
-                    <div class="top">
-                        <p> {{ skill.name }} </p>
-                        <app-dot data-lon="{{ skill.progress }}" data-color="#fdfffc" data-size="6"></app-dot>
-                    </div>
-                    {%- else -%}
-                    <div class="mini">
-                        <p> {{ skill.name }} </p>
-                        <app-dot data-lon="{{ skill.progress }}" data-color="#D1D1D1" data-size="3.5"></app-dot>
-                    </div>
+                        <h3> {{ skill.name }} </h3>
+                         <!-- <app-dot data-lon="{{ skill.progress }}" data-color="#fdfffc" data-size="6"></app-dot> -->
                     {%- endif -%}
                 {%- endfor -%}
+                </div>
+
+                <div class="other-skills">
+                {%- for skill in site.data.skills.items -%}
+                    {%- if forloop.index > 3 -%}
+                        <p> {{ skill.name }} </p>
+                                 <!-- <app-dot data-lon="{{ skill.progress }}" data-color="#D1D1D1" data-size="3.5"></app-dot> -->
+                    {%- endif -%}
+                {%- endfor -%}
+                </div>
             </div>
     </div>
     <div id="timeline">
-        <h2>./timeline</h2>
+        <h2>Timeline</h2>
         <input type="checkbox" name="educations" id="educations" checked>
         <input type="checkbox" name="experiences" id="experiences" checked>
         <input type="checkbox" name="awards" id="awards" checked>
@@ -58,27 +62,26 @@ layout: default
         {% assign sorted = items | sort: 'date' | reverse %}
         {%- for item in sorted -%}
         <div class="timeitem {{ item.type }}">
-            <input type="checkbox" id="{{ item.name }}" class="expand">
+            <input type="checkbox" id="{{ item.name }}" class="expand"/>
             <span>{{ item.date | split: ',' | reverse | join: '/' }}</span>
             <p> {{ item.name }} </p>
-            <div>
-                <!-- <p> {{ item.long }} </p> -->
+
+            <label for="{{item.name}}">
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px"
+                    height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+                <g id="Icons" style="opacity:0.75;">
+                    <g id="expand">
+                        <polygon id="arrow_2_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#41EAD4" points="17.303,8.283 12,13.586 6.697,8.283 5.283,9.697
+                            12,16.414 18.717,9.697 		"/>
+                    </g>
+                </g>
+                <g id="Guides" style="display:none;">
+                </g>
+                </svg>
+            </label>
+
+            <div class="itemdescription">
                 <p> {{ item.site }} </p>
-                <label for="{{item.name}}">
-                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px"
-                        height="24px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
-                    <g id="Icons" style="opacity:0.75;">
-                        <g id="expand">
-                            <polygon id="arrow_2_" style="fill-rule:evenodd;clip-rule:evenodd;fill:#41EAD4" points="17.303,8.283 12,13.586 6.697,8.283 5.283,9.697
-                                12,16.414 18.717,9.697 		"/>
-                        </g>
-                    </g>
-                    <g id="Guides" style="display:none;">
-                    </g>
-                    </svg>
-                </label>
-            </div>
-            <div>
                 <p> {{ item.desc }} </p>
             </div>
         </div>
