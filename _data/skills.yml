@@ -5,18 +5,22 @@ items:
     progress: 4
   - name: Frontend
     progress: 3
-  - name: Jekyll
-    progress: 4
-  - name: WordPress
-    progress: 5
-  - name: CSS
-    progress: 4
   - name: NodeJS
     progress: 5
-  - name: ElasticSearch
+  - name: Vue
     progress: 2
   - name: Typescript
     progress: 3
+  - name: Jekyll
+    progress: 4
+  - name: CSS
+    progress: 4
+  - name: PHP
+    progress: 3
+  - name: WordPress
+    progress: 5
+  - name: ElasticSearch
+    progress: 2
   - name: WebGL
     progress: 4
   - name: Blender
