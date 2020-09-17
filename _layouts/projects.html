@@ -10,13 +10,33 @@ layout: default
           <a class="post-link" href="{{ project.url | relative_url }}">
             {% if project.image %}
             <div class="gradient">
-                {% cloudinary {{project.image}} alt="Project '{{project.title}}' image" loading="lazy"%}
+              <!-- by filetype -->
+                <!-- {% capture fileType %}
+                  {{ project.image | slice: -3,3 }}
+                {%- endcapture -%}
+                {% if fileType contains 'ebm' or fileType contains 'mp4' %}
+                  Is video
+                {% else %}
+                  {% cloudinary {{project.image}} alt="Project '{{project.title}}' image" loading="lazy"%}
+                {% endif %} -->
+
+                {% if project.image.first %}
+                  <!-- video array -->
+                  <video autoplay loop muted playsinline>
+                    <source src="https://res.cloudinary.com/Marcosaurios/video/fetch/q_auto, c_limit/{{project.image[0]}}" type="video/webm; codecs=av01.0.05M.08"> 
+                    <source src="https://res.cloudinary.com/Marcosaurios/video/fetch/q_auto, c_limit/{{project.image[1]}}" type="video/mp4; codecs=av01.0.05M.08">
+                    <source src="https://res.cloudinary.com/Marcosaurios/video/fetch/q_auto, c_limit/{{project.image[2]}}" type="video/mp4; codecs=avc1.4D401E">
+                    <p>Your browser doesn't support HTML5 video</p>
+                  </video>
+                {% else %}
+                  <!-- img -->
+                  {% cloudinary {{project.image}} alt="Project '{{project.title}}' image" loading="lazy"%}
+                {% endif %}
             </div>
             {% else %}
             <div class="color">
             </div>
             {% endif %}
-      
             <h2 class="overlay title">
               {{ project.title }}
             </h2>

@@ -10,12 +10,14 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">
             {% if post.image %}
             <div class="gradient">
-                {% cloudinary {{post.image}} alt="{{post.title}} image" loading="lazy"%}
+              {%- capture isVideo -%}{{ if post.image contains '.webm' or post.image contains '.mp4'}}1{%- endcapture -%}
+              {% cloudinary {{post.image}} alt="{{post.title}} image" loading="lazy"%}
             </div>
             {% else %}
             <div class="color">
             </div>
             {% endif %}
+            {{ isVideo }}
             <h2 class="overlay title"> {{ post.title }} </h2>
             <span class="overlay date">{{ post.date | date: "%-d %b %Y" }}</span>
           </a>
