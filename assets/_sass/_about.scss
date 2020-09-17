@@ -181,6 +181,7 @@ div#timeline{
             height: auto;
 
             display: none;
+            transform-origin: top center;
 
             p:nth-of-type(1){
                 display: inline;
@@ -225,8 +226,9 @@ input[type="checkbox"].expand {
 input[type="checkbox"].expand ~ div:last-child{
     // height should be 0
     // height: 0;
-    animation-name: growing;
-    animation-duration: .8s;
+    // animation-name: growing;
+    // animation-duration: .8s;
+    // animation-direction: reverse;
     overflow: hidden;
 }
 input[type="checkbox"].expand ~ * ~ label > svg{
@@ -244,7 +246,7 @@ input[type="checkbox"]:checked.expand ~ * ~ label > svg{
 input[type="checkbox"]:checked.expand ~ div:last-child{
     // height should be auto;
     animation-name: growing;
-    animation-duration: .1s;
+    animation-duration: .3s;
     display: flex !important;
 }
 
