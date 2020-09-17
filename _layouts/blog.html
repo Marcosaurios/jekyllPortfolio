@@ -10,8 +10,18 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">
             {% if post.image %}
             <div class="gradient">
-              {%- capture isVideo -%}{{ if post.image contains '.webm' or post.image contains '.mp4'}}1{%- endcapture -%}
-              {% cloudinary {{post.image}} alt="{{post.title}} image" loading="lazy"%}
+              {% if project.image.first %}
+              <!-- video array -->
+              <video autoplay loop muted playsinline>
+                <source src="https://res.cloudinary.com/Marcosaurios/video/fetch/q_auto, c_limit/{{project.image[0]}}" type="video/webm; codecs=av01.0.05M.08"> 
+                <source src="https://res.cloudinary.com/Marcosaurios/video/fetch/q_auto, c_limit/{{project.image[1]}}" type="video/mp4; codecs=av01.0.05M.08">
+                <source src="https://res.cloudinary.com/Marcosaurios/video/fetch/q_auto, c_limit/{{project.image[2]}}" type="video/mp4; codecs=avc1.4D401E">
+                <p>Your browser doesn't support HTML5 video</p>
+              </video>
+            {% else %}
+              <!-- img -->
+              {% cloudinary {{project.image}} alt="Project '{{project.title}}' image" loading="lazy"%}
+            {% endif %}
             </div>
             {% else %}
             <div class="color">
