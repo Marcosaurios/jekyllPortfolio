@@ -25,12 +25,16 @@ div.post-list {
         
         height: 180px;
 
-        // transition: "scale" 0.5s;
+        transition: "scale" 0.5s;
         transition-duration: 1s;
+
+        opacity: 0;
+        // transition: opacity .5s ease-in-out;
 
 
         div.gradient:after {
             //box-shadow: 0px -300px 10px rgba(0,0,0,0.5) inset;
+
             box-shadow: inset rgba(0,0,0,0.4) 0px -100px 100px 0px;
             content: '';
             display: block;
@@ -107,10 +111,15 @@ div.post-list {
 
     & > article > a:hover > div.gradient:after {
         box-shadow: none;
+        transform: translateZ(0);
+        will-change: transform;
         @include transform( scale(1.1) );
     }
 
     & > article:hover {
+        will-change: transform;
+        transform: translateZ(0);
+
         @include transform( scale(1.03) );
         
         -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.44);
@@ -134,6 +143,9 @@ div.post-list {
     }
     
 }
+body.loaded article {
+    opacity: 1;
+}
 
 @include desktop {
     div.post-list {
@@ -152,7 +164,7 @@ div.post-list {
             }
         }
         & article:nth-child(even){
-            top: 2em;
+            //top: 2em;
             
         }
     }

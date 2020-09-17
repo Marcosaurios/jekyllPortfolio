@@ -2,6 +2,12 @@ div.content div.presentation + div {
     margin: 0 auto;
     max-width: 600px;
 }
+body.loaded {
+    img {
+        opacity: 1;
+    }
+
+}
 
 .presentation {
     display: flex;
@@ -14,6 +20,9 @@ div.content div.presentation + div {
     align-items: center;
 
     img{
+        opacity: 0;
+        transition: all 0.5s ease-in-out;
+
         width: 40vw;
         height: 40vw;
 
@@ -46,52 +55,42 @@ div.content div.presentation + div {
 }
 
 div.extend{
+
+    margin-top: 1em;
+
     display: flex;
     
     width: 100%;
 
     flex-direction: column;
 
-    & > label {
+    div.main-skills {
         display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         align-items: center;
-    }
-    input + label + div {
-        // height: 0;
-        // padding: 5px;
-        overflow: hidden;
 
+        background-color: #4A5459;
+        border-radius: 7px;
+
+        padding: 0 5vw;
+        margin: 0 auto;
+        
+        h3 {
+            display: flex;
+        }
+    }
+
+    div.other-skills {
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
 
-        transition: all .3s;
-        p{
-            display: inline;
-            margin: 0 0 1px 0;
-        }
-        div.mini{
-            display: flex;
-            flex: 0 0 50%;
-            // justify-content: flex-end;            
-            justify-content: center;            
-            color: $secondWhiteColor;
-            align-items: center;
-            p { margin: 0 10px 0 0  }
-
-            // padding: 0 3em 0 0;         
-        }
-        div.top{
-            display: flex;
-            flex: 0 0 33%;
-            flex-direction: column;
-            align-items: center;
-            justify-items: center;
-            margin-bottom: 10px;
-        }
-
+        padding: 0 5vw;
     }
+
+    
     // Arrow on check
     input[type="checkbox"]:checked + label span.arrow {
         transform: rotate(-90deg);
@@ -134,12 +133,13 @@ span.arrow span.line:nth-child(2) {
 
 // Timeline
 div#timeline{
+    margin-top: 3em;
     // item
     .timeitem:nth-of-type(1) {
         margin-top: .25em;
     }
     .timeitem {
-        display: flex;
+        display: none;
         flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
@@ -148,7 +148,6 @@ div#timeline{
         // padding: 1em .25em .25em 1em;
         padding: 0 .25em 0 1em;
 
-        max-height: 0;
         opacity: 0;
         // transition: opacity .3s ease-in-out, max-height .3s ease-in-out;
         transition: all .5s ease-in-out;
@@ -160,8 +159,6 @@ div#timeline{
             background: $bgColor;
             padding: 15px;
             
-            // transform: translateY(-24px) translateX(-42px);
-            // position: absolute;
         }
         // title
         span + p{
@@ -175,13 +172,18 @@ div#timeline{
             margin-top: 0;
         }
         // site and time
-        div:nth-of-type(1) {
+        div.itemdescription {
             flex: 0 0 100%;
             display: flex;
-            align-items: center;
-            justify-content: flex-end;
+            flex-direction: column;
+            align-items: flex-start;
             margin: .25em;
-            p:nth-of-type(2){
+            height: auto;
+
+            display: none;
+            transform-origin: top center;
+
+            p:nth-of-type(1){
                 display: inline;
                 font-size: smaller;
                 padding: .25em .25em .25em .25em;
@@ -189,29 +191,76 @@ div#timeline{
                 // border-radius: 5px;
                 border: 1px solid white;
                 border-radius: 5px;
+                margin: 10px 0px;
             }
-            p:nth-of-type(1) {
-                display: inline;
-                font-size: smaller;
-                margin-right: 5px;
+            
+            p:nth-of-type(3) {
+                flex-grow: 1;
+                display: flex;
+                justify-content: flex-end;
             }
-        }
-        div:nth-of-type(2){
-            flex-wrap: wrap;
-            flex: 0 0 100%;
         }
     }
-    // .timeitem:nth-of-type(1) {
-    //     margin-top: 1em;
-    // }
 }
+
+
+@keyframes show{
+    0% {opacity: 0}  
+    100% {opacity: 1}
+}
+
+@keyframes turn{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(180deg);}
+}
+
+@keyframes growing {
+    0% {transform: scaleY(0.0); }
+    100% {transform: scaleY(1); }
+}
+
+input[type="checkbox"].expand {
+    display: none;
+    visibility: hidden;
+}
+input[type="checkbox"].expand ~ div:last-child{
+    // height should be 0
+    // height: 0;
+    // animation-name: growing;
+    // animation-duration: .8s;
+    // animation-direction: reverse;
+    overflow: hidden;
+}
+input[type="checkbox"].expand ~ * ~ label > svg{
+
+    transform: rotate(90deg) scale(1.5);
+    transition: all .2s;
+}
+input[type="checkbox"].expand ~ div label{
+    padding: 0 1em;
+}
+input[type="checkbox"]:checked.expand ~ * ~ label > svg{
+    transform: rotate(0deg) scale(1.5);
+    transition: all .2s;
+}
+input[type="checkbox"]:checked.expand ~ div:last-child{
+    // height should be auto;
+    animation-name: growing;
+    animation-duration: .3s;
+    display: flex !important;
+}
+
+
 
 // Show and hide on timeline
 input[type="checkbox"]:checked#experiences ~ div.timeitem.experience,
 input[type="checkbox"]:checked#educations ~ div.timeitem.education,
 input[type="checkbox"]:checked#awards ~ div.timeitem.award  {
     opacity: 1;
-    max-height: 160px;
+    display: flex;
+    // max-height: 160px;
+    // animation-name: growing;
+    // animation-duration: 1s;
     padding: 1em .25em .25em 1em;
 }
 
@@ -221,6 +270,7 @@ input[type="checkbox"]:not(:checked)#awards ~ label[for="awards"]
 {
     border-color: rgba($color: #000000, $alpha: 0.0);
 }
+
 
 
 
@@ -251,33 +301,27 @@ input[type="checkbox"]:not(:checked)#awards ~ label[for="awards"]
             padding: 1em 3em;
         }
     }
-    div.extend{
-        input + label + div {
-            div.mini {
-                // right padding;
-                padding: 0 6em 0 0em;
 
-            }
-            div.mini:nth-child(even) {
-                // left
-                padding: 0 0 0 3em;
-
-            }
-        }   
+    div.extend {
+        div.mini {
+            padding: 3px 67px;
+        }
     }
-    // div#timeline .timeitem span{
-    //     transform: translateY(-17px) translateX(-42px);
-    // }
-    div#timeline .timeitem p:nth-of-type(1) {
-        flex: initial;
+}
+
+@media (min-width: 380px) {
+    div.extend div.values div.main-skills {
+        flex-direction: row;
+        max-width: 500px;
     }
 
-    div#timeline .timeitem div:nth-of-type(1){
-        flex: 1 0 0;
-        display: flex;
-        justify-content: flex-end;
-    }
-    div#timeline .timeitem div:nth-of-type(2){
-        padding: 1em 0 0 1em;
+    div.extend div.values div.other-skills {
+        flex-direction: row;
+        flex-wrap: wrap;
+        & > * {
+            flex: 50% 0 0;
+            text-align: center;
+            margin-right: auto;
+        }
     }
 }

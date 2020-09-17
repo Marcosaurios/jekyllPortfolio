@@ -10,3 +10,18 @@ items:
   landing:
     es:
     en:
+  about:
+    skills:
+      es: 'Habilidades'
+      en: 'Skills'
+    awards:
+      es: 'Distinciones'
+      en: 'Awards'
+    experiences:
+      es: 'Experiencia'
+      en: 'Experience'  
+    educations:
+      es: 'Estudios'
+      en: 'Studies'    
+
+

@@ -1,18 +1,19 @@
 items:
-  es: "Experiencias"
-  en: "Experiences"
-  array:
-    es:
-      - name: "Backend developer"
-        site: "Loteria el Negrito"
-        date: "2019,03"
-        long: "3 meses"
-        desc: "Descripcion en español" 
-        type: "experience"
-    en:
-      - name: "Backend developer"
-        site: "Loteria el Negrito"
-        date: "2019,03"
-        long: "3 months"
-        desc: "English desc." 
-        type: "experience"
+  en:
+    - date: '2019,05'
+      desc: >-
+        Developing and deploying Node Typescript API with its mysql servers to
+        bring the Apps we were building what they need.
+      long: 3 months
+      name: Backend developer
+      site: Loteria el Negrito
+      type: experience
+  es:
+    - date: '2019,05'
+      desc: >-
+        Desarrollo de APIs en Node Typescript y despliegue de servidores API y
+        mysql, para ofrecer a las Apps la información que necesitan.
+      long: 3 meses
+      name: Backend developer
+      site: Loteria el Negrito
+      type: experience

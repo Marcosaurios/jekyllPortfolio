@@ -4,7 +4,7 @@
     <ul>
         {% for item in site.data.menu.items[page.lang] %}
             <li>
-                <a href="{{ item.url }}" {% if page.url == item.url %} class="active" {% elsif page.layout == "post" and item.title == "Blog" %} class="active" {% endif %}>
+                <a href="{{ item.url }}" {% if page.url == item.url %} class="active" {% elsif page.layout == "post" and item.title == "Blog" %} class="active" {% elsif page.layout == "project" and item.title == "Projects" or item.title == "Proyectos" %} class="active" {% endif %}>
                     {{ item.title | upcase }}
                 </a>
             </li>
@@ -26,7 +26,6 @@
     {% endif %}
 </div>
 
-
 <div id="language-selector">
     {% assign actual_lang = page.lang %}
     {% assign pages = site.pages | where:"ref", page.ref | sort: "lang" %}
@@ -39,8 +38,8 @@
     {% endfor %}
     {% assign projects = site.projects | where:"ref", page.ref | sort: "lang" %}
     {% for project in projects %}
-    <a href="{{ project.url | relative_url }}" {% if project.lang == actual_lang %} class="selected" {% endif %}>{% if project.lang == "es" %} Español {% elsif project.lang == "en" %} English {% endif %}</a>
-{% endfor %}
+        <a href="{{ project.url | relative_url }}" {% if project.lang == actual_lang %} class="selected" {% endif %}>{% if project.lang == "es" %} Español {% elsif project.lang == "en" %} English {% endif %}</a>
+    {% endfor %}
 </div>
 
 

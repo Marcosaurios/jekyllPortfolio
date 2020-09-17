@@ -2,19 +2,30 @@
 title: Marcos Urios Portfolio
 notificationColor: 172433
 
-## Site settings
-*global_url: https://www.marcosurios.com
-
 ## Deploy: origin_url: sitename
 ## Local: origin_url: /
 
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: *global_url # the base hostname & protocol for your site
-# url: /
+url: https://www.marcosurios.com # the base hostname & protocol for your site
+
+social:
+  name: Marcos Urios
+  links:
+    - https://twitter.com/Marcosaurios
+    - https://www.facebook.com/marcos.urios
+    - https://www.linkedin.com/in/marcosurios
+    - https://github.com/Marcosaurios
+    - https://www.artstation.com/marcosaurios
+
+twitter:
+  username: marcosaurios
+  creator: Marcosaurios
+  card: summary
+
 twitter_username: Marcosaurios
 linkedin_username: marcosurios
 github_username:  Marcosaurios
-artstation_usermane: marcosaurios
+artstation_username: marcosaurios
 sketchfab_username: marcosaurios
 
 
@@ -26,14 +37,16 @@ collections:
   projects:
     output: true
 
+# include: [ '_redirects']
+
 # Responsive pics
 ## -- origin_url: /                           -> Local (relative to host url)
 ## -- origin_url: https://www.marcosurios.com -> PRODUCTION (relative to my website url)
 cloudinary:
   cloud_name: Marcosaurios
-  only_prod: true          # local = true
+  only_prod: false          # local = true
   origin_url: https://www.marcosurios.com
-  origin_url: /
+  # origin_url: / # local
   # origin_url: https://dazzling-wright-08e708.netlify.com
   verbose: true
   presets:

@@ -2,9 +2,9 @@
 title: Index
 layout: index
 author: Marcos
-permalink: /index
-lang: en
 ref: index
+lang: en
+permalink: /index
 ---
 Hi!
 
@@ -14,7 +14,6 @@ Marcos
 
 Urios
 
-Gomez
+Gómez
 
-a interdisciplinary multimedia engineer
-
+an interdisciplinary multimedia engineer

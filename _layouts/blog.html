@@ -1,16 +1,16 @@
 ---
 layout: default
 ---
-<h1>/{{page.title | downcase }}</h1>
+<h1>{{page.title }}</h1>
 
   <div class="post-list">
     {% assign posts=site.posts | where:"lang", page.lang %}
     {% for post in posts %}
       <article>
           <a class="post-link" href="{{ post.url | relative_url }}">
-            {% if post.thumbnail %}
+            {% if post.image %}
             <div class="gradient">
-                {% cloudinary {{post.thumbnail}} alt="{{post.title}} image" loading="lazy"%}
+                {% cloudinary {{post.image}} alt="{{post.title}} image" loading="lazy"%}
             </div>
             {% else %}
             <div class="color">

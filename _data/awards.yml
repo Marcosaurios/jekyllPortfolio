@@ -1,18 +1,55 @@
 items:
-  es: "Distinciones"
-  en: "Awards"
-  array:
-    es:
-      - name: "Hackaton Telefonica"
-        site: "Universidad de Alicante"
-        date: "2019,03"
-        long: "3 meses"
-        desc: "Descripcion en español" 
-        type: "award"
-    en:
-      - name: "Hackaton Telefonica"
-        site: "Universidad de Alicante"
-        date: "2019,03"
-        long: "3 months"
-        desc: "English desc." 
-        type: "award"
+  en:
+    - date: '2017,03'
+      desc: >-
+        AdSalsa awarded us for our app CityFix, that lets you notify to the
+        townhall about any imperfection in the city. 
+      long: 2 days
+      name: Hackaton Telefónica
+      site: Universidad de Alicante
+      type: award
+    - date: '2017,10'
+      desc: >-
+        Hidraqua award for developing the most optimal solution in big data
+        management branch in a dashboard.
+      long: 2 days
+      name: Hackaton Torrevieja
+      site: Torrevieja
+      type: award
+    - date: '2019,10'
+      desc: >-
+        Best use of hardware award for bringing to the space new approaches to
+        human-machine interactions, using a hand gesture recognition device
+        (Leap Motion). More info <a
+        href="https://2019.spaceappschallenge.org/challenges/stars/trans-neptunian-spaceway/teams/unreal-vision/project">here</a>
+      long: 2 days
+      name: Hackaton NASA Space Apps
+      site: Hong Kong
+      type: award
+  es:
+    - date: '2017,03'
+      desc: >-
+        Premio de AdSalsa por nuestra App CityFix que permite a los ciudadanos
+        notificar al ayuntamiento de los desperfectos en la ciudad.
+      long: 2 días
+      name: Hackaton Telefónica
+      site: Universidad de Alicante
+      type: award
+    - date: '2017,10'
+      desc: >-
+        Premio Hidraqua por aportar la solución más efectiva en cuanto al
+        tratamiento y gestión de big data en un cuadro de mandos.
+      long: 2 días
+      name: Hackaton Torrevieja
+      site: Torrevieja
+      type: award
+    - date: '2019,10'
+      desc: >-
+        Premio a mejor uso de hardware por el desarrollo de nuevas formas de
+        interacción humano-máquina en el espacio, mediante un dispositivo de
+        reconocimiento de movimiento (Leap Motion). Más información <a
+        href="https://2019.spaceappschallenge.org/challenges/stars/trans-neptunian-spaceway/teams/unreal-vision/project">aquí</a>
+      long: 2 días
+      name: Hackaton NASA Space Apps
+      site: Hong Kong
+      type: award
