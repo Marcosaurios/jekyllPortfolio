@@ -6,7 +6,7 @@ ref: kwee
 lang: en
 author: Marcos
 date: 2019-05-27T16:00:00.000Z
-image: /assets/imgs/kwee.gif
+image: /assets/imgs/kwee_landing.gif
 skills: Elastic Angular Node WebGL
 ---
 On my last year of Multimedia Engineering Degree we are evaluated with an PBL (Project Based Learning), so a group of 4 friends and me developed Kwee. Kwee it's a web platform for finding your ideal job in the IT world. Let's say you're a brand or a company hiring new people, so you sign up as business user in our platform and you publish a new offer. The candidates would like to join this offer, so they should sing up as a candidate and apply to your offer. If you're a student we also bring to you the possibility for being a practise employee in any company that offers it. 
