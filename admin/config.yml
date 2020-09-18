@@ -40,14 +40,17 @@ collections:
       - { label: 'Language', name: 'lang', widget: 'string', default: 'es'}
       - { label: 'Author', name: 'author', widget: 'string' , default: 'Marcos'}
       - { label: 'Date', name: 'date', widget: 'datetime', default: '' }
-      - label: 'Image/Video'
-        name: 'image'
-        hint: '[AV1 .webm, AV1 .mp4, H264 .mp4]'
-        widget: 'list'
-        fields: 
-          - { label: .webm, name: '.webm', widget: file } 
-          - { label: av1, name: 'av1', widget: file } 
-          - { label: h264, name: 'h264', widget: file } 
+      - label: "Testimonials"
+        name: "testimonials"
+        widget: "list"
+        fields:
+          - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
+          - label: Author
+            name: author
+            widget: object
+            fields:
+              - {label: Name, name: name, widget: string, default: "Emmet"}
+              - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
       - { label: 'Skills', name: 'skills', widget: 'string', hint: 'HTML CSS JS'}
       - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA
   - name: 'pages'
