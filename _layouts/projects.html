@@ -11,7 +11,8 @@ layout: default
             {% if project.image %}
             <div class="gradient">
 
-          {% if project.image.first %}
+{{project.image}}
+          {% if project.image.size > 1 %}
               <!-- video array -->
               <video autoplay loop muted playsinline>
                 <source src="https://res.cloudinary.com/Marcosaurios/video/fetch/q_auto, c_limit/{{project.image[0]}}" type="video/webm; codecs=av01.0.05M.08"> 
