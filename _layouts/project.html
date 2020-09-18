@@ -5,7 +5,20 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    {% cloudinary {{page.image}} class="post-image" itemprop="image" alt="{{page.title}} image" loading="lazy"%}
+
+    {% if page.image.first %}
+      <!-- video array -->
+      <video class="post-image" autoplay loop muted playsinline>
+        <source src="https://res.cloudinary.com/Marcosaurios/video/fetch/q_auto, c_limit/{{page.image[0]}}" type="video/webm; codecs=av01.0.05M.08"> 
+        <source src="https://res.cloudinary.com/Marcosaurios/video/fetch/q_auto, c_limit/{{page.image[1]}}" type="video/mp4; codecs=av01.0.05M.08">
+        <source src="https://res.cloudinary.com/Marcosaurios/video/fetch/q_auto, c_limit/{{page.image[2]}}" type="video/mp4; codecs=avc1.4D401E">
+        <p>Your browser doesn't support HTML5 video</p>
+      </video>
+    {% else %}
+      <!-- img -->
+      {% cloudinary {{page.image}} class="post-image" itemprop="image" alt="{{page.title}} image" loading="lazy"%}
+    {% endif %}
+
     <h1 class="post-title" itemprop="name headline" title={{page.title}} >{{ page.title }}</h1>
     <p class="post-meta">
       {% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><a href={{ site.data.menu.items[page.lang][1].url | relative_url }} itemprop="name">{{ page.author }}</a></span>{% endif %}

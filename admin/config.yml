@@ -22,7 +22,7 @@ collections:
       - { label: 'Language', name: 'lang', widget: 'string', default: 'es'}
       - { label: 'Author', name: 'author', widget: 'string' , default: 'Marcos'}
       - { label: 'Date', name: 'date', widget: 'date' , default: ''}
-      - { label: 'Image/Video', name: 'image', widget: 'file'}
+      - { label: 'Image/Video', name: 'image', widget: 'file', allow_multiple: true, hint: '[AV1 .webm, AV1 .mp4, H264 .mp4]'}
       - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA
   - name: 'projects'
     label: 'Projects'
@@ -40,7 +40,11 @@ collections:
       - { label: 'Language', name: 'lang', widget: 'string', default: 'es'}
       - { label: 'Author', name: 'author', widget: 'string' , default: 'Marcos'}
       - { label: 'Date', name: 'date', widget: 'datetime', default: '' }
-      - { label: 'Image/Video', name: 'image', widget: 'file'}
+      - label: "Image/video"
+        name: "image"
+        widget: "list"
+        fields:
+          - {label: Quote, name: quote, widget: file}
       - { label: 'Skills', name: 'skills', widget: 'string', hint: 'HTML CSS JS'}
       - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA
   - name: 'pages'
