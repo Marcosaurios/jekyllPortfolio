@@ -6,7 +6,7 @@ ref: kwee
 lang: es
 author: Marcos
 date: 2019-05-27T16:00:00.000Z
-image: /assets/imgs/kwee_video_av1.webm
+image: /assets/imgs/kwee_landing.gif
 skills: Elastic Angular Node WebGL
 ---
 En mi último año de Ingeniería Multimedia nos evaluaron con un ABP (Aprendizaje Basado en proyectos), así que un grupo de 4 amigos y yo decidimos desarrollar Kwee. Kwee es una plataforma web para encontrar tu trabajo ideal en el mundo de la informática. Digamos que eres una marca o una empresa que está contratando gente nueva, así que te registras como usuario empresarial en nuestra plataforma y publicas una nueva oferta. A los candidatos les gustaría unirse a esta oferta, por lo que deben inscribirse como candidatos y solicitar su oferta. Si eres estudiante también te ofrecemos la posibilidad de ser un empleado en prácticas en cualquier empresa que lo ofrezca. 
