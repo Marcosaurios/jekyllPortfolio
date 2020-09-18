@@ -33,23 +33,16 @@ collections:
     editor:
       preview: true
     fields:
-      - label: 'Layout', name: 'layout', widget: 'string', default: 'post' 
-      - label: 'Permalink', name: 'permalink', widget: 'string', default: 'projects/:title', hint: 'Change to proyectos' 
-      - label: 'Title', name: 'title', widget: 'string' 
-      - label: 'Ref', name: 'ref', widget: 'string' 
-      - label: 'Language', name: 'lang', widget: 'string', default: 'es'
-      - label: 'Author', name: 'author', widget: 'string' , default: 'Marcos'
-      - label: 'Date', name: 'date', widget: 'datetime', default: '' 
-      - label: 'Image/Video'
-        name: 'image'
-        hint: '[AV1 .webm, AV1 .mp4, H264 .mp4]'
-        widget: 'list'
-        fields: 
-          - { label: .webm, name: '.webm', widget: file } 
-          - { label: av1, name: 'av1', widget: file } 
-          - { label: h264, name: 'h264', widget: file } 
-      - label: 'Skills', name: 'skills', widget: 'string', hint: 'HTML CSS JS'
-      - label: 'Body', name: 'body', widget: 'markdown' # todo: CATEGORIES and MEDIA
+      - { label: 'Layout', name: 'layout', widget: 'string', default: 'post' }
+      - { label: 'Permalink', name: 'permalink', widget: 'string', default: 'projects/:title', hint: 'Change to proyectos' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Ref', name: 'ref', widget: 'string' }
+      - { label: 'Language', name: 'lang', widget: 'string', default: 'es'}
+      - { label: 'Author', name: 'author', widget: 'string' , default: 'Marcos'}
+      - { label: 'Date', name: 'date', widget: 'datetime', default: '' }
+      - { label: 'Image/Video', name: 'image', hint: '[AV1 .webm, AV1 .mp4, H264 .mp4]', widget: 'list', fields: { label: .webm, name: '.webm', widget: file },{ label: av1, name: 'av1', widget: file },{ label: h264, name: 'h264', widget: file } }
+      - { label: 'Skills', name: 'skills', widget: 'string', hint: 'HTML CSS JS'}
+      - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA
   - name: 'pages'
     label: 'Pages'
     folder: '/'
