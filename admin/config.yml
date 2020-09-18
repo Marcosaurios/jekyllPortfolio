@@ -44,9 +44,7 @@ collections:
         name: "image"
         widget: "list"
         fields:
-          - {label: webm, name: webm, widget: file}
-          - {label: av1, name: av1, widget: file}
-          - {label: h264, name: h264, widget: file}
+          - {label: Quote, name: quote, widget: file}
       - { label: 'Skills', name: 'skills', widget: 'string', hint: 'HTML CSS JS'}
       - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA
   - name: 'pages'
