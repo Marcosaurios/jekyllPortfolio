@@ -1,0 +1,217 @@
+# config.yml
+
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: 'assets/imgs'
+publish_mode: editorial_workflow
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: '_posts/'
+    create: true
+    delete: true
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.ref}}-{{fields.lang}}"
+    editor:
+      preview: true
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Permalink', name: 'permalink', widget: 'string', default: 'blog-es/:year/:month/:day/:title', hint: 'Change blog-es to blog-en' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Ref', name: 'ref', widget: 'string' }
+      - { label: 'Language', name: 'lang', widget: 'string', default: 'es'}
+      - { label: 'Author', name: 'author', widget: 'string' , default: 'Marcos'}
+      - { label: 'Date', name: 'date', widget: 'date' , default: ''}
+      - { label: 'Image/Video', name: 'image', widget: 'file', allow_multiple: true, hint: '[AV1 .webm, AV1 .mp4, H264 .mp4]'}
+      - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA
+  - name: 'projects'
+    label: 'Projects'
+    folder: '_projects/'
+    create: true
+    delete: true
+    slug: "{{fields.ref}}-{{fields.lang}}"
+    editor:
+      preview: true
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'string', default: 'post' }
+      - { label: 'Permalink', name: 'permalink', widget: 'string', default: 'projects/:title', hint: 'Change to proyectos' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Ref', name: 'ref', widget: 'string' }
+      - { label: 'Language', name: 'lang', widget: 'string', default: 'es'}
+      - { label: 'Author', name: 'author', widget: 'string' , default: 'Marcos'}
+      - { label: 'Date', name: 'date', widget: 'datetime', default: '' }
+      - label: 'Image/Video'
+        name: 'image'
+        hint: '[AV1 .webm, AV1 .mp4, H264 .mp4]'
+        widget: 'list'fields: 
+          - { label: .webm, name: '.webm', widget: file } 
+          - { label: av1, name: 'av1', widget: file } 
+          - { label: h264, name: 'h264', widget: file } 
+      - { label: 'Skills', name: 'skills', widget: 'string', hint: 'HTML CSS JS'}
+      - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA
+  - name: 'pages'
+    label: 'Pages'
+    folder: '/'
+    create: true
+    editor:
+      preview: true
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Author', name: 'author', widget: 'string' , default: 'Marcos'}
+      - { label: 'Ref', name: 'ref', widget: 'string' }
+      - { label: 'Language', name: 'lang', widget: 'string', default: 'es'}
+      - { label: 'Permalink', name: 'permalink', widget: 'string'}
+      - { label: 'Body', name: 'body', widget: 'markdown' } # todo: CATEGORIES and MEDIA
+  - name: 'about'
+    label: 'About'
+    files:
+      - label: 'Skills'
+        name: 'Skills'
+        file: '_data/skills.yml'
+        fields:
+          - label: Items
+            name: items
+            widget: list
+            fields: 
+              - {label: Name, name: name, widget: string}
+              - {label: Progress, name: progress, widget: number, valueType: 'int', min: 0, max: 5, step: 1}
+      - label: 'Awards'
+        name: 'Awards'
+        file: '_data/awards.yml'
+        fields:
+          - label: Items
+            name: items
+            widget: object
+            fields: 
+              - label: Reconocimientos
+                name: es
+                widget: list
+                fields:
+                  - {label: Nombre, name: name, widget: string}
+                  - {label: Sitio, name: site, widget: string}
+                  - {label: Fecha, name: date, widget: string, default: '2019,03'}
+                  - {label: Duracion, name: long, widget: string}
+                  - {label: Descripcion, name: desc, widget: text}
+                  - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
+              - label: Awards
+                name: en
+                widget: list
+                fields: 
+                  - {label: Name, name: name, widget: string}
+                  - {label: Site, name: site, widget: string}
+                  - {label: Date, name: date, widget: string, default: '2019,03'}
+                  - {label: Long, name: long, widget: string}
+                  - {label: Description, name: desc, widget: text}
+                  - {label: Type, name: type, widget: select, options: ['award'], default: 'award'}
+      - label: 'Experiences'
+        name: 'Experiences'
+        file: '_data/experiences.yml'
+        fields:
+          - label: Items
+            name: items
+            widget: object
+            fields:
+              - label: Experiencias
+                name: es
+                widget: list
+                fields: 
+                  - {label: Nombre, name: name, widget: string}
+                  - {label: Sitio, name: site, widget: string}
+                  - {label: Fecha, name: date, widget: string, default: '2019,03'}
+                  - {label: Duracion, name: long, widget: string}
+                  - {label: Descripcion, name: desc, widget: text}
+                  - {label: Type, name: type, widget: select, options: ['experience'], default: 'experience'}
+              - label: Experiences
+                name: en
+                widget: list
+                fields: 
+                  - {label: Name, name: name, widget: string}
+                  - {label: Site, name: site, widget: string}
+                  - {label: Date, name: date, widget: string, default: '2019,03'}
+                  - {label: Long, name: long, widget: string}
+                  - {label: Description, name: desc, widget: text}
+                  - {label: Type, name: type, widget: select, options: ['experience'], default: 'experience'}
+      - label: 'Educations'
+        name: 'Educations'
+        file: '_data/educations.yml'
+        fields:
+          - label: Items
+            name: items
+            widget: object
+            fields:
+              - label: Educaciones
+                name: es
+                widget: list
+                fields: 
+                  - {label: Nombre, name: name, widget: string}
+                  - {label: Sitio, name: site, widget: string}
+                  - {label: Fecha, name: date, widget: string, default: '2019,03'}
+                  - {label: Duracion, name: long, widget: string}
+                  - {label: Descripcion, name: desc, widget: text}
+                  - {label: Type, name: type, widget: select, options: ['education'], default: 'education'}
+              - label: Educations
+                name: en
+                widget: list
+                fields: 
+                  - {label: Name, name: name, widget: string}
+                  - {label: Site, name: site, widget: string}
+                  - {label: Date, name: date, widget: string, default: '2019,03'}
+                  - {label: Long, name: long, widget: string}
+                  - {label: Description, name: desc, widget: text}
+                  - {label: Type, name: type, widget: select, options: ['education'], default: 'education'}    
+  # - name: 'translations'
+  #   label: 'Translations'
+  #   file: '_data/translations.yml'
+  #   widget: object
+  #   fields:
+  #     - name: items
+  #       widget: object
+  #       fields:
+  #         - name: post
+  #           widget: object
+  #           fields: 
+  #             - name: publishedOn
+  #               fields:
+  #                 - name: es
+  #                   widget: string
+  #                 - name: en
+  #                   widget: string
+  #         - name: footer
+  #           widget: object
+  #           fields: 
+  #             - name: es
+  #               widget: string
+  #             - name: en
+  #               widget: string
+  #         - name: about
+  #           widget: object
+  #           fields:
+  #             - name: skills
+  #               widget: object
+  #               fields:
+  #                 - name: es
+  #                   widget: string
+  #                 - name: en
+  #                   widget: string
+  #             - name: awards
+  #               widget: object
+  #               fields:
+  #                 - name: es
+  #                   widget: string
+  #                 - name: en
+  #                   widget: string
+  #             - name: experiences
+  #               widget: object
+  #               fields:
+  #                 - name: es
+  #                   widget: string
+  #                 - name: en
+  #                   widget: string
+  #             - name: educations
+  #               widget: object
+  #               fields:
+  #                 - name: es
+  #                   widget: string
+  #                 - name: en
+  #                   widget: string
